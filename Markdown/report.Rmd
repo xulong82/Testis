@@ -1,0 +1,213 @@
+---
+title: "What happened in the testis transcriptome with a point mutation on Eif4g3?"
+author: "Xulong Wang"
+date: "April 14, 2015"
+output: 
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+
+```{r, echo=F, warning=F, message=F}
+
+library("ape")
+library("amap")
+library("ggdendro")
+library("tidyr")
+library("dplyr")
+library("Gviz")
+library("ggvis")
+
+rm(list = ls()); setwd("~/Dropbox/GitHub/Testis/")
+
+trim <- read.delim("data/trim.txt", header = F, stringsAsFactors = F)
+rsem <- read.delim("data/rsem_c3h.txt", header = F, stringsAsFactors = F) 
+load("data/ge.rdt"); load("../X/ensembl_mus.rdt")
+mol <- read.delim("data/cms_095046.txt", stringsAsFactors = F)
+group <- c("WIN", "MIN", "WNONP", "MNONP", "WPLM", "MPLM") 
+
+```
+
+## Experiment design
+
+- Eif4g3: Eukaryotic translation initiation factor 4 gamma 3
+- Samples: 3 tissues (testis lysate, polysome fraction, non-polysome fraction) and 2 genotypes (C3H inbred and C3H congenic on Eif4g3 locus)
+- RNA-seq on total polyA RNA with ERCC spike-ins
+- 3 replicates per group
+
+## Expression estimation
+
+- RNA-seq reads were trimmed with Trimmomatic, aligned to C3H mouse transcriptome with bowtie.
+- C3H strain transcriptome was built from mouse genome GRCm38/75, and adjusted for C3H based on Sanger's variants. 
+- Transcript expression levels were estimated with RSEM.
+
+```{r echo=F, warning=F}
+qc <- full_join(trim, rsem, by = "V1")[, -3] 
+colnames(qc) <- c("sample", "trim", "count", "bowtie")
+
+qc$sample <- gsub("_.*", "", qc$sample)
+qc$group <- gsub("[123]", "", qc$sample) %>% factor(levels = group)
+qc$genotype <- gsub("^(M|W).*", "\\1", qc$sample) %>% factor(levels = c("W", "M"))
+
+qc$count <- qc$count * 1e-6
+qc$trim <- as.numeric(gsub("%", "", qc$trim)) * 1e-2
+qc$bowtie<- as.numeric(gsub("%", "", qc$bowtie)) * 1e-2
+
+qc$aligned <- qc$count * qc$bowtie
+qc$group1 <- as.numeric(qc$group)
+
+ggvis_boxplots <- function(x) {x %>% 
+    add_axis("x", values = NULL, title = "Group") %>%
+    add_axis("y", title_offset = 5e1) %>%
+    layer_boxplots(fill=~group, width = 0.3) %>% layer_text(text:=~sample)}
+```
+
+## Roughly 90% reads were kept for alignment
+
+```{r echo=F, warning=F, fig.height=3.5}
+summary(qc$trim)
+qc %>% ggvis(~group1, ~trim) %>% scale_numeric("y", domain=c(0.5, 1)) %>% ggvis_boxplots()
+```
+
+## Total read counts fluctuate by 1.6 fold
+
+```{r echo=F, warning=F, fig.height=3.5}
+summary(qc$count)
+qc %>% ggvis(~group1, ~count) %>% scale_numeric("y", domain=c(25, 45)) %>% ggvis_boxplots()
+```
+
+## Alignment rates fluctuate by 1.29 fold
+
+```{r echo=F, warning=F, fig.height=3.5}
+summary(qc$bowtie)
+qc %>% ggvis(~group1, ~bowtie) %>% scale_numeric("y", domain=c(0.5, 1)) %>% ggvis_boxplots() 
+```
+
+## Aligned read count fluctuate by 1.9 fold
+
+```{r echo=F, warning=F, fig.height=3.5}
+summary(qc$aligned)
+qc %>% ggvis(~group1, ~aligned) %>% scale_numeric("y", domain=c(15, 35)) %>% ggvis_boxplots()
+```
+
+## Are read counts and alignment rates correlated?
+
+```{r echo=F, warning=F, fig.height=3.5}
+cor(qc$count, qc$bowtie, method = "spearman")
+qc %>% ggvis(~count, ~bowtie) %>% layer_points(size:=1e2, fill=~group) %>% layer_text(text:=~sample)
+```
+
+## The ERCC spike-ins.
+
+- Relative amount of spike-ins and endogenous transcripts in each sample are fixed.
+- Spike-ins are consistent across the samples. 
+- Variations of spike-ins's in read counts reflect inconstencies from library preparation and sequencing depth. 
+- Normalize endogenous transcripts's expression values based on spike-ins tells their relative expression among samples.
+
+```{r echo=F, warning=F}
+txInf <- ge[[1]] %>% select(gene_id, length) %>% mutate(symbol = ens.map[gene_id, 2])
+ge_TPM <- sapply(ge, function(x) x$TPM) %>% as.data.frame
+ge_count <- sapply(ge, function(x) x$expected_count) %>% as.data.frame
+rownames(ge_count) <- rownames(ge_TPM) <- txInf$gene_id
+
+data <- ge_count; data <- data[, qc$sample] 
+genes <- data[! grepl("ERCC", rownames(data)), ]
+spike <- data[grep("ERCC", rownames(data)), ]
+cat("Endogenous transcripts:", dim(genes))
+cat("ERCC spike-ins:", dim(spike))
+```
+
+## Unexpectedly, scale factors by total read counts and spike-ins are different. 
+
+```{r echo=F, warning=F, fig.height=3.5}
+qc$f_count <- qc$count / qc$count[1]
+qc$f_aligned <- qc$aligned / qc$aligned[1]
+
+qc$f_spike1 <- colSums(spike) / colSums(spike)[1]
+qc$f_spike2 <- c(W1NONP = 1, apply(spike[, -1], 2, function(x) summary(lm(x ~ -1 + spike[, 1]))$coefficients[1, 1]))
+
+# cor(qc$f_count, qc$f_spike2)
+qc %>% ggvis(~f_count, ~f_spike2) %>% layer_points(fill=~group)  %>% layer_text(text:=~sample)
+```
+
+## Normalization: Actb
+
+```{r echo=F, warning=F, fig.height=3.5}
+ensId <- txInf %>% filter(symbol == "Actb") %>% select(gene_id)
+qc$actb <- colSums(genes[ensId$gene_id, ])
+
+qc <- mutate(qc, actb_f_count = actb / f_count, actb_f_aligned = actb / f_aligned, actb_f_spike2 = actb / f_spike2)
+
+cat("Total aligned reads")
+qc %>% ggvis(~group1, ~actb) %>% ggvis_boxplots()
+```
+
+## Normalization: Actb
+
+```{r echo=F, warning=F, fig.height=3.5}
+cat("Normalize to total reads per sample")
+qc %>% ggvis(~group1, ~actb_f_count) %>% ggvis_boxplots()
+```
+
+## Normalization: Actb
+
+```{r echo=F, warning=F, fig.height=3.5}
+cat("Normalize to total aligned reads per sample")
+qc %>% ggvis(~group1, ~actb_f_aligned) %>% ggvis_boxplots()
+```
+
+## Normalization: Actb
+
+```{r echo=F, warning=F, fig.height=3.5}
+cat("Normalize to ERCC reads per sample")
+qc %>% ggvis(~group1, ~actb_f_spike2) %>% ggvis_boxplots()
+```
+
+## Normalization: Hspa2
+
+```{r echo=F, warning=F, fig.height=3.5}
+ensId <- txInf %>% filter(symbol == "Hspa2") %>% select(gene_id)
+qc$hspa2 = c(t(genes[ensId$gene_id, ]))
+
+qc <- mutate(qc, hspa2_f_count = hspa2 / f_count, hspa2_f_aligned = hspa2 / f_aligned, hspa2_f_spike2 = hspa2 / f_spike2)
+
+cat("Total aligned reads")
+qc %>% ggvis(~group1, ~hspa2) %>% ggvis_boxplots()
+
+# summary(sort(apply(genes, 2, sum)))
+# summary(sort(apply(genes2, 2, sum)))
+```
+
+## Normalization: Hspa2
+
+```{r echo=F, warning=F, fig.height=3.5}
+cat("Normalize to total reads per sample")
+qc %>% ggvis(~group1, ~hspa2_f_count) %>% ggvis_boxplots()
+```
+
+## Normalization: Hspa2
+
+```{r echo=F, warning=F, fig.height=3.5}
+cat("Normalize to total aligned reads per sample")
+qc %>% ggvis(~group1, ~hspa2_f_aligned) %>% ggvis_boxplots()
+```
+
+## Normalization: Hspa2
+
+```{r echo=F, warning=F, fig.height=3.5}
+cat("Normalize to ERCC reads per sample")
+qc %>% ggvis(~group1, ~hspa2_f_spike2) %>% ggvis_boxplots()
+```
+
+<!--
+# comments 
+
+## A cluster on the samples
+```{r echo=F, warning=F, fig.height=3.5}
+hc1 <- hcluster(t(genes), method = "pearson", link = "average") %>% as.phylo
+# par(mfrow = c(1, 1)); plot(hc1, edge.width=2, font=2, cex=0.7, label.offset=1e-3, direction="downward")
+```
+
+## Discussion
+
+-->

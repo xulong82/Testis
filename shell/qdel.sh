@@ -1,0 +1,15 @@
+#!/bin/bash
+
+qdel 566877
+qdel 566876
+qdel 566874
+qdel 566878
+qdel 566880
+qdel 566888
+qdel 566881
+qdel 566886
+qdel 566887
+qdel 566882
+qdel 566883
+qdel 566873
+qdel 566884

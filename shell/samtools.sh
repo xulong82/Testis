@@ -1,0 +1,41 @@
+#!/bin/bash
+
+module load samtools
+
+dir1="/data/xwang/Testis/RSEM"
+dir2="/home/xwang/Dropbox/GitHub/Testis/shiny/bam"
+
+files=`find $dir1 -name '*.transcript.sorted.bam'`
+
+cd $dir1
+
+for name1 in $files; do
+  name2=`basename $name1`
+  name3=${name2/.transcript.sorted.bam/}
+  echo $name3
+  samtools view -b -q 1 $name2 \
+	ENSMUST00000058133 \
+	ENSMUST00000080449 \
+	ENSMUST00000084214 \
+	ENSMUST00000084215 \
+	ENSMUST00000100497 \
+	ENSMUST00000105830 \
+	ENSMUST00000105831 \
+	ENSMUST00000106216 \
+	ENSMUST00000127707 \
+	ENSMUST00000132194 \
+	ENSMUST00000133902 \
+	ENSMUST00000135745 \
+	ENSMUST00000139759 \
+	ENSMUST00000140317 \
+	ENSMUST00000140796 \
+	ENSMUST00000148074 \
+	ENSMUST00000155142 \
+	ENSMUST00000163829 \
+	ENSMUST00000164765 \
+	ENSMUST00000165629 \
+	ENSMUST00000167386 \
+	ENSMUST00000167721 \
+	ENSMUST00000171419 > $dir2/$name3.bam
+done
+  
