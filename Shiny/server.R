@@ -5,14 +5,13 @@ library(Rsamtools)
 
 load("./geList.rdt")
 load("./summary.rdt")
-load("./alignList.rdt")
+load("./gvizList.rdt")
 
 uid <- gsub("[123]", "", colnames(geList$raw))
 group <- c("WIN", "MIN", "WNONP", "MNONP", "WPLM", "MPLM") 
 geno <- gsub("^(W|M).*", "\\1", uid)
 
-seqs <- alignList$seqs
-tx_map <- alignList$tx_map
+seqs <- gvizList$seqs
 width <- seqs@sequence@ranges@width
 names(width) <- seqnames(seqs)
 
@@ -21,14 +20,13 @@ options(ucscChromosomeNames=FALSE)
 shinyServer(function(input, output) {
   
   output$gviz <- renderPlot({
-    tx1 <- tx_map$TX[tx_map$ID == input$transcript]
     axis <- GenomeAxisTrack()
-    read1 <- alignList$sample[[input$sample]]
+    read1 <- gvizList$sample[[input$sample]]
     from1 <- 1
-    to1 <- width[tx1]
+    to1 <- width[input$transcript]
     if(input$from > 0) from1 <- input$from
     if(input$to > input$from & input$to < to1) to1 <- input$to
-    plotTracks(list(seqs, axis, read1), chromosome = tx1, from = from1, to = to1, add53 = T)
+    plotTracks(list(seqs, axis, read1), chromosome = input$transcript, from = from1, to = to1, add53 = T)
   })
   
   output$boxplot <- renderPlot({
@@ -57,7 +55,7 @@ shinyServer(function(input, output) {
   }, include.rownames = FALSE)
 
  output$downloadData <- downloadHandler(
-   filename = "data.xlsx", content = function (file) file.copy("./data.xlsx", file)
+   filename = "report_20150508.pptx", content = function (file) file.copy("./report_20150508.pptx", file)
  )
   
 })

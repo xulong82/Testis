@@ -1,3 +1,11 @@
+setwd("/data/xwang/Testis")  # CADILLAC
+name <- list.files(path = "./RSEM/", pattern = "*genes.results")
+ge <- lapply(name, function(x) {
+  cat(x, "\n"); filepath <- file.path("./RSEM/", x)
+  read.delim(filepath, stringsAsFactors = F)
+}); names(ge) <- gsub("_.*", "", name)
+save(ge, file = "~/Dropbox/GitHub/Testis/data/ge.rdt")
+
 rm(list = ls())
 setwd("~/Dropbox/GitHub/Testis/")
 
@@ -30,16 +38,6 @@ qc %>% ggvis(~group1, ~bowtie) %>% scale_numeric("y", domain=c(0.5, 1)) %>% ggvi
 qc %>% ggvis(~group1, ~count) %>% scale_numeric("y", domain=c(25, 45)) %>% ggvis_boxplots()
 qc %>% ggvis(~group1, ~aligned) %>% scale_numeric("y", domain=c(15, 35)) %>% ggvis_boxplots()
 
-qc %>% ggvis(~count, ~bowtie) %>% layer_points(size:=1e2, fill=~group) %>% layer_text(text:=~sample)
-
-# setwd("/data/xwang/Testis")  # CADILLAC
-# name <- list.files(path = "./RSEM/", pattern = "*.results")
-# ge <- lapply(name, function(x) {
-#   cat(x, "\n"); filepath <- file.path("./RSEM/", x)
-#   read.delim(filepath, stringsAsFactors = F)
-# }); names(ge) <- gsub("_.*", "", name)
-# save(ge, file = "~/Dropbox/GitHub/Testis/data/ge.rdt")
-
 load("data/ge.rdt"); load("../X/ensembl_mus.rdt")
 txInf <- ge[[1]] %>% select(gene_id, length) %>% mutate(symbol = ens.map[gene_id, 2])
 ge_TPM <- sapply(ge, function(x) x$TPM) %>% as.data.frame
@@ -69,14 +67,11 @@ geList <- list()
 geList$raw = raw; geList$total = total; geList$aligned = aligned; geList$spike2 = spike2; 
 save(geList, file = "Shiny/geList.rdt")
 
-qc$f_spike3 <- c(W1NONP = 1, apply(spike2[, -1], 2, function(x) summary(lm(x ~ -1 + spike2[, 1]))$coefficients[1, 1]))
-
 std_err <- apply(spike[, -1], 2, function(x) summary(lm(x ~ -1 + spike[, 1]))$coefficients[1, 2])
 pval <- apply(spike[, -1], 2, function(x) summary(lm(x ~ -1 + spike[, 1]))$coefficients[1, 4])
 
 qc %>% ggvis(~group1, ~f_spike1) %>% scale_numeric("y", domain=c(.5, 2.0)) %>% ggvis_boxplots()
 qc %>% ggvis(~group1, ~f_spike2) %>% scale_numeric("y", domain=c(.5, 2.0)) %>% ggvis_boxplots()
-qc %>% ggvis(~group1, ~f_spike3) %>% scale_numeric("y", domain=c(.5, 2.0)) %>% ggvis_boxplots()
 
 mol <- read.delim("data/cms_095046.txt", stringsAsFactors = F)
 mol <- mol[match(rownames(spike), mol$ERCC.ID), 4] * 0.02

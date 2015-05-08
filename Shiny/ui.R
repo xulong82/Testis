@@ -2,11 +2,11 @@ library(shiny)
 library(ggvis)
 library(Gviz)
 
-load("./alignList.rdt")
+load("./gvizList.rdt")
 load("./geList.rdt")
 
-sample <- names(alignList$sample)
-transcript <- alignList$tx_map$ID
+sample <- names(gvizList$sample)
+transcript <- seqnames(gvizList$seqs)
 
 shinyUI(
   navbarPage("Eif4g3", 
@@ -26,12 +26,12 @@ shinyUI(
                       )),
              tabPanel("Alignment", 
                       fluidPage(
-                        p(strong("RNA-seq"), "reads that were aligned with Actb, Eif4g3, and Hspa2."),
+                        p(strong("RNA-seq"), "reads that were aligned with Eif4g3."),
                         hr(),
                         fluidRow(
                           column(3,
                                  selectInput("sample", "Choose a sample", choices = sample, selected = "M1IN"),
-                                 selectInput("transcript", "Choose a transcript", choices = transcript, selected = transcript[3]),
+                                 selectInput("transcript", "Choose a transcript", choices = transcript, selected = transcript[2]),
                                  helpText("Loading takes 5 sec to 1 mins."),
                                  hr(),
                                  h4("Genetic position in bp"),
@@ -46,7 +46,10 @@ shinyUI(
                       fluidPage(
                         h2("Reports in html."),
                         p(strong(a(href="report.html", "Uploaded: April 15, 2015."))),
-                        helpText("Press <f> to view in fullscreen; press <Win, +/-> to zoom in and out.")
+                        helpText("Press <f> to view in fullscreen; press <Win, +/-> to zoom in and out."),
+                        hr(),
+	h2("Joint lab meeting on May 8, 2015"),
+	downloadButton('downloadData', 'Download')
                       ))
             
 ))
