@@ -44,12 +44,14 @@ shinyUI(
                       )),
              tabPanel("Documents",
                       fluidPage(
-                        h2("Reports in html."),
+                        h4("Reports in html."),
                         p(strong(a(href="report.html", "Uploaded: April 15, 2015."))),
                         helpText("Press <f> to view in fullscreen; press <Win, +/-> to zoom in and out."),
                         hr(),
-	h2("Joint lab meeting on May 8, 2015"),
-	downloadButton('downloadData', 'Download')
+	h4("Joint lab meeting on May 8, 2015"),
+	downloadButton('downloadData1', 'Download'),
+	h4("Joint lab meeting on June 4, 2015"),
+	downloadButton('downloadData2', 'Download')
                       ))
             
 ))

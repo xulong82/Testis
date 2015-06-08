@@ -15,6 +15,7 @@ for name1 in $files; do
   echo $name3
 # samtools view -b -q 1 $name2 \
   samtools view -b $name2 \
+        ENSMUST00000080449 \
 	ENSMUST00000084214 \
 	ENSMUST00000084215 \
 	ENSMUST00000105830 \

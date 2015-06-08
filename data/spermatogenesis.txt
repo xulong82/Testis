@@ -1,0 +1,34 @@
+GO:0035093	spermatogenesis, exchange of chromosomal proteins
+GO:1902064	regulation of transcription from RNA polymerase II promoter involved in spermatogenesis
+GO:0007283	spermatogenesis
+GO:0007290	spermatid nucleus elongation
+GO:0007291	sperm individualization
+GO:0016913	follicle-stimulating hormone activity
+GO:0097368	establishment of Sertoli cell barrier
+GO:0035092	sperm chromatin condensation
+GO:0045702	positive regulation of spermatid nuclear differentiation
+GO:0045701	negative regulation of spermatid nuclear differentiation
+GO:0045700	regulation of spermatid nuclear differentiation
+GO:1902492	positive regulation of sperm capacitation
+GO:1902491	negative regulation of sperm capacitation
+GO:1902490	regulation of sperm capacitation
+CL:0000020	spermatogonium
+GO:0048240	sperm capacitation
+GO:0048140	male germ-line cyst encapsulation
+GO:0048137	spermatocyte division
+GO:0048136	male germ-line cyst formation
+GO:0048133	male germ-line stem cell asymmetric division
+GO:0007289	spermatid nucleus differentiation
+GO:0007288	sperm axoneme assembly
+GO:0007287	Nebenkern assembly
+GO:0007286	spermatid development
+GO:0007285	primary spermatocyte growth
+GO:0007284	spermatogonial cell division
+GO:0001675	acrosome assembly
+GO:0060474	positive regulation of sperm motility involved in capacitation
+GO:0016006	Nebenkern
+GO:0030724	testicular fusome organization
+GO:0030726	male germline ring canal formation
+GO:0048515	spermatid differentiation
+GO:0043486	histone exchange
+GO:0070584	mitochondrion morphogenesis

@@ -1,0 +1,29 @@
+---
+title: "Eif4g & Hspa gene families"
+output: html_document
+---
+
+```{r, echo=F, warning=F, message=F}
+library(dplyr)
+library(ggplot2)
+load("~/Dropbox/GitHub/Testis/data/biology.rdt")
+for(obj in names(biology)) assign(obj, biology[[obj]])
+```
+
+```{r, echo = F, message = F}
+(Hspa <- rownames(tpm)[grep("Hspa", rownames(tpm))])
+(Eif4g <- rownames(tpm)[grep("Eif4g", rownames(tpm))])
+
+grp <- c("WIN", "MIN", "WNONP", "MNONP", "WPLM", "MPLM") 
+spInf <- data.frame(sample = colnames(tpm), grp = factor(gsub("[123]", "", colnames(tpm)), levels = grp))
+spInf <- mutate(spInf, geno = factor(gsub("^(M|W).*", "\\1", grp), levels = c("W", "M")))
+
+graph1 <- function(x) spInf %>% mutate(value = c(as.matrix(tpm[x, ]))) %>%
+  ggplot(aes(x = grp, y = value)) + geom_boxplot(aes(fill = geno)) +
+  scale_fill_manual(values = c("dodgerblue3", "firebrick1")) +
+  theme_bw() + xlab("") + ylab("") + ggtitle(x)
+
+lapply(Hspa, graph1)
+lapply(Eif4g, graph1)
+
+```

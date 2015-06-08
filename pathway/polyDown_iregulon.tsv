@@ -1,0 +1,138 @@
+; Name	polyDown.txt
+; Species and nomenclature	Mus musculus, MGI symbols
+; Motif collection	10K (9713 PWMs)
+; Minimum NEScore	3.0
+; Rank threshold for visualization	5000
+; ROC threshold for AUC calculation (%)	0.03
+; Minimum identity between orthologous genes	0.0
+; Maximum false discovery rate (FDR) on motif similarity	0.001
+; Motif rankings database	500bp upstream (7 species)
+; Number of valid nodes	80
+; iRegulon version	iRegulon v1.3 (build: 2015-02-12)
+# Rank	Motif id	AUC	NES	ClusterCode	Transcription factor	Target genes
+1	yetfasco-695	0.109889	9.92563	M1	Pole4,Hoxc8,Hoxb8,Hoxd8	Glrx5,Hist1h3g,Aldh4a1,Hist1h3d,Hist1h2ac,Hist1h2bp,Med29,Hist1h2ae,Hist1h2bg,Hist1h3e,Zfyve21,Spsb3,Stra13,Hist1h1e,Hist1h1d,Tmem161a,B4galt2
+2	homer-M00234	0.088826	7.82294	M2	Tbp,Polr2a,Taf1,Tbpl2	Hist1h2ac,Hist1h1e,Hist1h1d,Hist1h3b,Hist1h4k,Hist1h2bp,Hist1h2ae,Hist1h2bg,Hist1h3g
+3	yetfasco-980	0.0845283	7.39391	M1	Nfya	Glrx5,Hist1h3g,Zfyve21,Hist1h3d,Hist1h3e,Aldh4a1,Med29,Hist1h2bp,Hist1h1e,Spsb3,Hist1h3b,Hist1h2ac,Hist1h1d,Ece1,Egflam,Hist1h2ae,Hist1h2bg,Scamp3,Entpd4,Aph1a
+4	yetfasco-1291	0.0814008	7.08169	M1		Glrx5,Aldh4a1,Hist1h3g,Hist1h1e,Hist1h1d,Hist1h2ac,Med29,Hist1h3b,Hist1h3e,Hist1h3d,Ece1,Spsb3,Tmem161a,Hist1h2bp,Hist1h2ae,Hist1h2bg,Zfyve21
+5	yetfasco-647	0.0772308	6.6654	M1	Nfya	Glrx5,Hist1h3g,Aldh4a1,Hist1h2bp,Hist1h2ac,Hist1h3d,Spsb3,Stra13,Hist1h3e,Hist1h2ae,Hist1h2bg,Med29,Hist1h1e,Zfyve21,Ece1,Tmem161a,Aph1a,B4galt2
+6	transfac_public-M00288	0.0758053	6.52309	M3	Nfyb,Nfya,Pole3,Gm21827	Glrx5,Aldh4a1,Med29,Hist1h2bp,Hist1h3d,Spsb3,Zfyve21,Hist1h3g,Hist1h2ae,Hist1h2bg,Hist1h3b,Hist1h1e,Hist1h3e,B4galt2,Stra13,Tmem161a,Hist1h2ac
+7	transfac_pro-M03825	0.0739543	6.33831	M3	Gfi1b	Egflam,Glrx5,Hist1h3d,Hist1h2bp,Hist1h3g,Hist1h2ae,Hist1h3e,Hist1h2bg,Med29
+8	homer-M01862	0.0721033	6.15353	M1	Nfya,Pole3,Gm21827,Pole4	Glrx5,Aldh4a1,Hist1h3g,Hist1h2bp,Spsb3,Hist1h3d,Stra13,Hist1h3e,Med29,Zfyve21,Hist1h2ac,Hist1h2ae,Hist1h2bg,Hist1h1e,Ece1
+9	transfac_pro-M02434	0.0717416	6.11742	M1	Nfya,Pole4,Hoxc8,Hoxb8,Hoxd8	Glrx5,Aldh4a1,Hist1h3g,Hist1h3d,Med29,Hist1h2bp,Zfyve21,Spsb3,Hist1h3e,Hist1h2ae,Hist1h2bg,Stra13,Hist1h1e,Hist1h2ac,Hist1h1d,Tmem161a,Ece1,B4galt2,Hist1h3b,Aph1a,Entpd4,Egflam,Gpx4
+10	transfac_pro-M03805	0.0666355	5.60768	M1	Ybx1,Nfya	Spsb3,Zfyve21,Aldh4a1,Glrx5,Hist1h2bp,Hist1h3g,Med29,Hist1h3e,Hist1h3d,Hist1h2ae,Hist1h2bg,Hist1h3b,Hist1h1e,Hist1h2ac,Aph1a,Stra13,Mark2,Gpx4,Egflam,Tmem161a,Shbg,Ece1
+11	transfac_public-M00254	0.0664227	5.58644	M4	Nfyc,Nfyb,Nfya,Ybx1,Pole3,Gm21827	Spsb3,Hist1h3g,Glrx5,Aldh4a1,Hist1h2ac,Hist1h2bp,Hist1h3d,Stra13,Med29,Ece1,Hist1h2ae,Hist1h2bg,Hist1h3b,Hist1h3e,Gpx4,Aph1a,Hist1h1d,Dlk1,Tmem161a,Scamp3
+12	yetfasco-1063	0.0658483	5.52909	M5	Cnot4	Hist1h3g,Hist1h1d,Hist1h1e,Hist1h3d,Hist1h4f,Hist1h3b
+13	homer-M01858	0.0619335	5.13829	M1	Nfya,Pole4,Hoxc8,Hoxb8,Hoxd8	Glrx5,Aldh4a1,Hist1h3g,Hist1h3d,Zfyve21,Hist1h2bp,Spsb3,Med29,Hist1h1e,Hist1h3e,Hist1h2ae,Hist1h2bg,Stra13,Hist1h2ac,Hist1h1d,Ece1,Tmem161a,B4galt2,Hist1h3b,Entpd4,Scamp3,Egflam,Gpx4
+14	encode-UW.Motif.0088	0.0613804	5.08307	M1	Pole3,Gm21827	Aldh4a1,Glrx5,Hist1h3e,Hist1h3g,Hist1h3d,Hist1h2bp,Spsb3,Hist1h2ae,Hist1h2bg,Zfyve21,Ece1,Med29,Tmem161a,Hist1h1e,Hbegf,Hist1h3b,Hist1h1d,Hist1h2ac
+15	transfac_pro-M00775	0.0601464	4.95988	M4	Nfyb,Nfyc,Nfya,Ybx1,Pole3,Gm21827,Hnf1b,Hnf1a	Hist1h3g,Aldh4a1,Spsb3,Glrx5,Hist1h2bp,Med29,Hist1h2ac,Stra13,Hist1h2ae,Hist1h2bg,Hist1h3b,Hist1h3d,Ece1,Zfyve21,Scamp3,Hist1h1d,Gpx4,Hist1h1e,Tmem161a,Hist1h3e
+16	transfac_public-M00209	0.0600826	4.95351	M3	Nfyb,Nfya,Nfyc	Glrx5,Hist1h3g,Hist1h2ac,Spsb3,Aldh4a1,Hist1h3e,Hist1h2ae,Hist1h2bg,Med29,Hist1h3d,Hist1h1e,Hist1h2bp,Hist1h1d,Ece1,Hist1h3b,Tmem161a,Zfyve21,Stra13,Scamp3,B4galt2,Hbegf
+17	jaspar-PF0108.1	0.059657	4.91103	M6		Mettl8,Stra13,Rabac1,Aph1a,Sf3b5,Tmem161a,Scamp3,Map3k10,Hist1h4f,Gpx4,Hist1h3d,Hbegf,Hist1h3g
+18	jaspar-PF0114.1	0.0577848	4.72412	M7		Aph1a,Med29,Stra13,Scamp3,Atp6v1f,Mettl8,Glrx5,Map3k10,Rabac1
+19	transfac_public-M00185	0.0577635	4.722	M3	Nfyc,Nfyb,Nfya,Pole3,Gm21827,Hnf1b,Hnf1a	Hist1h3g,Glrx5,Spsb3,Aldh4a1,Hist1h2bp,Hist1h2ac,Med29,Hist1h3d,Stra13,Hist1h2ae,Hist1h2bg,Hist1h1e,Ece1,Hist1h1d,Zfyve21,Hist1h3e
+20	stark-STATAWAWRSVVV	0.057104	4.65616	M2	Tbp,Tbpl2,Polr2a,Taf1	Hist1h1e,Hist1h2ac,Hist1h1d,Hist1h4k,Hist1h2bp,Hist1h3b,Hist1h3d,Hist1h3e,Hist1h3g,Hist1h2ae,Hist1h2bg
+21	swissregulon-TBP.p2	0.0570401	4.64979	M2	Tbp,Polr2a,Taf1,Tbpl2	Hist1h1e,Hist1h2ac,Hist1h4k,Hist1h3b,Hist1h2bp,Hist1h1d,Hist1h2ae,Hist1h2bg,Hist1h3e,Hist1h4f,Hist1h3d,Hist1h3g
+22	yetfasco-1326	0.0562955	4.57545	M2	Tbp,Tbpl2,Tbpl1	Hist1h2bp,Hist1h3b,Hist1h2ac,Hist1h4k,Hist1h1e,Hist1h1d,Hist1h2ae,Hist1h2bg
+23	jaspar-PF0113.1	0.0556359	4.50961	M6	Zfp143	Mettl8,Scamp3,Sf3b5,Med29,Stra13,Rabac1,Atp6v1f,Tmem161a,Aph1a,2310061I04Rik,Hist1h1d,Gpn2,Dusp15,Slc16a3,Dynlt1b,Spsb3
+24	transfac_public-M00216	0.0555508	4.50111	M5	Tbp	Hist1h1e,Hist1h1d,Hist1h2ac,Hist1h3b,Hist1h4k,Hist1h2ae,Hist1h2bg,Hist1h2bp
+25	yetfasco-917	0.0544445	4.39067	M8		Mettl8,Hist1h4f,Mark2,Hist1h1d
+26	yetfasco-1536	0.0538062	4.32695	M3	Nfyb,Pole3,Gm21827,Nfyc,Nfya	Aldh4a1,Spsb3,Glrx5,Hist1h2bp,Med29,Hist1h3g,Hist1h2ac,Stra13,Hist1h2ae,Hist1h2bg,Hist1h3d,Hist1h1e,Tmem161a,Ece1,Gpx4,Zfyve21,Hist1h1d
+27	homer-M00829	0.0536147	4.30783	M3		Glrx5,Hist1h3g,Hist1h2bp,Egflam,Spsb3,Zfyve21,Aph1a,Hist1h3d,Hist1h2ac,Hist1h2ae,Hist1h2bg,Hist1h1d,Hist1h3b,Med29,Casp9
+28	homer-M01861	0.0530616	4.25261	M4		Glrx5,Hist1h3g,Zfyve21,Spsb3,Hist1h2ae,Hist1h2bg,Hist1h2bp,Aldh4a1,Hist1h2ac,Med29,Hist1h3b,Hist1h3d,Ece1,Hist1h3e,Stra13
+29	yetfasco-1161	0.0529765	4.24412	M9	Zfp598	Dusp15,Stoml1,Aldh4a1,Hist1h3e,Hist1h3g,Mark2,Spsb3,Fbn2,Hist1h3b
+30	factorbook-TBP	0.0514233	4.08907	M2	Polr2a,Tbp,Taf1,Tbpl2	Hist1h1e,Hist1h4k,Hist1h1d,Hist1h3b,Hist1h2ac,Hist1h2bp,Hist1h4f,Slc5a6,Hist1h3d,Hist1h2ae,Hist1h2bg,Hist1h3g,Spsb3,Hist1h3e
+31	yetfasco-985	0.0513595	4.0827	M1	Nfya,Nfyb,Nfyc,Pole3,Gm21827	Glrx5,Aldh4a1,Hist1h3g,Spsb3,Hist1h3d,Med29,Hist1h2ac,Hist1h1e,Ece1,Hist1h1d,Hist1h2bp,Hist1h2ae,Hist1h2bg,Hist1h3e,Stra13,Hist1h3b,B4galt2,Entpd4,Tmem161a,Scamp3
+32	transfac_pro-M03127	0.051168	4.06358	M10	Max,Myc,Arnt,Bhlhe40,Usf1,Mycn,Hey2,Hey1,Clock,Npas2,Hes5,Heyl	Slc38a5,Aldh4a1,Slc5a6,Dlk1,Atp6v1f,Hist1h2ae,Hist1h2bg
+33	yetfasco-1007	0.0508915	4.03597	M11		Glrx5,Klhl26,Fam173a,Rcan3
+34	transfac_pro-M02106	0.0507	4.01685	M3	Nfya,Nfyc,Nfyb,Ybx1,Pole3,Gm21827,Pole4	Spsb3,Aldh4a1,Hist1h3g,Glrx5,Med29,Zfyve21,Hist1h2bp,Hist1h3d,Hist1h2ae,Hist1h2bg,Stra13,Gpx4,Scamp3,Ece1,Hist1h3e,Aph1a,Hist1h2ac,Hist1h1e,Hist1h3b,Tmem161a,Hist1h1d
+35	swissregulon-POU2F1..3.p2	0.0506574	4.01261	M12	Pou2f2,Pou2f3,Pou2f1,Pou3f3,Pou4f1,Pou3f4,Pou5f1,Pou2af1,Pou3f2,Pou3f1,Pou1f1,Yy1,Pax4,Crx,E2f1	Hist1h2ac,Hist1h2bp,Hist1h2ae,Hist1h2bg
+36	yetfasco-1465	0.0505936	4.00624	M5		Hist1h1e,Hist1h1d,Hist1h4f,Hist1h3d,Hist1h3g
+37	jaspar-PF0080.1	0.0503596	3.98287	M13	Zfp143	Aph1a,Sf3b5,Rabac1,Map3k10,Atp6v1f,Stra13,Scamp3
+38	yetfasco-699	0.0503596	3.98287	M3	Nfyb,Pole3,Gm21827	Glrx5,Hist1h3g,Spsb3,Zfyve21,Hist1h2ae,Hist1h2bg,Hist1h2bp,Hist1h2ac,Aldh4a1,Hist1h3b,Med29,Hist1h3d,Ece1,Hist1h3e,Stra13
+39	yetfasco-1044	0.0501042	3.95738	M14		2310061I04Rik,Casp9,Dusp15,Mark2,Hist1h4f,Ring1,Fbn2,Aph1a
+40	homer-M00124	0.0500191	3.94889	M3	Nfya,Nfyb,Nfyc,Pole3,Gm21827	Hist1h3g,Spsb3,Aldh4a1,Glrx5,Hist1h2bp,Stra13,Med29,Hist1h2ac,Hist1h3d,Ece1,Aph1a,Hist1h2ae,Hist1h2bg,Scamp3,Gpx4
+41	taipale-RRGGTCANNNRRGGTCA-Rarg-DBD	0.0498489	3.9319	M15	Nr1h2,Rarg,Nr1i3,Rara,Nr1i2,Nr2f2,Rarb,Rxra,Nr2f1,Nr1h3,Rxrb,Nr1h4,Nr5a2	Rcan3,Hist1h1e,Shbg,Dynlt1b,Fam58b,Paqr7,Stoml1,Hist1h3g,Mark2,Dusp15,Ring1,Mrpl4,Rabac1,Alg1,Dlk1
+42	jaspar-PF0022.1	0.0493171	3.8788	M16		Atp6v1f,2310061I04Rik,Kctd13,Gpx4
+43	yetfasco-1431	0.0489766	3.84482	M17	Srf,Tbp,Tbpl2,Tbpl1,2310045N01Rik,Mef2a,Mef2b,Mef2c,Mef2d,Jazf1,Mybl2,Myb,Mybl1,Snapc4	Scamp3,Zfyve21,Hist1h1d,Slc5a6,Hist1h3e,Gpx4
+44	transfac_public-M00287	0.0484873	3.79597	M3	Nfya,Nfyb,Nfyc,Ybx1,Pole3,Gm21827,Pole4	Aldh4a1,Spsb3,Glrx5,Hist1h3g,Med29,Zfyve21,Hist1h2bp,Hist1h3d,Hist1h2ae,Hist1h2bg,Stra13,Hist1h2ac,Hist1h3e,Hist1h3b,Scamp3,Hist1h1e,Ece1,Gpx4,Hist1h1d,Aph1a,Tmem161a
+45	tfdimers-MD00523	0.0484235	3.78959	M7	Ikzf2,Tfap2c,Nr1h4	Med29,Fbn2,Stra13,Dusp15,Map3k10,Shbg,Scamp3
+46	stark-STATAWAWR	0.0483384	3.7811	M5	Tbp,Tbpl2	Hist1h1e,Hist1h1d,Hist1h3b,Hist1h4k,Hist1h2ac,Hist1h3d,Hist1h3e,Hist1h3g,Hist1h4f,Hist1h2bp,Hist1h2ae,Hist1h2bg
+47	transfac_pro-M03122	0.0482533	3.7726	M10		Slc38a5,Atp6v1f,Aldh4a1,Slc5a6,Dhrs13,Dlk1
+48	transfac_public-M00252	0.0481682	3.76411	M2	Tbp,Tbpl2,Polr2a,Taf1,Tbpl1	Hist1h1e,Hist1h4k,Hist1h1d,Hist1h2ac,Hist1h3b,Hist1h2bp,Hist1h2ae,Hist1h2bg,Hist1h3e,Hist1h3d,Hist1h4f,Hist1h3g
+49	jaspar-MA0108.1	0.0480405	3.75136	M2	Tbp,Tbpl2,Polr2a,Taf1,Tbpl1	Hist1h1e,Hist1h4k,Hist1h1d,Hist1h2ac,Hist1h3b,Hist1h2bp,Hist1h3e,Hist1h3d,Hist1h2ae,Hist1h2bg,Hist1h4f,Hist1h3g
+50	homer-M00545	0.047998	3.74712	M12	Pou2f3,Pou2f2,Pou2f1,Pou4f1,Pou3f3,Pou3f4,Pou3f2,Pou3f1,Pou2af1,Pou5f1,Pou1f1,Yy1,Pax4,E2f1,Crx	Hist1h2ac,Hist1h2bp,Hist1h2ae,Hist1h2bg
+51	jaspar-MA0314.1	0.0477214	3.7195	M3	Nfyb,Pole3,Gm21827,Nfya,Nfyc	Aldh4a1,Spsb3,Hist1h2bp,Glrx5,Hist1h2ac,Stra13,Med29,Hist1h2ae,Hist1h2bg,Hist1h3g,Hist1h1e,Ece1,Gpx4,Tmem161a,Zfyve21,Hist1h1d
+52	jaspar-MA0060.1	0.0475937	3.70676	M3	Nfya,Nfyb,Nfyc,Ybx1,Pole3,Gm21827,Pole4	Aldh4a1,Spsb3,Glrx5,Hist1h3g,Med29,Zfyve21,Hist1h2bp,Hist1h3d,Hist1h2ae,Hist1h2bg,Hist1h2ac,Stra13,Scamp3,Hist1h3e,Hist1h3b,Gpx4,Ece1,Hist1h1e,Hist1h1d,Tmem161a
+53	transfac_pro-M01368	0.0474661	3.69402	M12	Pou2f2,Pou2f3,Pou2f1,Pou5f1,Pou3f2,Pou3f4,Pou3f1,Pou2af1,Pou4f1,Pou3f3,Pax4,Yy1,Pou1f1,Crx	Hist1h2ac,Hist1h2bp,Hist1h2ae,Hist1h2bg
+54	transfac_pro-M03149	0.047381	3.68552	M12	Pou2f2,Pou2f3,Pou3f3,Pou2f1,Pou3f1,Pou2af1,Pou5f1,Pou3f4,Pou3f2,Pou4f1,Pou1f1,Pax4,Yy1,E2f1	Hist1h2ac,Hist1h2bp,Hist1h2ae,Hist1h2bg
+55	factorbook-NFY	0.0473384	3.68127	M3	Nfya,Nfyb,Nfyc,Ybx1,Pole3,Gm21827,Pole4	Spsb3,Aldh4a1,Glrx5,Hist1h3g,Med29,Hist1h2bp,Hist1h3d,Zfyve21,Hist1h2ae,Hist1h2bg,Hist1h2ac,Stra13,Gpx4,Hist1h3b,Scamp3,Ece1,Aph1a,Hist1h3e,Hist1h1e
+56	jaspar-CN0131.1	0.047232	3.67065	M18		Spsb3,Dusp15,Med29
+57	swissregulon-GFI1.p2	0.0471044	3.65791	M1	Gfi1	Med29,Aldh4a1,Hist1h3e,Hist1h3g,Zfyve21,Glrx5,Hist1h3d,Hist1h3b,Hist1h2ae,Hist1h2bg,Hist1h1e,Hist1h1d,Spsb3,Aph1a,Hist1h2bp
+58	transfac_pro-M01476	0.046764	3.62393	M12	Pou2f3,Pou2f2,Pou2f1,Pou5f1,Pou3f2,Pou3f3,Pou3f1,Pou4f1,Pou2af1,Pou3f4,Pax4,Yy1,Pou1f1,Crx	Hist1h2ac,Hist1h2bp,Hist1h2ae,Hist1h2bg
+59	jaspar-PF0105.1	0.0467214	3.61968	M6		Aph1a,Map3k10,Stra13,Rabac1,Mettl8,Atp6v1f
+60	transfac_pro-M00752	0.0467001	3.61756	M19		Fbn2,Glrx5,Aph1a,Hist1h1e
+61	elemento-CTGCGCA	0.0465938	3.60694	M16		Kctd13,2310061I04Rik,Atp6v1f,Gpx4
+62	flyfactorsurvey-tai_Clk_SANGER_5_FBgn0041092	0.0465299	3.60056	M20	Mycn,Hey2,Clock,Npas2,Hey1	Slc38a5,Aldh4a1,Slc5a6
+63	transfac_pro-M03136	0.0464874	3.59632	M10		Slc38a5,Atp6v1f
+64	jaspar-PF0048.1	0.046381	3.5857	M21		Aph1a,Gpn2,1110065P20Rik,Hist1h4k,Stra13,Necap2,Sf3b5,Scamp3,Zfp787,Slc16a3,Hist1h3b,Glrx5,Slc38a5,Hist1h1d,Hist1h3g,Hist1h4f,Trim52,2310003H01Rik,Hist1h2bp,Hist1h1e,Casp9,Rabac1,Gpx4,Zfyve21,Med29
+65	factorbook-POU2F2	0.0462321	3.57083	M12	Pou2f2,Pou2f1,Pou2f3,Pou3f2,Pou4f1,Pou5f1,Pou3f3,Pou3f1,Pou2af1,Pou3f4,Yy1,Pax4,Pou1f1,E2f1,Pbx1,Crx	Hist1h2ac,Hist1h2bp,Hist1h2ae,Hist1h2bg
+66	yetfasco-2056	0.045764	3.5241	M2	Tbp,Tbpl2,Tbpl1	Hist1h1e,Hist1h1d,Hist1h4k,Hist1h3b,Hist1h3d,Hist1h2bp,Hist1h4f,Hist1h2ac,Hist1h3e,Hist1h3g,Slc5a6,Hist1h2ae,Hist1h2bg
+67	taipale-ARRGGTCANNNRRGGTCA-Rarb-DBD	0.0456151	3.50924	M15	Nr1i2,Nr2f1,Rarg,Rxrb,Nr2f2,Nr1h3,Nr1i3,Nr1h2,Rara,Rarb,Rxra,Nr1h4,Ppara,Rxrg,Thrb	Hist1h1e,Fam58b,Rcan3,Hist1h4f,Dynlt1b
+68	yetfasco-1593	0.0455513	3.50286	M1	Nfya,Nfyb,Nfyc	Aldh4a1,Glrx5,Hist1h3g,Spsb3,Hist1h3d,Ece1,Hist1h2ac,Hist1h1e,Med29,Hist1h1d,Tmem161a,Stra13,Hist1h3b,Hist1h2bp,Hist1h3e,Hist1h2ae,Hist1h2bg,B4galt2,Entpd4,Scamp3,Zfyve21
+69	homer-M00311	0.0448704	3.4349	M8		Hist1h2ac,Mark2,Hist1h1d,Hist1h1e,Hist1h4k,Hist1h4f
+70	elemento-GATCCTC	0.0448066	3.42853	M22		Shbg,Ring1,Slc5a6,Stoml1,Aph1a
+71	jaspar-MA0386.1	0.0447002	3.41791	M5	Tbp,Tbpl2,Tbpl1,Hmgb4,Tox,Tox2,Tox4,Gm5828,Tox3	Hist1h1d,Hist1h3d,Hist1h1e,Hist1h4f,Hist1h3g,Hist1h3e,Hist1h4k,Slc5a6,Egflam
+72	yetfasco-1016	0.0446577	3.41366	M23		Hist1h1e,Fbn2,Hist1h1d,Glrx5
+73	homer-M00600	0.0444449	3.39242	M24		Fbn2,Egflam,Hist1h1e
+74	elemento-ACACGTG	0.0443598	3.38392	M20		Slc5a6,Slc38a5,Aldh4a1,Dlk1
+75	wolfe-sens_SOLEXA_F1-3	0.0443385	3.3818	M1	Gfi1b,Gfi1	Glrx5,Hist1h1e,Med29,Hist1h1d,Aldh4a1,Hist1h3g,Hist1h3e,Egflam,Mark2,Hist1h2ae,Hist1h2bg,Aph1a,Ece1
+76	yetfasco-1635	0.0442747	3.37543	M3	Nfya	Glrx5,Hist1h3g,Hist1h3d,Spsb3,Hist1h2bp,Zfyve21,Hist1h1e,Ece1,Aldh4a1,Hist1h1d,Med29,Hist1h3b,Hist1h2ae,Hist1h2bg,Hist1h3e,Mark2,Gpx4,Shbg,B4galt2,Slc5a6
+77	yetfasco-1129	0.044062	3.35419	M25	Egr1	Fbn2,Gpx4,Spsb3,Aldh4a1,Egflam,Slc5a6
+78	jaspar-MA0088.1	0.0440194	3.34994	M7	Zfp143	Sf3b5,Rabac1,Med29,Aph1a,Stra13,Tmem161a
+79	transfac_pro-M01179	0.0438066	3.3287	M26		Hist1h1e,Hist1h3g,Hist1h1d,Hist1h4k,Gpx4,Med29,Fbn2,Kctd13,Aph1a,Gpn2,Dynlt1b,Necap2,Paqr7,2310003H01Rik,Fam173a
+80	yetfasco-651	0.0436152	3.30959	M11		Mark2,Fbn2,Glrx5
+81	transfac_public-M00264	0.0434662	3.29472	M7	Zfp143	Rabac1,Sf3b5,Tmem161a,Med29,Aph1a,Stra13,Slc5a6,Hist1h1e,Scamp3
+82	yetfasco-1390	0.0434662	3.29472	M20	Myc,Max,Arnt,Mycn,Hey1,Hey2,Mnt,Mycs	Slc5a6,Slc38a5,Dlk1,Aldh4a1,Fbn2
+83	elemento-ATTTGCATA	0.0433811	3.28622	M12	Pou2f2,Pou2f3,Pou2f1,Pou2af1,Pou5f1,Pou3f1,Pou3f2,Pou3f3,Pou3f4,Pou4f1,Pax4,Pou1f1,Pbx1,Yy1	Hist1h2ac,Hist1h2ae,Hist1h2bg,Hist1h2bp
+84	transfac_public-M00210	0.0432109	3.26923	M12	Pou2f2,Pou2f1,Pou2f3,Pou3f4,Pou2af1,Pou3f3,Pou5f1,Pou4f1,Pou3f1,Pou3f2,Pou1f1,Pax4,Yy1,Crx,E2f1	Hist1h2ac,Hist1h2bp,Hist1h2ae,Hist1h2bg
+85	tiffin-TIFDMEM0000083	0.0429982	3.24799	M5		Hist1h1e,Hist1h3b,Hist1h1d,Hist1h2ac,Hist1h4f,Hist1h4k,Hist1h2ae,Hist1h2bg,Hist1h2bp,Hist1h3g,Hist1h3d,Stoml1,Hist1h3e
+86	yetfasco-798	0.0429343	3.24162	M5	Tbp,Tbpl2,Tbpl1,Hmgb4,Tox2,Tox,Tox3,Gm5828,Tox4	Hist1h1d,Hist1h3d,Hist1h1e,Hist1h4f,Hist1h3g
+87	taipale-TATGCAAAT-Pou2f2-DBD	0.0427641	3.22463	M12	Pou2f2,Pou2f3,Pou2f1,Pou3f4,Pou2af1,Pou3f1,Pou5f1,Pou4f1,Pou3f2,Pou3f3,Pax4,Pou1f1,Yy1,Pbx1	Hist1h2ac,Hist1h2ae,Hist1h2bg,Hist1h2bp
+88	jaspar-PF0051.1	0.0427429	3.2225	M5		Hist1h1e,Hist1h4k,Hist1h1d,Hist1h2bp,Hist1h3b
+89	transfac_pro-M00754	0.0426578	3.21401	M27	Gm13152	Egflam,B4galt2,Dhrs13
+90	homer-M01745	0.0425939	3.20764	M11		Fbn2,Mark2,Glrx5
+91	transfac_public-M00049	0.0425301	3.20127	M17		Fbn2,Hist1h1d,Med29,Slc30a2
+92	flyfactorsurvey-pdm2_SOLEXA_5_FBgn0004394	0.0424876	3.19702	M12	Pou2f3,Pou2f2,Pou2f1,Pou3f4,Pou2af1,Pou4f1,Pou3f2,Pou3f3,Pou5f1,Pou3f1,Pax4,Yy1,Pou1f1,E2f1,Pbx1	Hist1h2ac,Hist1h2bp,Hist1h2ae,Hist1h2bg
+93	homer-M01524	0.0423173	3.18003	M28	Thoc2,BC005561	Hist1h1e,Hist1h1d,Egflam
+94	transfac_public-M00013	0.0422748	3.17578	M5		Hist1h1e,Hist1h3d,Hist1h3g,Hist1h1d
+95	tfdimers-MD00591	0.0422322	3.17153	M10	Tfap2c,Smad1	Dusp15,Aph1a,Hist1h1d,Fbn2
+96	jaspar-MA0380.1	0.0421684	3.16516	M29		Mark2,Gpn2,Fbn2,Zfp787
+97	taipale-NWTATGCWAATKAG-POU1F1-DBD	0.0421259	3.16091	M12	Pou1f1,Pou2f1,Pou2f2,Pou2f3,Pou4f1,Pou3f3,Pou3f4,Pou5f1,Pou2af1,Pou3f2,Pou3f1,Yy1,Crx,Tcf3	Hist1h2ac,Hist1h2bp,Hist1h2ae,Hist1h2bg
+98	transfac_pro-M01958	0.0419982	3.14817	M29		Mark2,Gpn2,Fbn2,Zfp787
+99	yetfasco-573	0.0419982	3.14817	M29		Mark2,Gpn2,Fbn2,Zfp787
+100	encode-UW.Motif.0303	0.0419769	3.14604	M21		Aph1a,Gpn2,Stub1,Slc5a6
+101	taipale-NACACGTGTN-CLOCK-DBD	0.0419769	3.14604	M20	Clock,Mycn,Max,Myc,Mnt	Slc38a5,Aldh4a1,Dlk1,Slc5a6
+102	tiffin-TIFDMEM0000086	0.0419769	3.14604	M30		Slc5a6,Hist1h1e,Fbn2,Stoml1,Hist1h3b,Hist1h4f
+103	stark-AWNTGGGTCA	0.0419131	3.13967	M31	Rora,Rorc,Nr1d1,Ppara,Ppard,Nr1d2	Egflam,Mark2,B4galt2
+104	flyfactorsurvey-lola-PY_SANGER_2.5_FBgn0005630	0.0418493	3.1333	M32		Shbg,Egflam,B4galt2,Mark2
+105	flyfactorsurvey-Met_SANGER_5_FBgn0002723	0.0418067	3.12905	M20	Max,Arnt,Arntl,Arntl2	Slc5a6,Slc38a5,Fbn2,Dlk1,Scamp3
+106	flyfactorsurvey-Met_Clk_SANGER_5_FBgn0023076	0.0417855	3.12693	M20	Clock,Npas2,Hey1,Hey2,Heyl	Slc38a5,Slc5a6,Aldh4a1,Dlk1
+107	yetfasco-1369	0.0416578	3.11418	M33	Srf	Slc5a6,Spsb3,Glrx5
+108	yetfasco-1413	0.0416153	3.10994	M24		Glrx5,Hist1h1e,Slc5a6,Fbn2,Hbegf,Egflam
+109	transfac_pro-M00795	0.0415727	3.10569	M12	Pou4f1,Pou2f1,Pou3f1,Pou5f1,Pou2f2,Pou3f4,Pou3f3,Pou2f3,Pou2af1,Pou3f2,Yy1,E2f1,Pax4,Pou1f1,Crx	Hist1h2ac,Hist1h2ae,Hist1h2bg,Hist1h2bp
+110	yetfasco-1388	0.0415727	3.10569	M20	Hey2	Slc5a6,Slc38a5,Fbn2,Scamp3,Dlk1
+111	hdpi-NNT	0.0415514	3.10356	M17	Nnt	Hist1h1d,Hist1h1e,Fbn2
+112	flyfactorsurvey-nub_SOLEXA_5_FBgn0085424	0.0414876	3.09719	M12	Pou2f3,Pou2f2,Pou2f1,Pou5f1,Pou3f4,Pou3f1,Pou2af1,Pou4f1,Pou3f3,Pou3f2,Yy1,Pax4,Pou1f1,E2f1,Pbx1	Hist1h2ac,Hist1h2ae,Hist1h2bg,Hist1h2bp
+113	elemento-TCGTCCA	0.0412323	3.07171	M9		Glrx5,Egflam,B4galt2,Scamp3,Aph1a
+114	homer-M00135	0.0412323	3.07171	M12	Pou2f2,Pou2f1,Pou5f1,Pou2f3,Pou2af1,Pou4f1,Pou3f2,Pou3f1,Pou3f3,Pou3f4,Yy1,Pou1f1,Pax4,Pbx1	Hist1h2ac,Hist1h2ae,Hist1h2bg,Hist1h2bp
+115	yetfasco-541	0.0412323	3.07171	M34		Shbg,Egflam,Mark2,Rabac1
+116	elemento-GCGTCAC	0.041211	3.06958	M35		Casp9,Hist1h2ae,Hist1h2bg,Gpx4,1110065P20Rik
+117	yetfasco-486	0.0411046	3.05896	M36		Hist1h4k,Hist1h1e,Hist1h4f,Hist1h3g,Gpn2,Hbegf,Stoml1,Glrx5,Fbn2,Sf3b5,Egflam,Slc5a6,Col16a1,Scamp3,Dusp15,Dlk1,Med29,Spsb3
+118	tiffin-TIFDMEM0000019	0.0408919	3.03772	M12		Hist1h1e,Hist1h4f,Hist1h1d
+119	transfac_pro-M01081	0.0408068	3.02923	M37	Zfp628	Rabac1,Mark2,Dusp15,Hist1h1d,Egflam,Sf3b5,Gpx4,Aph1a
+120	jaspar-MA0410.1	0.0407429	3.02285	M36		Hist1h4k,Hist1h1e,Hist1h4f,Hist1h3g,Gpn2,Hbegf,Stoml1,Glrx5,Fbn2,Sf3b5,Egflam,Slc5a6,Col16a1,Scamp3,Dusp15,Dlk1,Med29,Spsb3
+121	jaspar-PF0152.1	0.0407217	3.02073	M13		Aph1a,Map3k10,Stra13,Sf3b5,Hist1h1d,Shbg,Dusp15,Rabac1,Atp6v1f,Scamp3,B4galt2,Hist1h4k,Dlk1,Kctd13,Slc5a6,Fam58b,Hist1h3b
+122	homer-M01492	0.0406366	3.01224	M4		Glrx5,Aldh4a1,Hist1h3g,Spsb3,Stra13,Ece1,Hist1h3d,Hist1h1e,Hist1h2ac,Med29,Hist1h2bp,Hist1h2ae,Hist1h2bg,Hist1h1d,Hist1h3b,Aph1a,Tmem161a
+123	homer-M00830	0.0406153	3.01011	M5		Hist1h1e,Hist1h1d,Hist1h2ac,Hist1h2bp,Hist1h3d,Hist1h3e,Hist1h4f,Hist1h3b,Hist1h4k,Hist1h3g,Hist1h2ae,Hist1h2bg
+124	yetfasco-2105	0.0405727	3.00586	M29		Mark2,Zfp787,Gpn2,Hist1h3e
+125	flyfactorsurvey-br-PL_SOLEXA_FBgn0000210	0.0405515	3.00374	M34		Zfp787,Shbg,Egflam
+126	tiffin-TIFDMEM0000107	0.0405515	3.00374	M2	Tbp,Tbpl2,Polr2a,Taf1	Hist1h1e,Hist1h1d,Hist1h4k,Hist1h2ac,Hist1h3b

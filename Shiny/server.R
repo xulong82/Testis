@@ -54,8 +54,12 @@ shinyServer(function(input, output) {
     table[table$query == geneId, ]
   }, include.rownames = FALSE)
 
- output$downloadData <- downloadHandler(
+ output$downloadData1 <- downloadHandler(
    filename = "report_20150508.pptx", content = function (file) file.copy("./report_20150508.pptx", file)
+ )
+  
+ output$downloadData2 <- downloadHandler(
+   filename = "report_20150604.pptx", content = function (file) file.copy("./report_20150604.pptx", file)
  )
   
 })
