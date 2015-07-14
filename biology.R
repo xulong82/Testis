@@ -6,7 +6,7 @@ library(xlsx)
 
 rm(list = ls())
 setwd("~/Dropbox/GitHub/Testis/")
-load("../X/summary.rdt")
+load("../../X/summary.rdt")
 summary <- function(x) table %>% filter(query %in% x)
 
 # LOAD DATA
