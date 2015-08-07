@@ -1,0 +1,567 @@
+; Name	gene_select
+; Species and nomenclature	Mus musculus, MGI symbols
+; Motif collection	10K (9713 PWMs)
+; Minimum NEScore	3.0
+; Rank threshold for visualization	5000
+; ROC threshold for AUC calculation (%)	0.03
+; Minimum identity between orthologous genes	0.0
+; Maximum false discovery rate (FDR) on motif similarity	0.001
+; Motif rankings database	500bp upstream (7 species)
+; Number of valid nodes	90
+; iRegulon version	iRegulon v1.3 (build: 2015-02-12)
+# Rank	Motif id	AUC	NES	ClusterCode	Transcription factor	Target genes
+1	yetfasco-1217	0.0884034	6.7428	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,C1qc,Hsph1,H2-D1,Stip1,Urb2,Snx10,Ahsg,Mlc1
+1	yetfasco-1217	0.0884034	6.7428	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,C1qc,Hsph1,H2-D1,Stip1,Urb2,Snx10,Ahsg,Mlc1
+1	yetfasco-1217	0.0884034	6.7428	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,C1qc,Hsph1,H2-D1,Stip1,Urb2,Snx10,Ahsg,Mlc1
+1	yetfasco-1217	0.0884034	6.7428	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,C1qc,Hsph1,H2-D1,Stip1,Urb2,Snx10,Ahsg,Mlc1
+1	yetfasco-1217	0.0884034	6.7428	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,C1qc,Hsph1,H2-D1,Stip1,Urb2,Snx10,Ahsg,Mlc1
+2	yetfasco-1538	0.0852196	6.46286	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,C1qc
+2	yetfasco-1538	0.0852196	6.46286	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,C1qc
+2	yetfasco-1538	0.0852196	6.46286	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,C1qc
+2	yetfasco-1538	0.0852196	6.46286	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,C1qc
+2	yetfasco-1538	0.0852196	6.46286	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,C1qc
+3	yetfasco-615	0.0825703	6.22991	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Ppip5k1,C1qc,Mlc1
+3	yetfasco-615	0.0825703	6.22991	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Ppip5k1,C1qc,Mlc1
+3	yetfasco-615	0.0825703	6.22991	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Ppip5k1,C1qc,Mlc1
+3	yetfasco-615	0.0825703	6.22991	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Ppip5k1,C1qc,Mlc1
+3	yetfasco-615	0.0825703	6.22991	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Ppip5k1,C1qc,Mlc1
+4	transfac_pro-M02017	0.0801999	6.02149	M1	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,Ccdc9,C1qc,Mlc1
+4	transfac_pro-M02017	0.0801999	6.02149	M1	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,Ccdc9,C1qc,Mlc1
+4	transfac_pro-M02017	0.0801999	6.02149	M1	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,Ccdc9,C1qc,Mlc1
+4	transfac_pro-M02017	0.0801999	6.02149	M1	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,Ccdc9,C1qc,Mlc1
+4	transfac_pro-M02017	0.0801999	6.02149	M1	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,Ccdc9,C1qc,Mlc1
+5	homer-M01742	0.0799442	5.99901	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Mlc1,C1qc,Ppip5k1
+5	homer-M01742	0.0799442	5.99901	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Mlc1,C1qc,Ppip5k1
+5	homer-M01742	0.0799442	5.99901	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Mlc1,C1qc,Ppip5k1
+5	homer-M01742	0.0799442	5.99901	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Mlc1,C1qc,Ppip5k1
+5	homer-M01742	0.0799442	5.99901	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,H2-D1,Mlc1,C1qc,Ppip5k1
+6	transfac_public-M00169	0.0740646	5.48205	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,C1qc,H2-D1,Mlc1,Ppip5k1,Hirip3,Urb2,Ccdc9
+6	transfac_public-M00169	0.0740646	5.48205	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,C1qc,H2-D1,Mlc1,Ppip5k1,Hirip3,Urb2,Ccdc9
+6	transfac_public-M00169	0.0740646	5.48205	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,C1qc,H2-D1,Mlc1,Ppip5k1,Hirip3,Urb2,Ccdc9
+6	transfac_public-M00169	0.0740646	5.48205	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,C1qc,H2-D1,Mlc1,Ppip5k1,Hirip3,Urb2,Ccdc9
+6	transfac_public-M00169	0.0740646	5.48205	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,C1qc,H2-D1,Mlc1,Ppip5k1,Hirip3,Urb2,Ccdc9
+7	transfac_public-M00165	0.0732745	5.41257	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l
+7	transfac_public-M00165	0.0732745	5.41257	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l
+7	transfac_public-M00165	0.0732745	5.41257	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l
+7	transfac_public-M00165	0.0732745	5.41257	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l
+7	transfac_public-M00165	0.0732745	5.41257	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l
+8	yetfasco-994	0.0732745	5.41257	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Hirip3,Mlc1,Ppip5k1,Pogk,Mdc1,Snx10,C1qc,Urb2,Vps41
+8	yetfasco-994	0.0732745	5.41257	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Hirip3,Mlc1,Ppip5k1,Pogk,Mdc1,Snx10,C1qc,Urb2,Vps41
+8	yetfasco-994	0.0732745	5.41257	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Hirip3,Mlc1,Ppip5k1,Pogk,Mdc1,Snx10,C1qc,Urb2,Vps41
+8	yetfasco-994	0.0732745	5.41257	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Hirip3,Mlc1,Ppip5k1,Pogk,Mdc1,Snx10,C1qc,Urb2,Vps41
+8	yetfasco-994	0.0732745	5.41257	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Hirip3,Mlc1,Ppip5k1,Pogk,Mdc1,Snx10,C1qc,Urb2,Vps41
+9	yetfasco-995	0.0731583	5.40235	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1
+9	yetfasco-995	0.0731583	5.40235	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1
+9	yetfasco-995	0.0731583	5.40235	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1
+9	yetfasco-995	0.0731583	5.40235	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1
+9	yetfasco-995	0.0731583	5.40235	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1
+10	transfac_pro-M01244	0.0716709	5.27158	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Stip1,Hsph1,Hspa4l,H2-D1,C1qc,Ppip5k1,Urb2,Snx10,Tdrd9,Mlc1,Ccrn4l,Ahsg,Amh,Slc25a38,Casp9
+10	transfac_pro-M01244	0.0716709	5.27158	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Stip1,Hsph1,Hspa4l,H2-D1,C1qc,Ppip5k1,Urb2,Snx10,Tdrd9,Mlc1,Ccrn4l,Ahsg,Amh,Slc25a38,Casp9
+10	transfac_pro-M01244	0.0716709	5.27158	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Stip1,Hsph1,Hspa4l,H2-D1,C1qc,Ppip5k1,Urb2,Snx10,Tdrd9,Mlc1,Ccrn4l,Ahsg,Amh,Slc25a38,Casp9
+10	transfac_pro-M01244	0.0716709	5.27158	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Stip1,Hsph1,Hspa4l,H2-D1,C1qc,Ppip5k1,Urb2,Snx10,Tdrd9,Mlc1,Ccrn4l,Ahsg,Amh,Slc25a38,Casp9
+10	transfac_pro-M01244	0.0716709	5.27158	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Stip1,Hsph1,Hspa4l,H2-D1,C1qc,Ppip5k1,Urb2,Snx10,Tdrd9,Mlc1,Ccrn4l,Ahsg,Amh,Slc25a38,Casp9
+11	factorbook-HSF1	0.0706251	5.17963	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Stip1,Hspa4l,Hsph1
+11	factorbook-HSF1	0.0706251	5.17963	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Stip1,Hspa4l,Hsph1
+11	factorbook-HSF1	0.0706251	5.17963	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Stip1,Hspa4l,Hsph1
+11	factorbook-HSF1	0.0706251	5.17963	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Stip1,Hspa4l,Hsph1
+11	factorbook-HSF1	0.0706251	5.17963	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Stip1,Hspa4l,Hsph1
+12	jaspar-PF0141.1	0.0689519	5.03251	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,Hirip3,C1qc,Mlc1,H2-D1,Ccrn4l,Urb1,Ccdc9,Ppip5k1,Urb2,Rpl29,Casp9,Slc25a38,Snx10,Hccs,Ahsg,Nme7,Slc38a5,C1qb,Zswim4,Pogk,Fig4
+12	jaspar-PF0141.1	0.0689519	5.03251	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,Hirip3,C1qc,Mlc1,H2-D1,Ccrn4l,Urb1,Ccdc9,Ppip5k1,Urb2,Rpl29,Casp9,Slc25a38,Snx10,Hccs,Ahsg,Nme7,Slc38a5,C1qb,Zswim4,Pogk,Fig4
+12	jaspar-PF0141.1	0.0689519	5.03251	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,Hirip3,C1qc,Mlc1,H2-D1,Ccrn4l,Urb1,Ccdc9,Ppip5k1,Urb2,Rpl29,Casp9,Slc25a38,Snx10,Hccs,Ahsg,Nme7,Slc38a5,C1qb,Zswim4,Pogk,Fig4
+12	jaspar-PF0141.1	0.0689519	5.03251	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,Hirip3,C1qc,Mlc1,H2-D1,Ccrn4l,Urb1,Ccdc9,Ppip5k1,Urb2,Rpl29,Casp9,Slc25a38,Snx10,Hccs,Ahsg,Nme7,Slc38a5,C1qb,Zswim4,Pogk,Fig4
+12	jaspar-PF0141.1	0.0689519	5.03251	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1,Hirip3,C1qc,Mlc1,H2-D1,Ccrn4l,Urb1,Ccdc9,Ppip5k1,Urb2,Rpl29,Casp9,Slc25a38,Snx10,Hccs,Ahsg,Nme7,Slc38a5,C1qb,Zswim4,Pogk,Fig4
+13	homer-M00093	0.0682547	4.97121	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+13	homer-M00093	0.0682547	4.97121	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+13	homer-M00093	0.0682547	4.97121	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+13	homer-M00093	0.0682547	4.97121	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+13	homer-M00093	0.0682547	4.97121	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+14	taipale-TTCTAGAANNTTC-HSF1-full	0.0668836	4.85065	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+14	taipale-TTCTAGAANNTTC-HSF1-full	0.0668836	4.85065	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+14	taipale-TTCTAGAANNTTC-HSF1-full	0.0668836	4.85065	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+14	taipale-TTCTAGAANNTTC-HSF1-full	0.0668836	4.85065	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+14	taipale-TTCTAGAANNTTC-HSF1-full	0.0668836	4.85065	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+15	transfac_pro-M01023	0.0663955	4.80774	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Slc38a5,Mlc1,H2-D1,Urb2,Urb1,Hirip3,Zmym6,Zswim4
+15	transfac_pro-M01023	0.0663955	4.80774	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Slc38a5,Mlc1,H2-D1,Urb2,Urb1,Hirip3,Zmym6,Zswim4
+15	transfac_pro-M01023	0.0663955	4.80774	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Slc38a5,Mlc1,H2-D1,Urb2,Urb1,Hirip3,Zmym6,Zswim4
+15	transfac_pro-M01023	0.0663955	4.80774	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Slc38a5,Mlc1,H2-D1,Urb2,Urb1,Hirip3,Zmym6,Zswim4
+15	transfac_pro-M01023	0.0663955	4.80774	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Slc38a5,Mlc1,H2-D1,Urb2,Urb1,Hirip3,Zmym6,Zswim4
+16	yetfasco-1639	0.0662096	4.79139	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,Hsph1,Otud3,Stip1
+16	yetfasco-1639	0.0662096	4.79139	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,Hsph1,Otud3,Stip1
+16	yetfasco-1639	0.0662096	4.79139	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,Hsph1,Otud3,Stip1
+16	yetfasco-1639	0.0662096	4.79139	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,Hsph1,Otud3,Stip1
+16	yetfasco-1639	0.0662096	4.79139	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa4l,Hspa8,Hsph1,Otud3,Stip1
+17	transfac_pro-M01204	0.0661631	4.7873	M2	Spib,Sfpi1,Spic,Elk1,Gabpb1,Ets1,Elf1,Gabpa,Elk4,Elk3,Etv4,Etv6,Fli1,Erg,Elf4,Elf2,Ets2,Ehf,Ep300,E2f6,Tcf4,Yy1,Tbp,Nfatc3,Pura,Sirt6,Bptf,Hoxd10	C1qc,Hirip3,Hsph1,Hccs,Pogk,Mlc1,Hist1h3e,Eif2s3y,Hnrnph3,Hdac1,Hspa8,Hspa4l,Hist1h1e,Fig4,Tom1,Urb1,Ccrn4l,Snx10,Vps41,Ccdc9,C1qb,Zmym6,Chordc1,Rpl29,Casp9
+17	transfac_pro-M01204	0.0661631	4.7873	M2	Spib,Sfpi1,Spic,Elk1,Gabpb1,Ets1,Elf1,Gabpa,Elk4,Elk3,Etv4,Etv6,Fli1,Erg,Elf4,Elf2,Ets2,Ehf,Ep300,E2f6,Tcf4,Yy1,Tbp,Nfatc3,Pura,Sirt6,Bptf,Hoxd10	C1qc,Hirip3,Hsph1,Hccs,Pogk,Mlc1,Hist1h3e,Eif2s3y,Hnrnph3,Hdac1,Hspa8,Hspa4l,Hist1h1e,Fig4,Tom1,Urb1,Ccrn4l,Snx10,Vps41,Ccdc9,C1qb,Zmym6,Chordc1,Rpl29,Casp9
+17	transfac_pro-M01204	0.0661631	4.7873	M2	Spib,Sfpi1,Spic,Elk1,Gabpb1,Ets1,Elf1,Gabpa,Elk4,Elk3,Etv4,Etv6,Fli1,Erg,Elf4,Elf2,Ets2,Ehf,Ep300,E2f6,Tcf4,Yy1,Tbp,Nfatc3,Pura,Sirt6,Bptf,Hoxd10	C1qc,Hirip3,Hsph1,Hccs,Pogk,Mlc1,Hist1h3e,Eif2s3y,Hnrnph3,Hdac1,Hspa8,Hspa4l,Hist1h1e,Fig4,Tom1,Urb1,Ccrn4l,Snx10,Vps41,Ccdc9,C1qb,Zmym6,Chordc1,Rpl29,Casp9
+17	transfac_pro-M01204	0.0661631	4.7873	M2	Spib,Sfpi1,Spic,Elk1,Gabpb1,Ets1,Elf1,Gabpa,Elk4,Elk3,Etv4,Etv6,Fli1,Erg,Elf4,Elf2,Ets2,Ehf,Ep300,E2f6,Tcf4,Yy1,Tbp,Nfatc3,Pura,Sirt6,Bptf,Hoxd10	C1qc,Hirip3,Hsph1,Hccs,Pogk,Mlc1,Hist1h3e,Eif2s3y,Hnrnph3,Hdac1,Hspa8,Hspa4l,Hist1h1e,Fig4,Tom1,Urb1,Ccrn4l,Snx10,Vps41,Ccdc9,C1qb,Zmym6,Chordc1,Rpl29,Casp9
+17	transfac_pro-M01204	0.0661631	4.7873	M2	Spib,Sfpi1,Spic,Elk1,Gabpb1,Ets1,Elf1,Gabpa,Elk4,Elk3,Etv4,Etv6,Fli1,Erg,Elf4,Elf2,Ets2,Ehf,Ep300,E2f6,Tcf4,Yy1,Tbp,Nfatc3,Pura,Sirt6,Bptf,Hoxd10	C1qc,Hirip3,Hsph1,Hccs,Pogk,Mlc1,Hist1h3e,Eif2s3y,Hnrnph3,Hdac1,Hspa8,Hspa4l,Hist1h1e,Fig4,Tom1,Urb1,Ccrn4l,Snx10,Vps41,Ccdc9,C1qb,Zmym6,Chordc1,Rpl29,Casp9
+18	taipale-TTCTAGAANNTTC-HSF2-DBD	0.0658145	4.75665	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+18	taipale-TTCTAGAANNTTC-HSF2-DBD	0.0658145	4.75665	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+18	taipale-TTCTAGAANNTTC-HSF2-DBD	0.0658145	4.75665	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+18	taipale-TTCTAGAANNTTC-HSF2-DBD	0.0658145	4.75665	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+18	taipale-TTCTAGAANNTTC-HSF2-DBD	0.0658145	4.75665	M1	Hsf2,Hsf1,Hsf4,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+19	taipale-TTCTAGAANNTTC-HSF1-DBD	0.0653498	4.71579	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1
+19	taipale-TTCTAGAANNTTC-HSF1-DBD	0.0653498	4.71579	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1
+19	taipale-TTCTAGAANNTTC-HSF1-DBD	0.0653498	4.71579	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1
+19	taipale-TTCTAGAANNTTC-HSF1-DBD	0.0653498	4.71579	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1
+19	taipale-TTCTAGAANNTTC-HSF1-DBD	0.0653498	4.71579	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1
+20	yetfasco-1461	0.0637695	4.57684	M3	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,H2-D1,Mlc1,Ppip5k1,Hist1h1e,Pogk,Casp9,Urb2,Kif24
+20	yetfasco-1461	0.0637695	4.57684	M3	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,H2-D1,Mlc1,Ppip5k1,Hist1h1e,Pogk,Casp9,Urb2,Kif24
+20	yetfasco-1461	0.0637695	4.57684	M3	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,H2-D1,Mlc1,Ppip5k1,Hist1h1e,Pogk,Casp9,Urb2,Kif24
+20	yetfasco-1461	0.0637695	4.57684	M3	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,H2-D1,Mlc1,Ppip5k1,Hist1h1e,Pogk,Casp9,Urb2,Kif24
+20	yetfasco-1461	0.0637695	4.57684	M3	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,H2-D1,Mlc1,Ppip5k1,Hist1h1e,Pogk,Casp9,Urb2,Kif24
+21	homer-M00632	0.0627237	4.48489	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+21	homer-M00632	0.0627237	4.48489	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+21	homer-M00632	0.0627237	4.48489	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+21	homer-M00632	0.0627237	4.48489	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+21	homer-M00632	0.0627237	4.48489	M1	Hsf1,Hsf4,Hsf2,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+22	taipale-TTCTAGAANNTTC-HSF4-DBD	0.0624216	4.45832	M1	Hsf4,Hsf2,Hsf1,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+22	taipale-TTCTAGAANNTTC-HSF4-DBD	0.0624216	4.45832	M1	Hsf4,Hsf2,Hsf1,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+22	taipale-TTCTAGAANNTTC-HSF4-DBD	0.0624216	4.45832	M1	Hsf4,Hsf2,Hsf1,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+22	taipale-TTCTAGAANNTTC-HSF4-DBD	0.0624216	4.45832	M1	Hsf4,Hsf2,Hsf1,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+22	taipale-TTCTAGAANNTTC-HSF4-DBD	0.0624216	4.45832	M1	Hsf4,Hsf2,Hsf1,Hsf3	Hspa8,Hspa4l,Stip1,Hsph1
+23	yetfasco-411	0.0602835	4.27034	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Hist1h1e,H2-D1,C1qc,Ppip5k1
+23	yetfasco-411	0.0602835	4.27034	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Hist1h1e,H2-D1,C1qc,Ppip5k1
+23	yetfasco-411	0.0602835	4.27034	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Hist1h1e,H2-D1,C1qc,Ppip5k1
+23	yetfasco-411	0.0602835	4.27034	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Hist1h1e,H2-D1,C1qc,Ppip5k1
+23	yetfasco-411	0.0602835	4.27034	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hspa4l,Hsph1,Stip1,Hist1h1e,H2-D1,C1qc,Ppip5k1
+24	taipale-ACCCGGAAGTN-ELF5-DBD	0.0597025	4.21925	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Elf1,Elk3,Spic,Ets2,Erf,Etv2,Ets1,Elk1,Fev,Fli1,Gabpb1,Etv3,Etv1,Gabpa,Spib,Elk4,Erg,Sfpi1,Etv6,Etv4	Hccs,C1qc,Ahsa1,Vps41,Hirip3,Hsph1,Ccdc9
+24	taipale-ACCCGGAAGTN-ELF5-DBD	0.0597025	4.21925	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Elf1,Elk3,Spic,Ets2,Erf,Etv2,Ets1,Elk1,Fev,Fli1,Gabpb1,Etv3,Etv1,Gabpa,Spib,Elk4,Erg,Sfpi1,Etv6,Etv4	Hccs,C1qc,Ahsa1,Vps41,Hirip3,Hsph1,Ccdc9
+24	taipale-ACCCGGAAGTN-ELF5-DBD	0.0597025	4.21925	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Elf1,Elk3,Spic,Ets2,Erf,Etv2,Ets1,Elk1,Fev,Fli1,Gabpb1,Etv3,Etv1,Gabpa,Spib,Elk4,Erg,Sfpi1,Etv6,Etv4	Hccs,C1qc,Ahsa1,Vps41,Hirip3,Hsph1,Ccdc9
+24	taipale-ACCCGGAAGTN-ELF5-DBD	0.0597025	4.21925	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Elf1,Elk3,Spic,Ets2,Erf,Etv2,Ets1,Elk1,Fev,Fli1,Gabpb1,Etv3,Etv1,Gabpa,Spib,Elk4,Erg,Sfpi1,Etv6,Etv4	Hccs,C1qc,Ahsa1,Vps41,Hirip3,Hsph1,Ccdc9
+24	taipale-ACCCGGAAGTN-ELF5-DBD	0.0597025	4.21925	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Elf1,Elk3,Spic,Ets2,Erf,Etv2,Ets1,Elk1,Fev,Fli1,Gabpb1,Etv3,Etv1,Gabpa,Spib,Elk4,Erg,Sfpi1,Etv6,Etv4	Hccs,C1qc,Ahsa1,Vps41,Hirip3,Hsph1,Ccdc9
+25	factorbook-ZNF143	0.059261	4.18043	M4	Zfp143	Hsph1,Vps41,Hirip3,Ahsa1,Zmym6,Hspa8,Hist1h1e,Ahsg,Amh,Hdac1,C1qb,C1qc,Hspa4l,Mlc1,Ppip5k1,Snora7a,H2-D1
+25	factorbook-ZNF143	0.059261	4.18043	M4	Zfp143	Hsph1,Vps41,Hirip3,Ahsa1,Zmym6,Hspa8,Hist1h1e,Ahsg,Amh,Hdac1,C1qb,C1qc,Hspa4l,Mlc1,Ppip5k1,Snora7a,H2-D1
+25	factorbook-ZNF143	0.059261	4.18043	M4	Zfp143	Hsph1,Vps41,Hirip3,Ahsa1,Zmym6,Hspa8,Hist1h1e,Ahsg,Amh,Hdac1,C1qb,C1qc,Hspa4l,Mlc1,Ppip5k1,Snora7a,H2-D1
+25	factorbook-ZNF143	0.059261	4.18043	M4	Zfp143	Hsph1,Vps41,Hirip3,Ahsa1,Zmym6,Hspa8,Hist1h1e,Ahsg,Amh,Hdac1,C1qb,C1qc,Hspa4l,Mlc1,Ppip5k1,Snora7a,H2-D1
+25	factorbook-ZNF143	0.059261	4.18043	M4	Zfp143	Hsph1,Vps41,Hirip3,Ahsa1,Zmym6,Hspa8,Hist1h1e,Ahsg,Amh,Hdac1,C1qb,C1qc,Hspa4l,Mlc1,Ppip5k1,Snora7a,H2-D1
+26	transfac_pro-M01898	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+26	transfac_pro-M01898	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+26	transfac_pro-M01898	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+26	transfac_pro-M01898	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+26	transfac_pro-M01898	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+27	yetfasco-511	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+27	yetfasco-511	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+27	yetfasco-511	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+27	yetfasco-511	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+27	yetfasco-511	0.0592145	4.17634	M5		Mdc1,Stip1,Ahsa1,Hist1h1e
+28	transfac_public-M00146	0.0582617	4.09256	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Ccdc9,Hspa4l,Stip1,Urb1,Hsph1
+28	transfac_public-M00146	0.0582617	4.09256	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Ccdc9,Hspa4l,Stip1,Urb1,Hsph1
+28	transfac_public-M00146	0.0582617	4.09256	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Ccdc9,Hspa4l,Stip1,Urb1,Hsph1
+28	transfac_public-M00146	0.0582617	4.09256	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Ccdc9,Hspa4l,Stip1,Urb1,Hsph1
+28	transfac_public-M00146	0.0582617	4.09256	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Ccdc9,Hspa4l,Stip1,Urb1,Hsph1
+29	taipale-ACCCGGAAGTN-Elf5-DBD	0.0578898	4.05987	M2	Ehf,Elf3,Elf5,Elf4,Elf2,Etv5,Spic,Etv2,Elf1,Ets2,Erf,Elk1,Ets1,Elk3,Fev,Etv1,Fli1,Etv3,Gabpa,Spib,Erg,Elk4,Gabpb1,Etv4,Sfpi1,Etv6	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9
+29	taipale-ACCCGGAAGTN-Elf5-DBD	0.0578898	4.05987	M2	Ehf,Elf3,Elf5,Elf4,Elf2,Etv5,Spic,Etv2,Elf1,Ets2,Erf,Elk1,Ets1,Elk3,Fev,Etv1,Fli1,Etv3,Gabpa,Spib,Erg,Elk4,Gabpb1,Etv4,Sfpi1,Etv6	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9
+29	taipale-ACCCGGAAGTN-Elf5-DBD	0.0578898	4.05987	M2	Ehf,Elf3,Elf5,Elf4,Elf2,Etv5,Spic,Etv2,Elf1,Ets2,Erf,Elk1,Ets1,Elk3,Fev,Etv1,Fli1,Etv3,Gabpa,Spib,Erg,Elk4,Gabpb1,Etv4,Sfpi1,Etv6	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9
+29	taipale-ACCCGGAAGTN-Elf5-DBD	0.0578898	4.05987	M2	Ehf,Elf3,Elf5,Elf4,Elf2,Etv5,Spic,Etv2,Elf1,Ets2,Erf,Elk1,Ets1,Elk3,Fev,Etv1,Fli1,Etv3,Gabpa,Spib,Erg,Elk4,Gabpb1,Etv4,Sfpi1,Etv6	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9
+29	taipale-ACCCGGAAGTN-Elf5-DBD	0.0578898	4.05987	M2	Ehf,Elf3,Elf5,Elf4,Elf2,Etv5,Spic,Etv2,Elf1,Ets2,Erf,Elk1,Ets1,Elk3,Fev,Etv1,Fli1,Etv3,Gabpa,Spib,Erg,Elk4,Gabpb1,Etv4,Sfpi1,Etv6	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9
+30	jaspar-PF0072.1	0.0572159	4.00061	M3	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Mlc1,Pogk,Rpl29,C1qc,Tdrd9,Hirip3,Hist1h3e,Zmym6
+30	jaspar-PF0072.1	0.0572159	4.00061	M3	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Mlc1,Pogk,Rpl29,C1qc,Tdrd9,Hirip3,Hist1h3e,Zmym6
+30	jaspar-PF0072.1	0.0572159	4.00061	M3	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Mlc1,Pogk,Rpl29,C1qc,Tdrd9,Hirip3,Hist1h3e,Zmym6
+30	jaspar-PF0072.1	0.0572159	4.00061	M3	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Mlc1,Pogk,Rpl29,C1qc,Tdrd9,Hirip3,Hist1h3e,Zmym6
+30	jaspar-PF0072.1	0.0572159	4.00061	M3	Hsf1,Hsf4,Hsf3	Hspa8,Hsph1,Stip1,Hspa4l,H2-D1,Mlc1,Pogk,Rpl29,C1qc,Tdrd9,Hirip3,Hist1h3e,Zmym6
+31	taipale-ACCCGGAAGTN-ELF5-full	0.0567743	3.96179	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Spic,Elf1,Ets2,Etv2,Erf,Ets1,Elk3,Elk1,Fev,Fli1,Etv1,Gabpa,Etv3,Spib,Erg,Elk4,Gabpb1,Etv6,Sfpi1,Etv4	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9,Hsph1
+31	taipale-ACCCGGAAGTN-ELF5-full	0.0567743	3.96179	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Spic,Elf1,Ets2,Etv2,Erf,Ets1,Elk3,Elk1,Fev,Fli1,Etv1,Gabpa,Etv3,Spib,Erg,Elk4,Gabpb1,Etv6,Sfpi1,Etv4	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9,Hsph1
+31	taipale-ACCCGGAAGTN-ELF5-full	0.0567743	3.96179	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Spic,Elf1,Ets2,Etv2,Erf,Ets1,Elk3,Elk1,Fev,Fli1,Etv1,Gabpa,Etv3,Spib,Erg,Elk4,Gabpb1,Etv6,Sfpi1,Etv4	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9,Hsph1
+31	taipale-ACCCGGAAGTN-ELF5-full	0.0567743	3.96179	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Spic,Elf1,Ets2,Etv2,Erf,Ets1,Elk3,Elk1,Fev,Fli1,Etv1,Gabpa,Etv3,Spib,Erg,Elk4,Gabpb1,Etv6,Sfpi1,Etv4	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9,Hsph1
+31	taipale-ACCCGGAAGTN-ELF5-full	0.0567743	3.96179	M2	Elf5,Ehf,Elf3,Elf4,Elf2,Etv5,Spic,Elf1,Ets2,Etv2,Erf,Ets1,Elk3,Elk1,Fev,Fli1,Etv1,Gabpa,Etv3,Spib,Erg,Elk4,Gabpb1,Etv6,Sfpi1,Etv4	Hccs,C1qc,Hirip3,Ahsa1,Vps41,Ccdc9,Hsph1
+32	homer-M01494	0.0567511	3.95974	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Hspa4l,Stip1,H2-D1,Mlc1,Ppip5k1,Slc25a38,Rpl29,Hist1h1e,Hnrnph3,C1qc,Mdc1,Slc38a5
+32	homer-M01494	0.0567511	3.95974	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Hspa4l,Stip1,H2-D1,Mlc1,Ppip5k1,Slc25a38,Rpl29,Hist1h1e,Hnrnph3,C1qc,Mdc1,Slc38a5
+32	homer-M01494	0.0567511	3.95974	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Hspa4l,Stip1,H2-D1,Mlc1,Ppip5k1,Slc25a38,Rpl29,Hist1h1e,Hnrnph3,C1qc,Mdc1,Slc38a5
+32	homer-M01494	0.0567511	3.95974	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Hspa4l,Stip1,H2-D1,Mlc1,Ppip5k1,Slc25a38,Rpl29,Hist1h1e,Hnrnph3,C1qc,Mdc1,Slc38a5
+32	homer-M01494	0.0567511	3.95974	M1	Hsf1,Hsf2,Hsf4,Hsf3	Hspa8,Hsph1,Hspa4l,Stip1,H2-D1,Mlc1,Ppip5k1,Slc25a38,Rpl29,Hist1h1e,Hnrnph3,C1qc,Mdc1,Slc38a5
+33	transfac_public-M00255	0.0563096	3.92092	M6	Sp4,Sp1,Sp2,Sp3,Klf7,Klf5,Klf4,Bcl6b,Zfp410,Smad3,Ascl2,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf6,Klf12,Klf3,Klf16,Klf14,Zbtb14	Urb1,Stip1,Fig4,Nme7,Tom1
+33	transfac_public-M00255	0.0563096	3.92092	M6	Sp4,Sp1,Sp2,Sp3,Klf7,Klf5,Klf4,Bcl6b,Zfp410,Smad3,Ascl2,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf6,Klf12,Klf3,Klf16,Klf14,Zbtb14	Urb1,Stip1,Fig4,Nme7,Tom1
+33	transfac_public-M00255	0.0563096	3.92092	M6	Sp4,Sp1,Sp2,Sp3,Klf7,Klf5,Klf4,Bcl6b,Zfp410,Smad3,Ascl2,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf6,Klf12,Klf3,Klf16,Klf14,Zbtb14	Urb1,Stip1,Fig4,Nme7,Tom1
+33	transfac_public-M00255	0.0563096	3.92092	M6	Sp4,Sp1,Sp2,Sp3,Klf7,Klf5,Klf4,Bcl6b,Zfp410,Smad3,Ascl2,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf6,Klf12,Klf3,Klf16,Klf14,Zbtb14	Urb1,Stip1,Fig4,Nme7,Tom1
+33	transfac_public-M00255	0.0563096	3.92092	M6	Sp4,Sp1,Sp2,Sp3,Klf7,Klf5,Klf4,Bcl6b,Zfp410,Smad3,Ascl2,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf6,Klf12,Klf3,Klf16,Klf14,Zbtb14	Urb1,Stip1,Fig4,Nme7,Tom1
+34	yetfasco-1928	0.0563096	3.92092	M7	Yod1	Casp9,Hbegf,Pogk,Slc38a5,Hsph1,H2-D1,Ppip5k1,Chordc1
+34	yetfasco-1928	0.0563096	3.92092	M7	Yod1	Casp9,Hbegf,Pogk,Slc38a5,Hsph1,H2-D1,Ppip5k1,Chordc1
+34	yetfasco-1928	0.0563096	3.92092	M7	Yod1	Casp9,Hbegf,Pogk,Slc38a5,Hsph1,H2-D1,Ppip5k1,Chordc1
+34	yetfasco-1928	0.0563096	3.92092	M7	Yod1	Casp9,Hbegf,Pogk,Slc38a5,Hsph1,H2-D1,Ppip5k1,Chordc1
+34	yetfasco-1928	0.0563096	3.92092	M7	Yod1	Casp9,Hbegf,Pogk,Slc38a5,Hsph1,H2-D1,Ppip5k1,Chordc1
+35	taipale-AAAAAGCGGAAGTN-SPI1-full	0.0556356	3.86166	M2	Sfpi1,Spib,Spic	C1qc,Hsph1,Hirip3,Pogk,Fig4,Hccs,Hist1h3e,Eif2s3y,Nme7,Rpl29,Hist1h1e,Ahsa1,Slc38a5,Zswim4
+35	taipale-AAAAAGCGGAAGTN-SPI1-full	0.0556356	3.86166	M2	Sfpi1,Spib,Spic	C1qc,Hsph1,Hirip3,Pogk,Fig4,Hccs,Hist1h3e,Eif2s3y,Nme7,Rpl29,Hist1h1e,Ahsa1,Slc38a5,Zswim4
+35	taipale-AAAAAGCGGAAGTN-SPI1-full	0.0556356	3.86166	M2	Sfpi1,Spib,Spic	C1qc,Hsph1,Hirip3,Pogk,Fig4,Hccs,Hist1h3e,Eif2s3y,Nme7,Rpl29,Hist1h1e,Ahsa1,Slc38a5,Zswim4
+35	taipale-AAAAAGCGGAAGTN-SPI1-full	0.0556356	3.86166	M2	Sfpi1,Spib,Spic	C1qc,Hsph1,Hirip3,Pogk,Fig4,Hccs,Hist1h3e,Eif2s3y,Nme7,Rpl29,Hist1h1e,Ahsa1,Slc38a5,Zswim4
+35	taipale-AAAAAGCGGAAGTN-SPI1-full	0.0556356	3.86166	M2	Sfpi1,Spib,Spic	C1qc,Hsph1,Hirip3,Pogk,Fig4,Hccs,Hist1h3e,Eif2s3y,Nme7,Rpl29,Hist1h1e,Ahsa1,Slc38a5,Zswim4
+36	homer-M01488	0.0554032	3.84123	M8		C1qb,Amh,Hist1h1e,Hnrnph3,Tle6,Hbegf,H2-D1,Tdrd9,Cox6b2,Snora7a,Zfp113,Mdc1,Tom1,Hsph1,Gstt2,Ahsg
+36	homer-M01488	0.0554032	3.84123	M8		C1qb,Amh,Hist1h1e,Hnrnph3,Tle6,Hbegf,H2-D1,Tdrd9,Cox6b2,Snora7a,Zfp113,Mdc1,Tom1,Hsph1,Gstt2,Ahsg
+36	homer-M01488	0.0554032	3.84123	M8		C1qb,Amh,Hist1h1e,Hnrnph3,Tle6,Hbegf,H2-D1,Tdrd9,Cox6b2,Snora7a,Zfp113,Mdc1,Tom1,Hsph1,Gstt2,Ahsg
+36	homer-M01488	0.0554032	3.84123	M8		C1qb,Amh,Hist1h1e,Hnrnph3,Tle6,Hbegf,H2-D1,Tdrd9,Cox6b2,Snora7a,Zfp113,Mdc1,Tom1,Hsph1,Gstt2,Ahsg
+36	homer-M01488	0.0554032	3.84123	M8		C1qb,Amh,Hist1h1e,Hnrnph3,Tle6,Hbegf,H2-D1,Tdrd9,Cox6b2,Snora7a,Zfp113,Mdc1,Tom1,Hsph1,Gstt2,Ahsg
+37	transfac_public-M00166	0.0549617	3.80241	M3	Hsf1,Hsf4,Hsf2,Hsf3	Kif24,Ppip5k1,Zmym6,Hccs
+37	transfac_public-M00166	0.0549617	3.80241	M3	Hsf1,Hsf4,Hsf2,Hsf3	Kif24,Ppip5k1,Zmym6,Hccs
+37	transfac_public-M00166	0.0549617	3.80241	M3	Hsf1,Hsf4,Hsf2,Hsf3	Kif24,Ppip5k1,Zmym6,Hccs
+37	transfac_public-M00166	0.0549617	3.80241	M3	Hsf1,Hsf4,Hsf2,Hsf3	Kif24,Ppip5k1,Zmym6,Hccs
+37	transfac_public-M00166	0.0549617	3.80241	M3	Hsf1,Hsf4,Hsf2,Hsf3	Kif24,Ppip5k1,Zmym6,Hccs
+38	transfac_public-M00055	0.0549384	3.80036	M8	Mycn,Mycs,Myc,Max,Usf2,Arnt,Usf1,Tfe3,Bhlhe41,Tal2,Myf6,Mitf,Bhlhe40,Mxi1,Tfeb,Tcf4,Tcf3,Mxd3,Nhlh1,Arid5b,Hand2,Tcf12,Ascl1,Tal1,Hand1,Myod1,Myf5,Mxd1,Myog,Mxd4,Mnt	Slc38a5,Hsph1,Tle6,Zmym6,Hnrnph3,Uty
+38	transfac_public-M00055	0.0549384	3.80036	M8	Mycn,Mycs,Myc,Max,Usf2,Arnt,Usf1,Tfe3,Bhlhe41,Tal2,Myf6,Mitf,Bhlhe40,Mxi1,Tfeb,Tcf4,Tcf3,Mxd3,Nhlh1,Arid5b,Hand2,Tcf12,Ascl1,Tal1,Hand1,Myod1,Myf5,Mxd1,Myog,Mxd4,Mnt	Slc38a5,Hsph1,Tle6,Zmym6,Hnrnph3,Uty
+38	transfac_public-M00055	0.0549384	3.80036	M8	Mycn,Mycs,Myc,Max,Usf2,Arnt,Usf1,Tfe3,Bhlhe41,Tal2,Myf6,Mitf,Bhlhe40,Mxi1,Tfeb,Tcf4,Tcf3,Mxd3,Nhlh1,Arid5b,Hand2,Tcf12,Ascl1,Tal1,Hand1,Myod1,Myf5,Mxd1,Myog,Mxd4,Mnt	Slc38a5,Hsph1,Tle6,Zmym6,Hnrnph3,Uty
+38	transfac_public-M00055	0.0549384	3.80036	M8	Mycn,Mycs,Myc,Max,Usf2,Arnt,Usf1,Tfe3,Bhlhe41,Tal2,Myf6,Mitf,Bhlhe40,Mxi1,Tfeb,Tcf4,Tcf3,Mxd3,Nhlh1,Arid5b,Hand2,Tcf12,Ascl1,Tal1,Hand1,Myod1,Myf5,Mxd1,Myog,Mxd4,Mnt	Slc38a5,Hsph1,Tle6,Zmym6,Hnrnph3,Uty
+38	transfac_public-M00055	0.0549384	3.80036	M8	Mycn,Mycs,Myc,Max,Usf2,Arnt,Usf1,Tfe3,Bhlhe41,Tal2,Myf6,Mitf,Bhlhe40,Mxi1,Tfeb,Tcf4,Tcf3,Mxd3,Nhlh1,Arid5b,Hand2,Tcf12,Ascl1,Tal1,Hand1,Myod1,Myf5,Mxd1,Myog,Mxd4,Mnt	Slc38a5,Hsph1,Tle6,Zmym6,Hnrnph3,Uty
+39	yetfasco-1727	0.0547293	3.78197	M5		Hdac1,Mdc1,Ahsa1,Hnrnph3,Hist1h1e,Hspa4l
+39	yetfasco-1727	0.0547293	3.78197	M5		Hdac1,Mdc1,Ahsa1,Hnrnph3,Hist1h1e,Hspa4l
+39	yetfasco-1727	0.0547293	3.78197	M5		Hdac1,Mdc1,Ahsa1,Hnrnph3,Hist1h1e,Hspa4l
+39	yetfasco-1727	0.0547293	3.78197	M5		Hdac1,Mdc1,Ahsa1,Hnrnph3,Hist1h1e,Hspa4l
+39	yetfasco-1727	0.0547293	3.78197	M5		Hdac1,Mdc1,Ahsa1,Hnrnph3,Hist1h1e,Hspa4l
+40	transfac_public-M00147	0.0539624	3.71454	M1	Hsf2,Hsf1	Hspa8,Ccdc9,Hspa4l,Urb1,Hsph1,Stip1,Ahsg,Zswim4
+40	transfac_public-M00147	0.0539624	3.71454	M1	Hsf2,Hsf1	Hspa8,Ccdc9,Hspa4l,Urb1,Hsph1,Stip1,Ahsg,Zswim4
+40	transfac_public-M00147	0.0539624	3.71454	M1	Hsf2,Hsf1	Hspa8,Ccdc9,Hspa4l,Urb1,Hsph1,Stip1,Ahsg,Zswim4
+40	transfac_public-M00147	0.0539624	3.71454	M1	Hsf2,Hsf1	Hspa8,Ccdc9,Hspa4l,Urb1,Hsph1,Stip1,Ahsg,Zswim4
+40	transfac_public-M00147	0.0539624	3.71454	M1	Hsf2,Hsf1	Hspa8,Ccdc9,Hspa4l,Urb1,Hsph1,Stip1,Ahsg,Zswim4
+41	yetfasco-826	0.0539159	3.71046	M9		Hirip3,Hspa8,Stip1,Hsph1,Hist1h3e,Hspa4l,Mlc1,H2-D1,Rpl29,Ahsa1,Gfm1,Ahsg,Eif2s3y,Snora7a,Ahsa2
+41	yetfasco-826	0.0539159	3.71046	M9		Hirip3,Hspa8,Stip1,Hsph1,Hist1h3e,Hspa4l,Mlc1,H2-D1,Rpl29,Ahsa1,Gfm1,Ahsg,Eif2s3y,Snora7a,Ahsa2
+41	yetfasco-826	0.0539159	3.71046	M9		Hirip3,Hspa8,Stip1,Hsph1,Hist1h3e,Hspa4l,Mlc1,H2-D1,Rpl29,Ahsa1,Gfm1,Ahsg,Eif2s3y,Snora7a,Ahsa2
+41	yetfasco-826	0.0539159	3.71046	M9		Hirip3,Hspa8,Stip1,Hsph1,Hist1h3e,Hspa4l,Mlc1,H2-D1,Rpl29,Ahsa1,Gfm1,Ahsg,Eif2s3y,Snora7a,Ahsa2
+41	yetfasco-826	0.0539159	3.71046	M9		Hirip3,Hspa8,Stip1,Hsph1,Hist1h3e,Hspa4l,Mlc1,H2-D1,Rpl29,Ahsa1,Gfm1,Ahsg,Eif2s3y,Snora7a,Ahsa2
+42	yetfasco-1292	0.0534046	3.6655	M3	Hsf1,Hsf2,Hsf4,Hsf3	H2-D1,Kif24,Amh,Ahsg,Zmym6,Hspa8,Urb2,Hspa4l,Hsph1,C1qc,Rpl29,Tktl2,Hccs
+42	yetfasco-1292	0.0534046	3.6655	M3	Hsf1,Hsf2,Hsf4,Hsf3	H2-D1,Kif24,Amh,Ahsg,Zmym6,Hspa8,Urb2,Hspa4l,Hsph1,C1qc,Rpl29,Tktl2,Hccs
+42	yetfasco-1292	0.0534046	3.6655	M3	Hsf1,Hsf2,Hsf4,Hsf3	H2-D1,Kif24,Amh,Ahsg,Zmym6,Hspa8,Urb2,Hspa4l,Hsph1,C1qc,Rpl29,Tktl2,Hccs
+42	yetfasco-1292	0.0534046	3.6655	M3	Hsf1,Hsf2,Hsf4,Hsf3	H2-D1,Kif24,Amh,Ahsg,Zmym6,Hspa8,Urb2,Hspa4l,Hsph1,C1qc,Rpl29,Tktl2,Hccs
+42	yetfasco-1292	0.0534046	3.6655	M3	Hsf1,Hsf2,Hsf4,Hsf3	H2-D1,Kif24,Amh,Ahsg,Zmym6,Hspa8,Urb2,Hspa4l,Hsph1,C1qc,Rpl29,Tktl2,Hccs
+43	homer-M01514	0.0527074	3.6042	M8	Mycn,Myc,Max,Usf2,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+43	homer-M01514	0.0527074	3.6042	M8	Mycn,Myc,Max,Usf2,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+43	homer-M01514	0.0527074	3.6042	M8	Mycn,Myc,Max,Usf2,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+43	homer-M01514	0.0527074	3.6042	M8	Mycn,Myc,Max,Usf2,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+43	homer-M01514	0.0527074	3.6042	M8	Mycn,Myc,Max,Usf2,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+44	taipale-AAAAAGMGGAAGTN-SPIB-DBD	0.0524285	3.57968	M2	Spib,Sfpi1,Spic,Gabpb1,Yy1,Nfatc3,Sirt6,Tcf4,Tbp	C1qc,Hsph1,Hirip3,Hccs
+44	taipale-AAAAAGMGGAAGTN-SPIB-DBD	0.0524285	3.57968	M2	Spib,Sfpi1,Spic,Gabpb1,Yy1,Nfatc3,Sirt6,Tcf4,Tbp	C1qc,Hsph1,Hirip3,Hccs
+44	taipale-AAAAAGMGGAAGTN-SPIB-DBD	0.0524285	3.57968	M2	Spib,Sfpi1,Spic,Gabpb1,Yy1,Nfatc3,Sirt6,Tcf4,Tbp	C1qc,Hsph1,Hirip3,Hccs
+44	taipale-AAAAAGMGGAAGTN-SPIB-DBD	0.0524285	3.57968	M2	Spib,Sfpi1,Spic,Gabpb1,Yy1,Nfatc3,Sirt6,Tcf4,Tbp	C1qc,Hsph1,Hirip3,Hccs
+44	taipale-AAAAAGMGGAAGTN-SPIB-DBD	0.0524285	3.57968	M2	Spib,Sfpi1,Spic,Gabpb1,Yy1,Nfatc3,Sirt6,Tcf4,Tbp	C1qc,Hsph1,Hirip3,Hccs
+45	homer-M01788	0.0523821	3.57559	M8	Myc,Max,Usf2,Mycn,Bhlhe40,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Creb3l1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+45	homer-M01788	0.0523821	3.57559	M8	Myc,Max,Usf2,Mycn,Bhlhe40,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Creb3l1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+45	homer-M01788	0.0523821	3.57559	M8	Myc,Max,Usf2,Mycn,Bhlhe40,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Creb3l1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+45	homer-M01788	0.0523821	3.57559	M8	Myc,Max,Usf2,Mycn,Bhlhe40,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Creb3l1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+45	homer-M01788	0.0523821	3.57559	M8	Myc,Max,Usf2,Mycn,Bhlhe40,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Creb3l1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+46	taipale-NTGACCTNNNNNAGGTCAN-THRB-DBD	0.0523356	3.57151	M10	Thrb	Hdac1,Tom1,Amh,Snx10
+46	taipale-NTGACCTNNNNNAGGTCAN-THRB-DBD	0.0523356	3.57151	M10	Thrb	Hdac1,Tom1,Amh,Snx10
+46	taipale-NTGACCTNNNNNAGGTCAN-THRB-DBD	0.0523356	3.57151	M10	Thrb	Hdac1,Tom1,Amh,Snx10
+46	taipale-NTGACCTNNNNNAGGTCAN-THRB-DBD	0.0523356	3.57151	M10	Thrb	Hdac1,Tom1,Amh,Snx10
+46	taipale-NTGACCTNNNNNAGGTCAN-THRB-DBD	0.0523356	3.57151	M10	Thrb	Hdac1,Tom1,Amh,Snx10
+47	transfac_pro-M01613	0.0522659	3.56538	M11		Hsph1,Hccs,Chordc1,Fig4,Eif2s3y,Hirip3,Hspa8,H2-D1,Vps41,Hbegf,Zmym6,Hist1h1e
+47	transfac_pro-M01613	0.0522659	3.56538	M11		Hsph1,Hccs,Chordc1,Fig4,Eif2s3y,Hirip3,Hspa8,H2-D1,Vps41,Hbegf,Zmym6,Hist1h1e
+47	transfac_pro-M01613	0.0522659	3.56538	M11		Hsph1,Hccs,Chordc1,Fig4,Eif2s3y,Hirip3,Hspa8,H2-D1,Vps41,Hbegf,Zmym6,Hist1h1e
+47	transfac_pro-M01613	0.0522659	3.56538	M11		Hsph1,Hccs,Chordc1,Fig4,Eif2s3y,Hirip3,Hspa8,H2-D1,Vps41,Hbegf,Zmym6,Hist1h1e
+47	transfac_pro-M01613	0.0522659	3.56538	M11		Hsph1,Hccs,Chordc1,Fig4,Eif2s3y,Hirip3,Hspa8,H2-D1,Vps41,Hbegf,Zmym6,Hist1h1e
+48	yetfasco-1537	0.0521264	3.55312	M7	Nfyc,Pole4,Nfya	Kif24,Zswim4,Tle6,Hspa8,Hist1h1e,Stip1,H2-D1,Hdac1
+48	yetfasco-1537	0.0521264	3.55312	M7	Nfyc,Pole4,Nfya	Kif24,Zswim4,Tle6,Hspa8,Hist1h1e,Stip1,H2-D1,Hdac1
+48	yetfasco-1537	0.0521264	3.55312	M7	Nfyc,Pole4,Nfya	Kif24,Zswim4,Tle6,Hspa8,Hist1h1e,Stip1,H2-D1,Hdac1
+48	yetfasco-1537	0.0521264	3.55312	M7	Nfyc,Pole4,Nfya	Kif24,Zswim4,Tle6,Hspa8,Hist1h1e,Stip1,H2-D1,Hdac1
+48	yetfasco-1537	0.0521264	3.55312	M7	Nfyc,Pole4,Nfya	Kif24,Zswim4,Tle6,Hspa8,Hist1h1e,Stip1,H2-D1,Hdac1
+49	transfac_pro-M00647	0.051987	3.54086	M12	Nr1h3,Nr1h2,Nr1h4,Rara,Rarb,Nr1i3,Rarg,Nr1i2,Nr2f2,Rxra,Nr2f1,Rxrb	Zswim4,C1qc,Dynlt1b,Hspa8,Amh
+49	transfac_pro-M00647	0.051987	3.54086	M12	Nr1h3,Nr1h2,Nr1h4,Rara,Rarb,Nr1i3,Rarg,Nr1i2,Nr2f2,Rxra,Nr2f1,Rxrb	Zswim4,C1qc,Dynlt1b,Hspa8,Amh
+49	transfac_pro-M00647	0.051987	3.54086	M12	Nr1h3,Nr1h2,Nr1h4,Rara,Rarb,Nr1i3,Rarg,Nr1i2,Nr2f2,Rxra,Nr2f1,Rxrb	Zswim4,C1qc,Dynlt1b,Hspa8,Amh
+49	transfac_pro-M00647	0.051987	3.54086	M12	Nr1h3,Nr1h2,Nr1h4,Rara,Rarb,Nr1i3,Rarg,Nr1i2,Nr2f2,Rxra,Nr2f1,Rxrb	Zswim4,C1qc,Dynlt1b,Hspa8,Amh
+49	transfac_pro-M00647	0.051987	3.54086	M12	Nr1h3,Nr1h2,Nr1h4,Rara,Rarb,Nr1i3,Rarg,Nr1i2,Nr2f2,Rxra,Nr2f1,Rxrb	Zswim4,C1qc,Dynlt1b,Hspa8,Amh
+50	jaspar-CN0193.1	0.0517314	3.51838	M3		Hist1h1e,Vps41,Zswim4,Pogk
+50	jaspar-CN0193.1	0.0517314	3.51838	M3		Hist1h1e,Vps41,Zswim4,Pogk
+50	jaspar-CN0193.1	0.0517314	3.51838	M3		Hist1h1e,Vps41,Zswim4,Pogk
+50	jaspar-CN0193.1	0.0517314	3.51838	M3		Hist1h1e,Vps41,Zswim4,Pogk
+50	jaspar-CN0193.1	0.0517314	3.51838	M3		Hist1h1e,Vps41,Zswim4,Pogk
+51	homer-M00021	0.0516849	3.51429	M8	Myc,Max,Mycn,Arnt,Usf1,Nhlh1,Bhlhe41,Tal2,Ascl1,Tcf4,Mxi1,Tcf12,Tfeb,Mxd4,Tal1,Mxd1,Tfe3,Mxd3,Myf6,Myf5,Mitf,Arid5b,Hand2,Bhlhe40,Hand1,Tcf3,Myog,Usf2,Myod1,Mycs,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Hsph1,Slc38a5
+51	homer-M00021	0.0516849	3.51429	M8	Myc,Max,Mycn,Arnt,Usf1,Nhlh1,Bhlhe41,Tal2,Ascl1,Tcf4,Mxi1,Tcf12,Tfeb,Mxd4,Tal1,Mxd1,Tfe3,Mxd3,Myf6,Myf5,Mitf,Arid5b,Hand2,Bhlhe40,Hand1,Tcf3,Myog,Usf2,Myod1,Mycs,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Hsph1,Slc38a5
+51	homer-M00021	0.0516849	3.51429	M8	Myc,Max,Mycn,Arnt,Usf1,Nhlh1,Bhlhe41,Tal2,Ascl1,Tcf4,Mxi1,Tcf12,Tfeb,Mxd4,Tal1,Mxd1,Tfe3,Mxd3,Myf6,Myf5,Mitf,Arid5b,Hand2,Bhlhe40,Hand1,Tcf3,Myog,Usf2,Myod1,Mycs,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Hsph1,Slc38a5
+51	homer-M00021	0.0516849	3.51429	M8	Myc,Max,Mycn,Arnt,Usf1,Nhlh1,Bhlhe41,Tal2,Ascl1,Tcf4,Mxi1,Tcf12,Tfeb,Mxd4,Tal1,Mxd1,Tfe3,Mxd3,Myf6,Myf5,Mitf,Arid5b,Hand2,Bhlhe40,Hand1,Tcf3,Myog,Usf2,Myod1,Mycs,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Hsph1,Slc38a5
+51	homer-M00021	0.0516849	3.51429	M8	Myc,Max,Mycn,Arnt,Usf1,Nhlh1,Bhlhe41,Tal2,Ascl1,Tcf4,Mxi1,Tcf12,Tfeb,Mxd4,Tal1,Mxd1,Tfe3,Mxd3,Myf6,Myf5,Mitf,Arid5b,Hand2,Bhlhe40,Hand1,Tcf3,Myog,Usf2,Myod1,Mycs,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Hsph1,Slc38a5
+52	yetfasco-1728	0.0515919	3.50612	M13		Hspa4l,Hsph1,Kctd13,Snora7a,Urb1,Ppip5k1,Hirip3,Ahsa2,Hspa8,Zfp113,Rpl29,Copz2,Hist1h1e,Hccs,Tom1,Fig4,Mdc1,Ahsa1,Amh,Pogk
+52	yetfasco-1728	0.0515919	3.50612	M13		Hspa4l,Hsph1,Kctd13,Snora7a,Urb1,Ppip5k1,Hirip3,Ahsa2,Hspa8,Zfp113,Rpl29,Copz2,Hist1h1e,Hccs,Tom1,Fig4,Mdc1,Ahsa1,Amh,Pogk
+52	yetfasco-1728	0.0515919	3.50612	M13		Hspa4l,Hsph1,Kctd13,Snora7a,Urb1,Ppip5k1,Hirip3,Ahsa2,Hspa8,Zfp113,Rpl29,Copz2,Hist1h1e,Hccs,Tom1,Fig4,Mdc1,Ahsa1,Amh,Pogk
+52	yetfasco-1728	0.0515919	3.50612	M13		Hspa4l,Hsph1,Kctd13,Snora7a,Urb1,Ppip5k1,Hirip3,Ahsa2,Hspa8,Zfp113,Rpl29,Copz2,Hist1h1e,Hccs,Tom1,Fig4,Mdc1,Ahsa1,Amh,Pogk
+52	yetfasco-1728	0.0515919	3.50612	M13		Hspa4l,Hsph1,Kctd13,Snora7a,Urb1,Ppip5k1,Hirip3,Ahsa2,Hspa8,Zfp113,Rpl29,Copz2,Hist1h1e,Hccs,Tom1,Fig4,Mdc1,Ahsa1,Amh,Pogk
+53	jaspar-PF0002.1	0.0515687	3.50408	M8	Usf1,Myc,Max,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Atf3,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5,Hmgcl,Tktl2,Otud3,Hbegf,Snora7a,C1qb,Slc25a38,Tdrd9,1700001L05Rik,C1qc,Urb1
+53	jaspar-PF0002.1	0.0515687	3.50408	M8	Usf1,Myc,Max,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Atf3,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5,Hmgcl,Tktl2,Otud3,Hbegf,Snora7a,C1qb,Slc25a38,Tdrd9,1700001L05Rik,C1qc,Urb1
+53	jaspar-PF0002.1	0.0515687	3.50408	M8	Usf1,Myc,Max,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Atf3,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5,Hmgcl,Tktl2,Otud3,Hbegf,Snora7a,C1qb,Slc25a38,Tdrd9,1700001L05Rik,C1qc,Urb1
+53	jaspar-PF0002.1	0.0515687	3.50408	M8	Usf1,Myc,Max,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Atf3,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5,Hmgcl,Tktl2,Otud3,Hbegf,Snora7a,C1qb,Slc25a38,Tdrd9,1700001L05Rik,C1qc,Urb1
+53	jaspar-PF0002.1	0.0515687	3.50408	M8	Usf1,Myc,Max,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Atf3,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5,Hmgcl,Tktl2,Otud3,Hbegf,Snora7a,C1qb,Slc25a38,Tdrd9,1700001L05Rik,C1qc,Urb1
+54	tfdimers-MD00466	0.051406	3.48977	M2	Myb,Sfpi1,Irf6,Irf2,Irf8,Irf1,Irf4,Irf3,Irf7,Irf5,Prdm1,Elf1,E2f1,Pura	H2-D1,Hist1h1e,C1qb,Hirip3,Nme7,Ppip5k1,Hsph1,Fig4,Gfm1,Snora7a,Ahsa1
+54	tfdimers-MD00466	0.051406	3.48977	M2	Myb,Sfpi1,Irf6,Irf2,Irf8,Irf1,Irf4,Irf3,Irf7,Irf5,Prdm1,Elf1,E2f1,Pura	H2-D1,Hist1h1e,C1qb,Hirip3,Nme7,Ppip5k1,Hsph1,Fig4,Gfm1,Snora7a,Ahsa1
+54	tfdimers-MD00466	0.051406	3.48977	M2	Myb,Sfpi1,Irf6,Irf2,Irf8,Irf1,Irf4,Irf3,Irf7,Irf5,Prdm1,Elf1,E2f1,Pura	H2-D1,Hist1h1e,C1qb,Hirip3,Nme7,Ppip5k1,Hsph1,Fig4,Gfm1,Snora7a,Ahsa1
+54	tfdimers-MD00466	0.051406	3.48977	M2	Myb,Sfpi1,Irf6,Irf2,Irf8,Irf1,Irf4,Irf3,Irf7,Irf5,Prdm1,Elf1,E2f1,Pura	H2-D1,Hist1h1e,C1qb,Hirip3,Nme7,Ppip5k1,Hsph1,Fig4,Gfm1,Snora7a,Ahsa1
+54	tfdimers-MD00466	0.051406	3.48977	M2	Myb,Sfpi1,Irf6,Irf2,Irf8,Irf1,Irf4,Irf3,Irf7,Irf5,Prdm1,Elf1,E2f1,Pura	H2-D1,Hist1h1e,C1qb,Hirip3,Nme7,Ppip5k1,Hsph1,Fig4,Gfm1,Snora7a,Ahsa1
+55	factorbook-SP1	0.0512201	3.47343	M6	Sp1,Sp2,Sp4,Sp3,Klf7,Klf5,Smad3,Ascl2,Klf4,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf14,Zbtb14,Klf16,Klf6,Klf12,Klf3	Hccs,Urb1,Fig4,Tom1
+55	factorbook-SP1	0.0512201	3.47343	M6	Sp1,Sp2,Sp4,Sp3,Klf7,Klf5,Smad3,Ascl2,Klf4,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf14,Zbtb14,Klf16,Klf6,Klf12,Klf3	Hccs,Urb1,Fig4,Tom1
+55	factorbook-SP1	0.0512201	3.47343	M6	Sp1,Sp2,Sp4,Sp3,Klf7,Klf5,Smad3,Ascl2,Klf4,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf14,Zbtb14,Klf16,Klf6,Klf12,Klf3	Hccs,Urb1,Fig4,Tom1
+55	factorbook-SP1	0.0512201	3.47343	M6	Sp1,Sp2,Sp4,Sp3,Klf7,Klf5,Smad3,Ascl2,Klf4,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf14,Zbtb14,Klf16,Klf6,Klf12,Klf3	Hccs,Urb1,Fig4,Tom1
+55	factorbook-SP1	0.0512201	3.47343	M6	Sp1,Sp2,Sp4,Sp3,Klf7,Klf5,Smad3,Ascl2,Klf4,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf14,Zbtb14,Klf16,Klf6,Klf12,Klf3	Hccs,Urb1,Fig4,Tom1
+56	jaspar-PF0021.1	0.0511039	3.46321	M2	Etv3,Erf,Gabpa,Etv2,Fli1,Erg,Ets2	Hsph1,Hirip3,Ahsa1,Slc25a38,Hccs,Ahsa2,Snx10,Chordc1,Eif2s3y,Kif24,Tktl2,Ccdc9,Zfp113,C1qc,Tom1,Amh,H2-D1,Setx,Kctd13
+56	jaspar-PF0021.1	0.0511039	3.46321	M2	Etv3,Erf,Gabpa,Etv2,Fli1,Erg,Ets2	Hsph1,Hirip3,Ahsa1,Slc25a38,Hccs,Ahsa2,Snx10,Chordc1,Eif2s3y,Kif24,Tktl2,Ccdc9,Zfp113,C1qc,Tom1,Amh,H2-D1,Setx,Kctd13
+56	jaspar-PF0021.1	0.0511039	3.46321	M2	Etv3,Erf,Gabpa,Etv2,Fli1,Erg,Ets2	Hsph1,Hirip3,Ahsa1,Slc25a38,Hccs,Ahsa2,Snx10,Chordc1,Eif2s3y,Kif24,Tktl2,Ccdc9,Zfp113,C1qc,Tom1,Amh,H2-D1,Setx,Kctd13
+56	jaspar-PF0021.1	0.0511039	3.46321	M2	Etv3,Erf,Gabpa,Etv2,Fli1,Erg,Ets2	Hsph1,Hirip3,Ahsa1,Slc25a38,Hccs,Ahsa2,Snx10,Chordc1,Eif2s3y,Kif24,Tktl2,Ccdc9,Zfp113,C1qc,Tom1,Amh,H2-D1,Setx,Kctd13
+56	jaspar-PF0021.1	0.0511039	3.46321	M2	Etv3,Erf,Gabpa,Etv2,Fli1,Erg,Ets2	Hsph1,Hirip3,Ahsa1,Slc25a38,Hccs,Ahsa2,Snx10,Chordc1,Eif2s3y,Kif24,Tktl2,Ccdc9,Zfp113,C1qc,Tom1,Amh,H2-D1,Setx,Kctd13
+57	yetfasco-1318	0.0510806	3.46117	M13		Hspa4l,Hsph1,H2-D1,Amh,Kif24,Zswim4
+57	yetfasco-1318	0.0510806	3.46117	M13		Hspa4l,Hsph1,H2-D1,Amh,Kif24,Zswim4
+57	yetfasco-1318	0.0510806	3.46117	M13		Hspa4l,Hsph1,H2-D1,Amh,Kif24,Zswim4
+57	yetfasco-1318	0.0510806	3.46117	M13		Hspa4l,Hsph1,H2-D1,Amh,Kif24,Zswim4
+57	yetfasco-1318	0.0510806	3.46117	M13		Hspa4l,Hsph1,H2-D1,Amh,Kif24,Zswim4
+58	tiffin-TIFDMEM0000117	0.0510574	3.45912	M7		Hirip3,Hbegf,Hsph1,Zswim4
+58	tiffin-TIFDMEM0000117	0.0510574	3.45912	M7		Hirip3,Hbegf,Hsph1,Zswim4
+58	tiffin-TIFDMEM0000117	0.0510574	3.45912	M7		Hirip3,Hbegf,Hsph1,Zswim4
+58	tiffin-TIFDMEM0000117	0.0510574	3.45912	M7		Hirip3,Hbegf,Hsph1,Zswim4
+58	tiffin-TIFDMEM0000117	0.0510574	3.45912	M7		Hirip3,Hbegf,Hsph1,Zswim4
+59	yetfasco-1551	0.0509877	3.45299	M8	Arnt,Myc,Max,Mycn,Arnt2,Arntl,Olig2,Clock,Hey1,Hey2,Mnt,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Zmym6,Hnrnph3,Hsph1,Uty
+59	yetfasco-1551	0.0509877	3.45299	M8	Arnt,Myc,Max,Mycn,Arnt2,Arntl,Olig2,Clock,Hey1,Hey2,Mnt,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Zmym6,Hnrnph3,Hsph1,Uty
+59	yetfasco-1551	0.0509877	3.45299	M8	Arnt,Myc,Max,Mycn,Arnt2,Arntl,Olig2,Clock,Hey1,Hey2,Mnt,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Zmym6,Hnrnph3,Hsph1,Uty
+59	yetfasco-1551	0.0509877	3.45299	M8	Arnt,Myc,Max,Mycn,Arnt2,Arntl,Olig2,Clock,Hey1,Hey2,Mnt,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Zmym6,Hnrnph3,Hsph1,Uty
+59	yetfasco-1551	0.0509877	3.45299	M8	Arnt,Myc,Max,Mycn,Arnt2,Arntl,Olig2,Clock,Hey1,Hey2,Mnt,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Zmym6,Hnrnph3,Hsph1,Uty
+60	encode-UW.Motif.0636	0.0509644	3.45095	M7		Stip1,Hsph1,Hspa8,Zswim4,Cox6b2
+60	encode-UW.Motif.0636	0.0509644	3.45095	M7		Stip1,Hsph1,Hspa8,Zswim4,Cox6b2
+60	encode-UW.Motif.0636	0.0509644	3.45095	M7		Stip1,Hsph1,Hspa8,Zswim4,Cox6b2
+60	encode-UW.Motif.0636	0.0509644	3.45095	M7		Stip1,Hsph1,Hspa8,Zswim4,Cox6b2
+60	encode-UW.Motif.0636	0.0509644	3.45095	M7		Stip1,Hsph1,Hspa8,Zswim4,Cox6b2
+61	transfac_pro-M02043	0.0508715	3.44278	M2	Sfpi1,Spib,Spic,Elf3,Erf,Etv2,Ets2,Ets1,Etv3,Elf5,Elk4,Elk3,Gabpb1,Fli1,Erg,Etv6,Elf4,Elf2,Elk1,Etv4,Elf1,Gabpa,Ehf,Etv1,Etv5,Fev,Nfatc3,Tcf4	Hirip3,Hccs,C1qc,Rpl29,Ahsa1
+61	transfac_pro-M02043	0.0508715	3.44278	M2	Sfpi1,Spib,Spic,Elf3,Erf,Etv2,Ets2,Ets1,Etv3,Elf5,Elk4,Elk3,Gabpb1,Fli1,Erg,Etv6,Elf4,Elf2,Elk1,Etv4,Elf1,Gabpa,Ehf,Etv1,Etv5,Fev,Nfatc3,Tcf4	Hirip3,Hccs,C1qc,Rpl29,Ahsa1
+61	transfac_pro-M02043	0.0508715	3.44278	M2	Sfpi1,Spib,Spic,Elf3,Erf,Etv2,Ets2,Ets1,Etv3,Elf5,Elk4,Elk3,Gabpb1,Fli1,Erg,Etv6,Elf4,Elf2,Elk1,Etv4,Elf1,Gabpa,Ehf,Etv1,Etv5,Fev,Nfatc3,Tcf4	Hirip3,Hccs,C1qc,Rpl29,Ahsa1
+61	transfac_pro-M02043	0.0508715	3.44278	M2	Sfpi1,Spib,Spic,Elf3,Erf,Etv2,Ets2,Ets1,Etv3,Elf5,Elk4,Elk3,Gabpb1,Fli1,Erg,Etv6,Elf4,Elf2,Elk1,Etv4,Elf1,Gabpa,Ehf,Etv1,Etv5,Fev,Nfatc3,Tcf4	Hirip3,Hccs,C1qc,Rpl29,Ahsa1
+61	transfac_pro-M02043	0.0508715	3.44278	M2	Sfpi1,Spib,Spic,Elf3,Erf,Etv2,Ets2,Ets1,Etv3,Elf5,Elk4,Elk3,Gabpb1,Fli1,Erg,Etv6,Elf4,Elf2,Elk1,Etv4,Elf1,Gabpa,Ehf,Etv1,Etv5,Fev,Nfatc3,Tcf4	Hirip3,Hccs,C1qc,Rpl29,Ahsa1
+62	yetfasco-1797	0.0501511	3.37943	M14		Uty,Zswim4,Kif24,Zfy2,Ccrn4l,Fig4
+62	yetfasco-1797	0.0501511	3.37943	M14		Uty,Zswim4,Kif24,Zfy2,Ccrn4l,Fig4
+62	yetfasco-1797	0.0501511	3.37943	M14		Uty,Zswim4,Kif24,Zfy2,Ccrn4l,Fig4
+62	yetfasco-1797	0.0501511	3.37943	M14		Uty,Zswim4,Kif24,Zfy2,Ccrn4l,Fig4
+62	yetfasco-1797	0.0501511	3.37943	M14		Uty,Zswim4,Kif24,Zfy2,Ccrn4l,Fig4
+63	yetfasco-2039	0.0500813	3.3733	M13		Hsph1,Hspa4l,Hnrnph3,Kctd13
+63	yetfasco-2039	0.0500813	3.3733	M13		Hsph1,Hspa4l,Hnrnph3,Kctd13
+63	yetfasco-2039	0.0500813	3.3733	M13		Hsph1,Hspa4l,Hnrnph3,Kctd13
+63	yetfasco-2039	0.0500813	3.3733	M13		Hsph1,Hspa4l,Hnrnph3,Kctd13
+63	yetfasco-2039	0.0500813	3.3733	M13		Hsph1,Hspa4l,Hnrnph3,Kctd13
+64	jaspar-CN0140.1	0.0500581	3.37126	M10		Mlc1,C1qc,Ppip5k1,Rpl29,Tom1
+64	jaspar-CN0140.1	0.0500581	3.37126	M10		Mlc1,C1qc,Ppip5k1,Rpl29,Tom1
+64	jaspar-CN0140.1	0.0500581	3.37126	M10		Mlc1,C1qc,Ppip5k1,Rpl29,Tom1
+64	jaspar-CN0140.1	0.0500581	3.37126	M10		Mlc1,C1qc,Ppip5k1,Rpl29,Tom1
+64	jaspar-CN0140.1	0.0500581	3.37126	M10		Mlc1,C1qc,Ppip5k1,Rpl29,Tom1
+65	encode-UW.Motif.0424	0.0499651	3.36309	M9	Cebpb	Hirip3,Hspa8,Mdc1,Hspa4l,Stip1
+65	encode-UW.Motif.0424	0.0499651	3.36309	M9	Cebpb	Hirip3,Hspa8,Mdc1,Hspa4l,Stip1
+65	encode-UW.Motif.0424	0.0499651	3.36309	M9	Cebpb	Hirip3,Hspa8,Mdc1,Hspa4l,Stip1
+65	encode-UW.Motif.0424	0.0499651	3.36309	M9	Cebpb	Hirip3,Hspa8,Mdc1,Hspa4l,Stip1
+65	encode-UW.Motif.0424	0.0499651	3.36309	M9	Cebpb	Hirip3,Hspa8,Mdc1,Hspa4l,Stip1
+66	homer-M00184	0.0499651	3.36309	M15	Zfp143	Hsph1,Vps41,Zmym6,Ahsa1
+66	homer-M00184	0.0499651	3.36309	M15	Zfp143	Hsph1,Vps41,Zmym6,Ahsa1
+66	homer-M00184	0.0499651	3.36309	M15	Zfp143	Hsph1,Vps41,Zmym6,Ahsa1
+66	homer-M00184	0.0499651	3.36309	M15	Zfp143	Hsph1,Vps41,Zmym6,Ahsa1
+66	homer-M00184	0.0499651	3.36309	M15	Zfp143	Hsph1,Vps41,Zmym6,Ahsa1
+67	homer-M00265	0.0499651	3.36309	M8	Myc,Max,Mycn,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Hnrnph3,Hsph1,Slc38a5,Hirip3,Snora7a,Amh,Hist1h1e,Zmym6,Rpl29,Tdrd9,Mlc1,Snx10,Urb1,Otud3,Pogk,C1qb
+67	homer-M00265	0.0499651	3.36309	M8	Myc,Max,Mycn,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Hnrnph3,Hsph1,Slc38a5,Hirip3,Snora7a,Amh,Hist1h1e,Zmym6,Rpl29,Tdrd9,Mlc1,Snx10,Urb1,Otud3,Pogk,C1qb
+67	homer-M00265	0.0499651	3.36309	M8	Myc,Max,Mycn,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Hnrnph3,Hsph1,Slc38a5,Hirip3,Snora7a,Amh,Hist1h1e,Zmym6,Rpl29,Tdrd9,Mlc1,Snx10,Urb1,Otud3,Pogk,C1qb
+67	homer-M00265	0.0499651	3.36309	M8	Myc,Max,Mycn,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Hnrnph3,Hsph1,Slc38a5,Hirip3,Snora7a,Amh,Hist1h1e,Zmym6,Rpl29,Tdrd9,Mlc1,Snx10,Urb1,Otud3,Pogk,C1qb
+67	homer-M00265	0.0499651	3.36309	M8	Myc,Max,Mycn,Mnt,Arntl,Olig2,Clock,Hey2,Hey1,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs	Tle6,Hnrnph3,Hsph1,Slc38a5,Hirip3,Snora7a,Amh,Hist1h1e,Zmym6,Rpl29,Tdrd9,Mlc1,Snx10,Urb1,Otud3,Pogk,C1qb
+68	taipale-CCGGAASCGGAAGTN-ETV6-full	0.0498954	3.35695	M2	Etv6,Etv3,Erg,Erf,Ets2,Fli1,Gabpb1,Fev,Gabpa,Etv2,Ets1,Elk3,Elk1,Spic,Etv1,Etv5,Elk4	Hsph1,Hccs,Hirip3,Ahsa1,Zfp113
+68	taipale-CCGGAASCGGAAGTN-ETV6-full	0.0498954	3.35695	M2	Etv6,Etv3,Erg,Erf,Ets2,Fli1,Gabpb1,Fev,Gabpa,Etv2,Ets1,Elk3,Elk1,Spic,Etv1,Etv5,Elk4	Hsph1,Hccs,Hirip3,Ahsa1,Zfp113
+68	taipale-CCGGAASCGGAAGTN-ETV6-full	0.0498954	3.35695	M2	Etv6,Etv3,Erg,Erf,Ets2,Fli1,Gabpb1,Fev,Gabpa,Etv2,Ets1,Elk3,Elk1,Spic,Etv1,Etv5,Elk4	Hsph1,Hccs,Hirip3,Ahsa1,Zfp113
+68	taipale-CCGGAASCGGAAGTN-ETV6-full	0.0498954	3.35695	M2	Etv6,Etv3,Erg,Erf,Ets2,Fli1,Gabpb1,Fev,Gabpa,Etv2,Ets1,Elk3,Elk1,Spic,Etv1,Etv5,Elk4	Hsph1,Hccs,Hirip3,Ahsa1,Zfp113
+68	taipale-CCGGAASCGGAAGTN-ETV6-full	0.0498954	3.35695	M2	Etv6,Etv3,Erg,Erf,Ets2,Fli1,Gabpb1,Fev,Gabpa,Etv2,Ets1,Elk3,Elk1,Spic,Etv1,Etv5,Elk4	Hsph1,Hccs,Hirip3,Ahsa1,Zfp113
+69	elemento-CCCAAGG	0.0496398	3.33448	M16		Amh,Casp9,Mlc1,Ccdc9
+69	elemento-CCCAAGG	0.0496398	3.33448	M16		Amh,Casp9,Mlc1,Ccdc9
+69	elemento-CCCAAGG	0.0496398	3.33448	M16		Amh,Casp9,Mlc1,Ccdc9
+69	elemento-CCCAAGG	0.0496398	3.33448	M16		Amh,Casp9,Mlc1,Ccdc9
+69	elemento-CCCAAGG	0.0496398	3.33448	M16		Amh,Casp9,Mlc1,Ccdc9
+70	taipale-AACCCGGAAGTN-ELF1-DBD	0.0494771	3.32017	M2	Elf1,Elf4,Elf2,Ehf,Elk3,Elf5,Elf3,Etv5,Elk1,Gabpa	Vps41,Hccs,Hirip3,Zfp113,Hsph1,Ahsa1,Ccdc9,Slc25a38,Hist1h3e,C1qc,Ahsa2,Nme7,Setx,Pogk,Rpl29,H2-D1,Tom1
+70	taipale-AACCCGGAAGTN-ELF1-DBD	0.0494771	3.32017	M2	Elf1,Elf4,Elf2,Ehf,Elk3,Elf5,Elf3,Etv5,Elk1,Gabpa	Vps41,Hccs,Hirip3,Zfp113,Hsph1,Ahsa1,Ccdc9,Slc25a38,Hist1h3e,C1qc,Ahsa2,Nme7,Setx,Pogk,Rpl29,H2-D1,Tom1
+70	taipale-AACCCGGAAGTN-ELF1-DBD	0.0494771	3.32017	M2	Elf1,Elf4,Elf2,Ehf,Elk3,Elf5,Elf3,Etv5,Elk1,Gabpa	Vps41,Hccs,Hirip3,Zfp113,Hsph1,Ahsa1,Ccdc9,Slc25a38,Hist1h3e,C1qc,Ahsa2,Nme7,Setx,Pogk,Rpl29,H2-D1,Tom1
+70	taipale-AACCCGGAAGTN-ELF1-DBD	0.0494771	3.32017	M2	Elf1,Elf4,Elf2,Ehf,Elk3,Elf5,Elf3,Etv5,Elk1,Gabpa	Vps41,Hccs,Hirip3,Zfp113,Hsph1,Ahsa1,Ccdc9,Slc25a38,Hist1h3e,C1qc,Ahsa2,Nme7,Setx,Pogk,Rpl29,H2-D1,Tom1
+70	taipale-AACCCGGAAGTN-ELF1-DBD	0.0494771	3.32017	M2	Elf1,Elf4,Elf2,Ehf,Elk3,Elf5,Elf3,Etv5,Elk1,Gabpa	Vps41,Hccs,Hirip3,Zfp113,Hsph1,Ahsa1,Ccdc9,Slc25a38,Hist1h3e,C1qc,Ahsa2,Nme7,Setx,Pogk,Rpl29,H2-D1,Tom1
+71	transfac_pro-M01203	0.0494771	3.32017	M2	Sfpi1,Spib,Spic,Gabpa,Elk1,Ehf,Gabpb1,Tcf4,Yy1,E2f6,Pura,Nfatc3,Dbp,Tbp,Bptf,Mzf1,Myb	Hirip3,C1qc,Hsph1,Hccs
+71	transfac_pro-M01203	0.0494771	3.32017	M2	Sfpi1,Spib,Spic,Gabpa,Elk1,Ehf,Gabpb1,Tcf4,Yy1,E2f6,Pura,Nfatc3,Dbp,Tbp,Bptf,Mzf1,Myb	Hirip3,C1qc,Hsph1,Hccs
+71	transfac_pro-M01203	0.0494771	3.32017	M2	Sfpi1,Spib,Spic,Gabpa,Elk1,Ehf,Gabpb1,Tcf4,Yy1,E2f6,Pura,Nfatc3,Dbp,Tbp,Bptf,Mzf1,Myb	Hirip3,C1qc,Hsph1,Hccs
+71	transfac_pro-M01203	0.0494771	3.32017	M2	Sfpi1,Spib,Spic,Gabpa,Elk1,Ehf,Gabpb1,Tcf4,Yy1,E2f6,Pura,Nfatc3,Dbp,Tbp,Bptf,Mzf1,Myb	Hirip3,C1qc,Hsph1,Hccs
+71	transfac_pro-M01203	0.0494771	3.32017	M2	Sfpi1,Spib,Spic,Gabpa,Elk1,Ehf,Gabpb1,Tcf4,Yy1,E2f6,Pura,Nfatc3,Dbp,Tbp,Bptf,Mzf1,Myb	Hirip3,C1qc,Hsph1,Hccs
+72	homer-M00077	0.0493609	3.30996	M15		Ahsa1,Hsph1,Vps41
+72	homer-M00077	0.0493609	3.30996	M15		Ahsa1,Hsph1,Vps41
+72	homer-M00077	0.0493609	3.30996	M15		Ahsa1,Hsph1,Vps41
+72	homer-M00077	0.0493609	3.30996	M15		Ahsa1,Hsph1,Vps41
+72	homer-M00077	0.0493609	3.30996	M15		Ahsa1,Hsph1,Vps41
+73	jaspar-MA0316.1	0.049175	3.29361	M7	Nfyc,Pole4,Nfya	Kif24,Tle6,Zswim4,Hist1h1e,Hspa8,Stip1,Hdac1,H2-D1,Cox6b2
+73	jaspar-MA0316.1	0.049175	3.29361	M7	Nfyc,Pole4,Nfya	Kif24,Tle6,Zswim4,Hist1h1e,Hspa8,Stip1,Hdac1,H2-D1,Cox6b2
+73	jaspar-MA0316.1	0.049175	3.29361	M7	Nfyc,Pole4,Nfya	Kif24,Tle6,Zswim4,Hist1h1e,Hspa8,Stip1,Hdac1,H2-D1,Cox6b2
+73	jaspar-MA0316.1	0.049175	3.29361	M7	Nfyc,Pole4,Nfya	Kif24,Tle6,Zswim4,Hist1h1e,Hspa8,Stip1,Hdac1,H2-D1,Cox6b2
+73	jaspar-MA0316.1	0.049175	3.29361	M7	Nfyc,Pole4,Nfya	Kif24,Tle6,Zswim4,Hist1h1e,Hspa8,Stip1,Hdac1,H2-D1,Cox6b2
+74	transfac_pro-M03816	0.049175	3.29361	M17	Maf	C1qc,C1qb,Ahsg,Ppip5k1
+74	transfac_pro-M03816	0.049175	3.29361	M17	Maf	C1qc,C1qb,Ahsg,Ppip5k1
+74	transfac_pro-M03816	0.049175	3.29361	M17	Maf	C1qc,C1qb,Ahsg,Ppip5k1
+74	transfac_pro-M03816	0.049175	3.29361	M17	Maf	C1qc,C1qb,Ahsg,Ppip5k1
+74	transfac_pro-M03816	0.049175	3.29361	M17	Maf	C1qc,C1qb,Ahsg,Ppip5k1
+75	hdpi-ESRRA	0.049082	3.28544	M10	Esrra	Amh,Casp9,Tom1,Hdac1,Ppip5k1,H2-D1,Mlc1
+75	hdpi-ESRRA	0.049082	3.28544	M10	Esrra	Amh,Casp9,Tom1,Hdac1,Ppip5k1,H2-D1,Mlc1
+75	hdpi-ESRRA	0.049082	3.28544	M10	Esrra	Amh,Casp9,Tom1,Hdac1,Ppip5k1,H2-D1,Mlc1
+75	hdpi-ESRRA	0.049082	3.28544	M10	Esrra	Amh,Casp9,Tom1,Hdac1,Ppip5k1,H2-D1,Mlc1
+75	hdpi-ESRRA	0.049082	3.28544	M10	Esrra	Amh,Casp9,Tom1,Hdac1,Ppip5k1,H2-D1,Mlc1
+76	yetfasco-536	0.0490123	3.27931	M13		Hsph1,Hspa4l,Kctd13
+76	yetfasco-536	0.0490123	3.27931	M13		Hsph1,Hspa4l,Kctd13
+76	yetfasco-536	0.0490123	3.27931	M13		Hsph1,Hspa4l,Kctd13
+76	yetfasco-536	0.0490123	3.27931	M13		Hsph1,Hspa4l,Kctd13
+76	yetfasco-536	0.0490123	3.27931	M13		Hsph1,Hspa4l,Kctd13
+77	flyfactorsurvey-Max_Mnt_SANGER_5_FBgn0023215	0.0489194	3.27113	M8	Mnt,Myc,Max,Usf2,Bhlhe40,Mycn,Creb3l1,Mycs,Arntl,Olig2,Hey1,Clock,Id1,Hey2,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Slc38a5,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3
+77	flyfactorsurvey-Max_Mnt_SANGER_5_FBgn0023215	0.0489194	3.27113	M8	Mnt,Myc,Max,Usf2,Bhlhe40,Mycn,Creb3l1,Mycs,Arntl,Olig2,Hey1,Clock,Id1,Hey2,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Slc38a5,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3
+77	flyfactorsurvey-Max_Mnt_SANGER_5_FBgn0023215	0.0489194	3.27113	M8	Mnt,Myc,Max,Usf2,Bhlhe40,Mycn,Creb3l1,Mycs,Arntl,Olig2,Hey1,Clock,Id1,Hey2,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Slc38a5,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3
+77	flyfactorsurvey-Max_Mnt_SANGER_5_FBgn0023215	0.0489194	3.27113	M8	Mnt,Myc,Max,Usf2,Bhlhe40,Mycn,Creb3l1,Mycs,Arntl,Olig2,Hey1,Clock,Id1,Hey2,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Slc38a5,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3
+77	flyfactorsurvey-Max_Mnt_SANGER_5_FBgn0023215	0.0489194	3.27113	M8	Mnt,Myc,Max,Usf2,Bhlhe40,Mycn,Creb3l1,Mycs,Arntl,Olig2,Hey1,Clock,Id1,Hey2,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Slc38a5,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3
+78	jaspar-PF0059.1	0.0487102	3.25274	M18		Otud3,Zfp113,H2-D1,Mdc1,Fig4,Amh
+78	jaspar-PF0059.1	0.0487102	3.25274	M18		Otud3,Zfp113,H2-D1,Mdc1,Fig4,Amh
+78	jaspar-PF0059.1	0.0487102	3.25274	M18		Otud3,Zfp113,H2-D1,Mdc1,Fig4,Amh
+78	jaspar-PF0059.1	0.0487102	3.25274	M18		Otud3,Zfp113,H2-D1,Mdc1,Fig4,Amh
+78	jaspar-PF0059.1	0.0487102	3.25274	M18		Otud3,Zfp113,H2-D1,Mdc1,Fig4,Amh
+79	tfdimers-MD00345	0.0485243	3.2364	M16	Churc1,Hnf1b,Zbtb7a	Dynlt1b,C1qc,Cox6b2,Snora7a
+79	tfdimers-MD00345	0.0485243	3.2364	M16	Churc1,Hnf1b,Zbtb7a	Dynlt1b,C1qc,Cox6b2,Snora7a
+79	tfdimers-MD00345	0.0485243	3.2364	M16	Churc1,Hnf1b,Zbtb7a	Dynlt1b,C1qc,Cox6b2,Snora7a
+79	tfdimers-MD00345	0.0485243	3.2364	M16	Churc1,Hnf1b,Zbtb7a	Dynlt1b,C1qc,Cox6b2,Snora7a
+79	tfdimers-MD00345	0.0485243	3.2364	M16	Churc1,Hnf1b,Zbtb7a	Dynlt1b,C1qc,Cox6b2,Snora7a
+80	yetfasco-646	0.0484313	3.22822	M8	Mycn,Usf2,Usf1,Max,Myc,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs,Arnt2	Tle6,Zmym6,Hnrnph3,Uty,Hsph1,Slc38a5,Hirip3,Hmgcl,Otud3,Hist1h1e,Zfp113,Urb1,C1qc
+80	yetfasco-646	0.0484313	3.22822	M8	Mycn,Usf2,Usf1,Max,Myc,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs,Arnt2	Tle6,Zmym6,Hnrnph3,Uty,Hsph1,Slc38a5,Hirip3,Hmgcl,Otud3,Hist1h1e,Zfp113,Urb1,C1qc
+80	yetfasco-646	0.0484313	3.22822	M8	Mycn,Usf2,Usf1,Max,Myc,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs,Arnt2	Tle6,Zmym6,Hnrnph3,Uty,Hsph1,Slc38a5,Hirip3,Hmgcl,Otud3,Hist1h1e,Zfp113,Urb1,C1qc
+80	yetfasco-646	0.0484313	3.22822	M8	Mycn,Usf2,Usf1,Max,Myc,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs,Arnt2	Tle6,Zmym6,Hnrnph3,Uty,Hsph1,Slc38a5,Hirip3,Hmgcl,Otud3,Hist1h1e,Zfp113,Urb1,C1qc
+80	yetfasco-646	0.0484313	3.22822	M8	Mycn,Usf2,Usf1,Max,Myc,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Mycs,Arnt2	Tle6,Zmym6,Hnrnph3,Uty,Hsph1,Slc38a5,Hirip3,Hmgcl,Otud3,Hist1h1e,Zfp113,Urb1,C1qc
+81	elemento-CACGTGG	0.0483848	3.22414	M8	Myc,Max,Usf2,Mycn,Creb3l1,Mycs,Mnt,Arntl,Hey1,Olig2,Id1,Clock,Hey2,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3,Slc38a5
+81	elemento-CACGTGG	0.0483848	3.22414	M8	Myc,Max,Usf2,Mycn,Creb3l1,Mycs,Mnt,Arntl,Hey1,Olig2,Id1,Clock,Hey2,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3,Slc38a5
+81	elemento-CACGTGG	0.0483848	3.22414	M8	Myc,Max,Usf2,Mycn,Creb3l1,Mycs,Mnt,Arntl,Hey1,Olig2,Id1,Clock,Hey2,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3,Slc38a5
+81	elemento-CACGTGG	0.0483848	3.22414	M8	Myc,Max,Usf2,Mycn,Creb3l1,Mycs,Mnt,Arntl,Hey1,Olig2,Id1,Clock,Hey2,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3,Slc38a5
+81	elemento-CACGTGG	0.0483848	3.22414	M8	Myc,Max,Usf2,Mycn,Creb3l1,Mycs,Mnt,Arntl,Hey1,Olig2,Id1,Clock,Hey2,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty,Urb1,Hist1h1e,Hirip3,Hmgcl,Otud3,Slc38a5
+82	yetfasco-443	0.0483616	3.22209	M8	Max,Usf1,Myc,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Id1,Atf3,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5
+82	yetfasco-443	0.0483616	3.22209	M8	Max,Usf1,Myc,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Id1,Atf3,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5
+82	yetfasco-443	0.0483616	3.22209	M8	Max,Usf1,Myc,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Id1,Atf3,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5
+82	yetfasco-443	0.0483616	3.22209	M8	Max,Usf1,Myc,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Id1,Atf3,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5
+82	yetfasco-443	0.0483616	3.22209	M8	Max,Usf1,Myc,Arnt,Bhlhe40,Srebf1,Arntl,Olig2,Hey1,Clock,Id1,Atf3,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2,Mlx,Srebf2,Mycs	Tle6,Uty,Zmym6,Hsph1,Hnrnph3,Slc38a5
+83	transfac_pro-M02766	0.0482686	3.21392	M9		Zswim4,Hccs,Hdac1,Hsph1,Mdc1,Mlc1,Urb2,Hist1h1e,H2-D1,Hirip3,Ppip5k1,Urb1
+83	transfac_pro-M02766	0.0482686	3.21392	M9		Zswim4,Hccs,Hdac1,Hsph1,Mdc1,Mlc1,Urb2,Hist1h1e,H2-D1,Hirip3,Ppip5k1,Urb1
+83	transfac_pro-M02766	0.0482686	3.21392	M9		Zswim4,Hccs,Hdac1,Hsph1,Mdc1,Mlc1,Urb2,Hist1h1e,H2-D1,Hirip3,Ppip5k1,Urb1
+83	transfac_pro-M02766	0.0482686	3.21392	M9		Zswim4,Hccs,Hdac1,Hsph1,Mdc1,Mlc1,Urb2,Hist1h1e,H2-D1,Hirip3,Ppip5k1,Urb1
+83	transfac_pro-M02766	0.0482686	3.21392	M9		Zswim4,Hccs,Hdac1,Hsph1,Mdc1,Mlc1,Urb2,Hist1h1e,H2-D1,Hirip3,Ppip5k1,Urb1
+84	factorbook-ZNF143-ext	0.0481989	3.20779	M15	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3
+84	factorbook-ZNF143-ext	0.0481989	3.20779	M15	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3
+84	factorbook-ZNF143-ext	0.0481989	3.20779	M15	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3
+84	factorbook-ZNF143-ext	0.0481989	3.20779	M15	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3
+84	factorbook-ZNF143-ext	0.0481989	3.20779	M15	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3
+85	homer-M00855	0.0481757	3.20575	M17		Ahsg,Hsph1,Hspa4l
+85	homer-M00855	0.0481757	3.20575	M17		Ahsg,Hsph1,Hspa4l
+85	homer-M00855	0.0481757	3.20575	M17		Ahsg,Hsph1,Hspa4l
+85	homer-M00855	0.0481757	3.20575	M17		Ahsg,Hsph1,Hspa4l
+85	homer-M00855	0.0481757	3.20575	M17		Ahsg,Hsph1,Hspa4l
+86	encode-UW.Motif.0361	0.0481525	3.2037	M4		C1qc,H2-D1,Amh,Hspa4l,Ppip5k1,Hsph1,Tom1
+86	encode-UW.Motif.0361	0.0481525	3.2037	M4		C1qc,H2-D1,Amh,Hspa4l,Ppip5k1,Hsph1,Tom1
+86	encode-UW.Motif.0361	0.0481525	3.2037	M4		C1qc,H2-D1,Amh,Hspa4l,Ppip5k1,Hsph1,Tom1
+86	encode-UW.Motif.0361	0.0481525	3.2037	M4		C1qc,H2-D1,Amh,Hspa4l,Ppip5k1,Hsph1,Tom1
+86	encode-UW.Motif.0361	0.0481525	3.2037	M4		C1qc,H2-D1,Amh,Hspa4l,Ppip5k1,Hsph1,Tom1
+87	homer-M00060	0.0481525	3.2037	M19	Foxa2,Foxa1,Foxo3,Foxd1,Foxa3,Foxc2,Foxp1,Hltf,Foxo6,Foxb1,Foxd2,3110039M20Rik,Sox10,Nr3c1,Pgr	Zswim4,Uty,Amh,Ahsg,Pogk
+87	homer-M00060	0.0481525	3.2037	M19	Foxa2,Foxa1,Foxo3,Foxd1,Foxa3,Foxc2,Foxp1,Hltf,Foxo6,Foxb1,Foxd2,3110039M20Rik,Sox10,Nr3c1,Pgr	Zswim4,Uty,Amh,Ahsg,Pogk
+87	homer-M00060	0.0481525	3.2037	M19	Foxa2,Foxa1,Foxo3,Foxd1,Foxa3,Foxc2,Foxp1,Hltf,Foxo6,Foxb1,Foxd2,3110039M20Rik,Sox10,Nr3c1,Pgr	Zswim4,Uty,Amh,Ahsg,Pogk
+87	homer-M00060	0.0481525	3.2037	M19	Foxa2,Foxa1,Foxo3,Foxd1,Foxa3,Foxc2,Foxp1,Hltf,Foxo6,Foxb1,Foxd2,3110039M20Rik,Sox10,Nr3c1,Pgr	Zswim4,Uty,Amh,Ahsg,Pogk
+87	homer-M00060	0.0481525	3.2037	M19	Foxa2,Foxa1,Foxo3,Foxd1,Foxa3,Foxc2,Foxp1,Hltf,Foxo6,Foxb1,Foxd2,3110039M20Rik,Sox10,Nr3c1,Pgr	Zswim4,Uty,Amh,Ahsg,Pogk
+88	swissregulon-ZNF143.p2	0.048106	3.19962	M4	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3,Zmym6,Rpl29,Hspa8,Hist1h1e,Fig4,Amh,Ppip5k1,C1qc
+88	swissregulon-ZNF143.p2	0.048106	3.19962	M4	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3,Zmym6,Rpl29,Hspa8,Hist1h1e,Fig4,Amh,Ppip5k1,C1qc
+88	swissregulon-ZNF143.p2	0.048106	3.19962	M4	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3,Zmym6,Rpl29,Hspa8,Hist1h1e,Fig4,Amh,Ppip5k1,C1qc
+88	swissregulon-ZNF143.p2	0.048106	3.19962	M4	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3,Zmym6,Rpl29,Hspa8,Hist1h1e,Fig4,Amh,Ppip5k1,C1qc
+88	swissregulon-ZNF143.p2	0.048106	3.19962	M4	Zfp143	Ahsa1,Hsph1,Vps41,Hirip3,Zmym6,Rpl29,Hspa8,Hist1h1e,Fig4,Amh,Ppip5k1,C1qc
+89	transfac_pro-M02250	0.0480363	3.19349	M8	Myc,Mycn,Max,Mycs,Mnt	Tle6,Hnrnph3,Hsph1,Slc38a5,Zmym6
+89	transfac_pro-M02250	0.0480363	3.19349	M8	Myc,Mycn,Max,Mycs,Mnt	Tle6,Hnrnph3,Hsph1,Slc38a5,Zmym6
+89	transfac_pro-M02250	0.0480363	3.19349	M8	Myc,Mycn,Max,Mycs,Mnt	Tle6,Hnrnph3,Hsph1,Slc38a5,Zmym6
+89	transfac_pro-M02250	0.0480363	3.19349	M8	Myc,Mycn,Max,Mycs,Mnt	Tle6,Hnrnph3,Hsph1,Slc38a5,Zmym6
+89	transfac_pro-M02250	0.0480363	3.19349	M8	Myc,Mycn,Max,Mycs,Mnt	Tle6,Hnrnph3,Hsph1,Slc38a5,Zmym6
+90	jaspar-CN0004.1	0.0478503	3.17714	M15		Ahsa1,Hsph1,Vps41,Hirip3
+90	jaspar-CN0004.1	0.0478503	3.17714	M15		Ahsa1,Hsph1,Vps41,Hirip3
+90	jaspar-CN0004.1	0.0478503	3.17714	M15		Ahsa1,Hsph1,Vps41,Hirip3
+90	jaspar-CN0004.1	0.0478503	3.17714	M15		Ahsa1,Hsph1,Vps41,Hirip3
+90	jaspar-CN0004.1	0.0478503	3.17714	M15		Ahsa1,Hsph1,Vps41,Hirip3
+91	jaspar-PF0100.1	0.0477109	3.16488	M20	Deaf1	Hspa4l,Ahsa1,Hspa8,Ahsa2,Snora7a,Hsph1,Vps41,Rpl29,Hbegf,Tle6,Rcan3
+91	jaspar-PF0100.1	0.0477109	3.16488	M20	Deaf1	Hspa4l,Ahsa1,Hspa8,Ahsa2,Snora7a,Hsph1,Vps41,Rpl29,Hbegf,Tle6,Rcan3
+91	jaspar-PF0100.1	0.0477109	3.16488	M20	Deaf1	Hspa4l,Ahsa1,Hspa8,Ahsa2,Snora7a,Hsph1,Vps41,Rpl29,Hbegf,Tle6,Rcan3
+91	jaspar-PF0100.1	0.0477109	3.16488	M20	Deaf1	Hspa4l,Ahsa1,Hspa8,Ahsa2,Snora7a,Hsph1,Vps41,Rpl29,Hbegf,Tle6,Rcan3
+91	jaspar-PF0100.1	0.0477109	3.16488	M20	Deaf1	Hspa4l,Ahsa1,Hspa8,Ahsa2,Snora7a,Hsph1,Vps41,Rpl29,Hbegf,Tle6,Rcan3
+92	taipale-NWRGCCMCGCCCMCTNN-SP4-full	0.0475482	3.15058	M6	Sp4,Klf7,Sp2,Sp1,Sp3,Klf4,Klf14,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf16,Klf13,Klf6,Klf12,Klf3	Urb1,Tom1,Fig4
+92	taipale-NWRGCCMCGCCCMCTNN-SP4-full	0.0475482	3.15058	M6	Sp4,Klf7,Sp2,Sp1,Sp3,Klf4,Klf14,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf16,Klf13,Klf6,Klf12,Klf3	Urb1,Tom1,Fig4
+92	taipale-NWRGCCMCGCCCMCTNN-SP4-full	0.0475482	3.15058	M6	Sp4,Klf7,Sp2,Sp1,Sp3,Klf4,Klf14,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf16,Klf13,Klf6,Klf12,Klf3	Urb1,Tom1,Fig4
+92	taipale-NWRGCCMCGCCCMCTNN-SP4-full	0.0475482	3.15058	M6	Sp4,Klf7,Sp2,Sp1,Sp3,Klf4,Klf14,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf16,Klf13,Klf6,Klf12,Klf3	Urb1,Tom1,Fig4
+92	taipale-NWRGCCMCGCCCMCTNN-SP4-full	0.0475482	3.15058	M6	Sp4,Klf7,Sp2,Sp1,Sp3,Klf4,Klf14,Sp8,Sp9,Sp6,Sp7,Sp5,Klf17,Zfp352,Klf16,Klf13,Klf6,Klf12,Klf3	Urb1,Tom1,Fig4
+93	yetfasco-863	0.0474785	3.14445	M9		Hirip3,Hspa8,Hsph1,Stip1,Rpl29,Hspa4l,Ahsg,H2-D1,Gfm1,Mlc1,Eif2s3y,Hist1h3e,Hccs,Snora7a,Hist1h1e,Zmym6,Ppip5k1,C1qc,Urb1,Ahsa1,Hbegf,Tktl2,Chordc1
+93	yetfasco-863	0.0474785	3.14445	M9		Hirip3,Hspa8,Hsph1,Stip1,Rpl29,Hspa4l,Ahsg,H2-D1,Gfm1,Mlc1,Eif2s3y,Hist1h3e,Hccs,Snora7a,Hist1h1e,Zmym6,Ppip5k1,C1qc,Urb1,Ahsa1,Hbegf,Tktl2,Chordc1
+93	yetfasco-863	0.0474785	3.14445	M9		Hirip3,Hspa8,Hsph1,Stip1,Rpl29,Hspa4l,Ahsg,H2-D1,Gfm1,Mlc1,Eif2s3y,Hist1h3e,Hccs,Snora7a,Hist1h1e,Zmym6,Ppip5k1,C1qc,Urb1,Ahsa1,Hbegf,Tktl2,Chordc1
+93	yetfasco-863	0.0474785	3.14445	M9		Hirip3,Hspa8,Hsph1,Stip1,Rpl29,Hspa4l,Ahsg,H2-D1,Gfm1,Mlc1,Eif2s3y,Hist1h3e,Hccs,Snora7a,Hist1h1e,Zmym6,Ppip5k1,C1qc,Urb1,Ahsa1,Hbegf,Tktl2,Chordc1
+93	yetfasco-863	0.0474785	3.14445	M9		Hirip3,Hspa8,Hsph1,Stip1,Rpl29,Hspa4l,Ahsg,H2-D1,Gfm1,Mlc1,Eif2s3y,Hist1h3e,Hccs,Snora7a,Hist1h1e,Zmym6,Ppip5k1,C1qc,Urb1,Ahsa1,Hbegf,Tktl2,Chordc1
+94	homer-M00127	0.047432	3.14036	M8	Mycs,Myc,Max,Usf1,Mycn,Arnt,Usf2,Ascl1,Arid5b,Hand1,Mxd3,Tcf12,Mxd1,Myod1,Tal1,Tal2,Tcf3,Mxi1,Myf6,Myf5,Bhlhe40,Mitf,Tfe3,Bhlhe41,Myog,Hand2,Tfeb,Mxd4,Tcf4,Nhlh1,Arnt2,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Slc38a5,Uty
+94	homer-M00127	0.047432	3.14036	M8	Mycs,Myc,Max,Usf1,Mycn,Arnt,Usf2,Ascl1,Arid5b,Hand1,Mxd3,Tcf12,Mxd1,Myod1,Tal1,Tal2,Tcf3,Mxi1,Myf6,Myf5,Bhlhe40,Mitf,Tfe3,Bhlhe41,Myog,Hand2,Tfeb,Mxd4,Tcf4,Nhlh1,Arnt2,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Slc38a5,Uty
+94	homer-M00127	0.047432	3.14036	M8	Mycs,Myc,Max,Usf1,Mycn,Arnt,Usf2,Ascl1,Arid5b,Hand1,Mxd3,Tcf12,Mxd1,Myod1,Tal1,Tal2,Tcf3,Mxi1,Myf6,Myf5,Bhlhe40,Mitf,Tfe3,Bhlhe41,Myog,Hand2,Tfeb,Mxd4,Tcf4,Nhlh1,Arnt2,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Slc38a5,Uty
+94	homer-M00127	0.047432	3.14036	M8	Mycs,Myc,Max,Usf1,Mycn,Arnt,Usf2,Ascl1,Arid5b,Hand1,Mxd3,Tcf12,Mxd1,Myod1,Tal1,Tal2,Tcf3,Mxi1,Myf6,Myf5,Bhlhe40,Mitf,Tfe3,Bhlhe41,Myog,Hand2,Tfeb,Mxd4,Tcf4,Nhlh1,Arnt2,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Slc38a5,Uty
+94	homer-M00127	0.047432	3.14036	M8	Mycs,Myc,Max,Usf1,Mycn,Arnt,Usf2,Ascl1,Arid5b,Hand1,Mxd3,Tcf12,Mxd1,Myod1,Tal1,Tal2,Tcf3,Mxi1,Myf6,Myf5,Bhlhe40,Mitf,Tfe3,Bhlhe41,Myog,Hand2,Tfeb,Mxd4,Tcf4,Nhlh1,Arnt2,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Olig1,Hes6,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Slc38a5,Uty
+95	taipale-NGGCACGTGCCN-HES7-DBD	0.0472926	3.1281	M8	Hes7,Hes5,Hes2,Hey1,Hey2	Slc38a5,Zmym6,Hsph1,Rpl29
+95	taipale-NGGCACGTGCCN-HES7-DBD	0.0472926	3.1281	M8	Hes7,Hes5,Hes2,Hey1,Hey2	Slc38a5,Zmym6,Hsph1,Rpl29
+95	taipale-NGGCACGTGCCN-HES7-DBD	0.0472926	3.1281	M8	Hes7,Hes5,Hes2,Hey1,Hey2	Slc38a5,Zmym6,Hsph1,Rpl29
+95	taipale-NGGCACGTGCCN-HES7-DBD	0.0472926	3.1281	M8	Hes7,Hes5,Hes2,Hey1,Hey2	Slc38a5,Zmym6,Hsph1,Rpl29
+95	taipale-NGGCACGTGCCN-HES7-DBD	0.0472926	3.1281	M8	Hes7,Hes5,Hes2,Hey1,Hey2	Slc38a5,Zmym6,Hsph1,Rpl29
+96	transfac_pro-M03132	0.0472693	3.12606	M8	Max,Myc,Arnt,Usf1,Mycn,Tcf3,Usf2,Bhlhe40,Mycs,Mnt,Arntl,Olig2,Clock,Hey1,Hey2,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Nf1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+96	transfac_pro-M03132	0.0472693	3.12606	M8	Max,Myc,Arnt,Usf1,Mycn,Tcf3,Usf2,Bhlhe40,Mycs,Mnt,Arntl,Olig2,Clock,Hey1,Hey2,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Nf1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+96	transfac_pro-M03132	0.0472693	3.12606	M8	Max,Myc,Arnt,Usf1,Mycn,Tcf3,Usf2,Bhlhe40,Mycs,Mnt,Arntl,Olig2,Clock,Hey1,Hey2,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Nf1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+96	transfac_pro-M03132	0.0472693	3.12606	M8	Max,Myc,Arnt,Usf1,Mycn,Tcf3,Usf2,Bhlhe40,Mycs,Mnt,Arntl,Olig2,Clock,Hey1,Hey2,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Nf1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+96	transfac_pro-M03132	0.0472693	3.12606	M8	Max,Myc,Arnt,Usf1,Mycn,Tcf3,Usf2,Bhlhe40,Mycs,Mnt,Arntl,Olig2,Clock,Hey1,Hey2,Id1,Npas2,Hes6,Olig1,Heyl,Arntl2,Nf1	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+97	factorbook-UA3	0.0472229	3.12197	M4	Zbtb7a,Zbtb14	Slc38a5,Zswim4,Hsph1
+97	factorbook-UA3	0.0472229	3.12197	M4	Zbtb7a,Zbtb14	Slc38a5,Zswim4,Hsph1
+97	factorbook-UA3	0.0472229	3.12197	M4	Zbtb7a,Zbtb14	Slc38a5,Zswim4,Hsph1
+97	factorbook-UA3	0.0472229	3.12197	M4	Zbtb7a,Zbtb14	Slc38a5,Zswim4,Hsph1
+97	factorbook-UA3	0.0472229	3.12197	M4	Zbtb7a,Zbtb14	Slc38a5,Zswim4,Hsph1
+98	homer-M00016	0.0471996	3.11993	M8	Myc,Mycn,Max,Arnt,Usf1,Usf2,Mycs,Arnt2,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+98	homer-M00016	0.0471996	3.11993	M8	Myc,Mycn,Max,Arnt,Usf1,Usf2,Mycs,Arnt2,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+98	homer-M00016	0.0471996	3.11993	M8	Myc,Mycn,Max,Arnt,Usf1,Usf2,Mycs,Arnt2,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+98	homer-M00016	0.0471996	3.11993	M8	Myc,Mycn,Max,Arnt,Usf1,Usf2,Mycs,Arnt2,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+98	homer-M00016	0.0471996	3.11993	M8	Myc,Mycn,Max,Arnt,Usf1,Usf2,Mycs,Arnt2,Arntl,Olig2,Hey1,Id1,Clock,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2	Tle6,Hnrnph3,Zmym6,Hsph1,Uty
+99	swissregulon-MSX1-2.p2	0.0471067	3.11175	M7	Msx1,Msx2	C1qb,Zswim4,Mdc1,Hspa4l
+99	swissregulon-MSX1-2.p2	0.0471067	3.11175	M7	Msx1,Msx2	C1qb,Zswim4,Mdc1,Hspa4l
+99	swissregulon-MSX1-2.p2	0.0471067	3.11175	M7	Msx1,Msx2	C1qb,Zswim4,Mdc1,Hspa4l
+99	swissregulon-MSX1-2.p2	0.0471067	3.11175	M7	Msx1,Msx2	C1qb,Zswim4,Mdc1,Hspa4l
+99	swissregulon-MSX1-2.p2	0.0471067	3.11175	M7	Msx1,Msx2	C1qb,Zswim4,Mdc1,Hspa4l
+100	homer-M00264	0.046851	3.08928	M8	Mycn,Mnt	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Hirip3,Otud3,Hmgcl,Slc38a5,Tdrd9,Rpl29,Ppip5k1,Kctd13,Hist1h1e,Urb1,Fig4,Hccs,C1qb,Amh,Snora7a,1700001L05Rik
+100	homer-M00264	0.046851	3.08928	M8	Mycn,Mnt	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Hirip3,Otud3,Hmgcl,Slc38a5,Tdrd9,Rpl29,Ppip5k1,Kctd13,Hist1h1e,Urb1,Fig4,Hccs,C1qb,Amh,Snora7a,1700001L05Rik
+100	homer-M00264	0.046851	3.08928	M8	Mycn,Mnt	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Hirip3,Otud3,Hmgcl,Slc38a5,Tdrd9,Rpl29,Ppip5k1,Kctd13,Hist1h1e,Urb1,Fig4,Hccs,C1qb,Amh,Snora7a,1700001L05Rik
+100	homer-M00264	0.046851	3.08928	M8	Mycn,Mnt	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Hirip3,Otud3,Hmgcl,Slc38a5,Tdrd9,Rpl29,Ppip5k1,Kctd13,Hist1h1e,Urb1,Fig4,Hccs,C1qb,Amh,Snora7a,1700001L05Rik
+100	homer-M00264	0.046851	3.08928	M8	Mycn,Mnt	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Hirip3,Otud3,Hmgcl,Slc38a5,Tdrd9,Rpl29,Ppip5k1,Kctd13,Hist1h1e,Urb1,Fig4,Hccs,C1qb,Amh,Snora7a,1700001L05Rik
+101	yetfasco-780.2	0.0468046	3.08519	M7	Tbp,Tbpl2,Tbpl1,Srf,Mef2b,Mef2a,2310045N01Rik,Mef2c,Mef2d	Hirip3,Hsph1,Zswim4,Hdac1,Stip1
+101	yetfasco-780.2	0.0468046	3.08519	M7	Tbp,Tbpl2,Tbpl1,Srf,Mef2b,Mef2a,2310045N01Rik,Mef2c,Mef2d	Hirip3,Hsph1,Zswim4,Hdac1,Stip1
+101	yetfasco-780.2	0.0468046	3.08519	M7	Tbp,Tbpl2,Tbpl1,Srf,Mef2b,Mef2a,2310045N01Rik,Mef2c,Mef2d	Hirip3,Hsph1,Zswim4,Hdac1,Stip1
+101	yetfasco-780.2	0.0468046	3.08519	M7	Tbp,Tbpl2,Tbpl1,Srf,Mef2b,Mef2a,2310045N01Rik,Mef2c,Mef2d	Hirip3,Hsph1,Zswim4,Hdac1,Stip1
+101	yetfasco-780.2	0.0468046	3.08519	M7	Tbp,Tbpl2,Tbpl1,Srf,Mef2b,Mef2a,2310045N01Rik,Mef2c,Mef2d	Hirip3,Hsph1,Zswim4,Hdac1,Stip1
+102	yetfasco-2051	0.0467348	3.07906	M8	Myc,Mycn,Mnt,Mycs	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Otud3,Slc38a5
+102	yetfasco-2051	0.0467348	3.07906	M8	Myc,Mycn,Mnt,Mycs	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Otud3,Slc38a5
+102	yetfasco-2051	0.0467348	3.07906	M8	Myc,Mycn,Mnt,Mycs	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Otud3,Slc38a5
+102	yetfasco-2051	0.0467348	3.07906	M8	Myc,Mycn,Mnt,Mycs	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Otud3,Slc38a5
+102	yetfasco-2051	0.0467348	3.07906	M8	Myc,Mycn,Mnt,Mycs	Tle6,Hnrnph3,Hsph1,Zmym6,Uty,Otud3,Slc38a5
+103	yetfasco-359	0.0467348	3.07906	M8	Myc,Max,Mycn,Usf2,Arnt,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+103	yetfasco-359	0.0467348	3.07906	M8	Myc,Max,Mycn,Usf2,Arnt,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+103	yetfasco-359	0.0467348	3.07906	M8	Myc,Max,Mycn,Usf2,Arnt,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+103	yetfasco-359	0.0467348	3.07906	M8	Myc,Max,Mycn,Usf2,Arnt,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+103	yetfasco-359	0.0467348	3.07906	M8	Myc,Max,Mycn,Usf2,Arnt,Mycs,Arntl,Hey1,Olig2,Clock,Id1,Hey2,Mnt,Npas2,Hes6,Olig1,Heyl,Arntl2,Arnt2	Tle6,Hnrnph3,Hsph1,Zmym6
+104	jaspar-PB0012.1	0.0467116	3.07702	M2	Elf3,Ehf,Elf5,Ets1,Elf2,Spic,Sfpi1,Elf1,Elf4,Elk1,Spib,Etv2,Etv5	Hccs,C1qc,Vps41,Ccdc9,Hirip3,Ahsa1,H2-D1,Zswim4,Mlc1,Mdc1,Zfp113,Nme7,Hist1h1e
+104	jaspar-PB0012.1	0.0467116	3.07702	M2	Elf3,Ehf,Elf5,Ets1,Elf2,Spic,Sfpi1,Elf1,Elf4,Elk1,Spib,Etv2,Etv5	Hccs,C1qc,Vps41,Ccdc9,Hirip3,Ahsa1,H2-D1,Zswim4,Mlc1,Mdc1,Zfp113,Nme7,Hist1h1e
+104	jaspar-PB0012.1	0.0467116	3.07702	M2	Elf3,Ehf,Elf5,Ets1,Elf2,Spic,Sfpi1,Elf1,Elf4,Elk1,Spib,Etv2,Etv5	Hccs,C1qc,Vps41,Ccdc9,Hirip3,Ahsa1,H2-D1,Zswim4,Mlc1,Mdc1,Zfp113,Nme7,Hist1h1e
+104	jaspar-PB0012.1	0.0467116	3.07702	M2	Elf3,Ehf,Elf5,Ets1,Elf2,Spic,Sfpi1,Elf1,Elf4,Elk1,Spib,Etv2,Etv5	Hccs,C1qc,Vps41,Ccdc9,Hirip3,Ahsa1,H2-D1,Zswim4,Mlc1,Mdc1,Zfp113,Nme7,Hist1h1e
+104	jaspar-PB0012.1	0.0467116	3.07702	M2	Elf3,Ehf,Elf5,Ets1,Elf2,Spic,Sfpi1,Elf1,Elf4,Elk1,Spib,Etv2,Etv5	Hccs,C1qc,Vps41,Ccdc9,Hirip3,Ahsa1,H2-D1,Zswim4,Mlc1,Mdc1,Zfp113,Nme7,Hist1h1e
+105	tfdimers-MD00125	0.0466651	3.07293	M19	Jun,Fos,Arid3a	Fig4,Hbegf,Ppip5k1,Hist1h1e
+105	tfdimers-MD00125	0.0466651	3.07293	M19	Jun,Fos,Arid3a	Fig4,Hbegf,Ppip5k1,Hist1h1e
+105	tfdimers-MD00125	0.0466651	3.07293	M19	Jun,Fos,Arid3a	Fig4,Hbegf,Ppip5k1,Hist1h1e
+105	tfdimers-MD00125	0.0466651	3.07293	M19	Jun,Fos,Arid3a	Fig4,Hbegf,Ppip5k1,Hist1h1e
+105	tfdimers-MD00125	0.0466651	3.07293	M19	Jun,Fos,Arid3a	Fig4,Hbegf,Ppip5k1,Hist1h1e
+106	encode-UW.Motif.0035	0.0465722	3.06475	M20		Mdc1,Zswim4,Snora7a,H2-D1
+106	encode-UW.Motif.0035	0.0465722	3.06475	M20		Mdc1,Zswim4,Snora7a,H2-D1
+106	encode-UW.Motif.0035	0.0465722	3.06475	M20		Mdc1,Zswim4,Snora7a,H2-D1
+106	encode-UW.Motif.0035	0.0465722	3.06475	M20		Mdc1,Zswim4,Snora7a,H2-D1
+106	encode-UW.Motif.0035	0.0465722	3.06475	M20		Mdc1,Zswim4,Snora7a,H2-D1
+107	transfac_pro-M02071	0.0464327	3.05249	M2	Elf5,Elf3,Elf4,Ehf,Elf2,Etv2,Etv5,Elf1,Etv1,Ets2,Gabpa,Fli1,Ets1,Erf,Erg,Fev,Etv3,Elk3,Elk1,Spic,Elk4,Gabpb1,Nr2c2	Ccdc9,Rpl29,Vps41,Hccs,Hirip3,Zfp113
+107	transfac_pro-M02071	0.0464327	3.05249	M2	Elf5,Elf3,Elf4,Ehf,Elf2,Etv2,Etv5,Elf1,Etv1,Ets2,Gabpa,Fli1,Ets1,Erf,Erg,Fev,Etv3,Elk3,Elk1,Spic,Elk4,Gabpb1,Nr2c2	Ccdc9,Rpl29,Vps41,Hccs,Hirip3,Zfp113
+107	transfac_pro-M02071	0.0464327	3.05249	M2	Elf5,Elf3,Elf4,Ehf,Elf2,Etv2,Etv5,Elf1,Etv1,Ets2,Gabpa,Fli1,Ets1,Erf,Erg,Fev,Etv3,Elk3,Elk1,Spic,Elk4,Gabpb1,Nr2c2	Ccdc9,Rpl29,Vps41,Hccs,Hirip3,Zfp113
+107	transfac_pro-M02071	0.0464327	3.05249	M2	Elf5,Elf3,Elf4,Ehf,Elf2,Etv2,Etv5,Elf1,Etv1,Ets2,Gabpa,Fli1,Ets1,Erf,Erg,Fev,Etv3,Elk3,Elk1,Spic,Elk4,Gabpb1,Nr2c2	Ccdc9,Rpl29,Vps41,Hccs,Hirip3,Zfp113
+107	transfac_pro-M02071	0.0464327	3.05249	M2	Elf5,Elf3,Elf4,Ehf,Elf2,Etv2,Etv5,Elf1,Etv1,Ets2,Gabpa,Fli1,Ets1,Erf,Erg,Fev,Etv3,Elk3,Elk1,Spic,Elk4,Gabpb1,Nr2c2	Ccdc9,Rpl29,Vps41,Hccs,Hirip3,Zfp113
+108	encode-UW.Motif.0272	0.0463862	3.04841	M14		C1qc,Ppip5k1,Hist1h1e,H2-D1,Vps41
+108	encode-UW.Motif.0272	0.0463862	3.04841	M14		C1qc,Ppip5k1,Hist1h1e,H2-D1,Vps41
+108	encode-UW.Motif.0272	0.0463862	3.04841	M14		C1qc,Ppip5k1,Hist1h1e,H2-D1,Vps41
+108	encode-UW.Motif.0272	0.0463862	3.04841	M14		C1qc,Ppip5k1,Hist1h1e,H2-D1,Vps41
+108	encode-UW.Motif.0272	0.0463862	3.04841	M14		C1qc,Ppip5k1,Hist1h1e,H2-D1,Vps41
+109	taipale-ARRGGTCANNNRRGGTCA-Rarb-DBD	0.046363	3.04636	M12	Nr1i2,Nr2f1,Rarg,Rxrb,Nr2f2,Nr1h3,Nr1i3,Nr1h2,Rara,Rarb,Rxra,Nr1h4,Ppara,Rxrg,Thrb	Uty,Hist1h1e,Rcan3,Dynlt1b,Kif24,Tom1,Fig4,Ppip5k1
+109	taipale-ARRGGTCANNNRRGGTCA-Rarb-DBD	0.046363	3.04636	M12	Nr1i2,Nr2f1,Rarg,Rxrb,Nr2f2,Nr1h3,Nr1i3,Nr1h2,Rara,Rarb,Rxra,Nr1h4,Ppara,Rxrg,Thrb	Uty,Hist1h1e,Rcan3,Dynlt1b,Kif24,Tom1,Fig4,Ppip5k1
+109	taipale-ARRGGTCANNNRRGGTCA-Rarb-DBD	0.046363	3.04636	M12	Nr1i2,Nr2f1,Rarg,Rxrb,Nr2f2,Nr1h3,Nr1i3,Nr1h2,Rara,Rarb,Rxra,Nr1h4,Ppara,Rxrg,Thrb	Uty,Hist1h1e,Rcan3,Dynlt1b,Kif24,Tom1,Fig4,Ppip5k1
+109	taipale-ARRGGTCANNNRRGGTCA-Rarb-DBD	0.046363	3.04636	M12	Nr1i2,Nr2f1,Rarg,Rxrb,Nr2f2,Nr1h3,Nr1i3,Nr1h2,Rara,Rarb,Rxra,Nr1h4,Ppara,Rxrg,Thrb	Uty,Hist1h1e,Rcan3,Dynlt1b,Kif24,Tom1,Fig4,Ppip5k1
+109	taipale-ARRGGTCANNNRRGGTCA-Rarb-DBD	0.046363	3.04636	M12	Nr1i2,Nr2f1,Rarg,Rxrb,Nr2f2,Nr1h3,Nr1i3,Nr1h2,Rara,Rarb,Rxra,Nr1h4,Ppara,Rxrg,Thrb	Uty,Hist1h1e,Rcan3,Dynlt1b,Kif24,Tom1,Fig4,Ppip5k1
+110	encode-UW.Motif.0217	0.04627	3.03819	M4		Ahsa1,Ppip5k1,Hsph1,Vps41
+110	encode-UW.Motif.0217	0.04627	3.03819	M4		Ahsa1,Ppip5k1,Hsph1,Vps41
+110	encode-UW.Motif.0217	0.04627	3.03819	M4		Ahsa1,Ppip5k1,Hsph1,Vps41
+110	encode-UW.Motif.0217	0.04627	3.03819	M4		Ahsa1,Ppip5k1,Hsph1,Vps41
+110	encode-UW.Motif.0217	0.04627	3.03819	M4		Ahsa1,Ppip5k1,Hsph1,Vps41
+111	flyfactorsurvey-Met_SANGER_5_FBgn0002723	0.0460609	3.0198	M8	Max,Arnt,Arntl,Arntl2	Tle6,Hnrnph3,Slc38a5,Hsph1,Zmym6
+111	flyfactorsurvey-Met_SANGER_5_FBgn0002723	0.0460609	3.0198	M8	Max,Arnt,Arntl,Arntl2	Tle6,Hnrnph3,Slc38a5,Hsph1,Zmym6
+111	flyfactorsurvey-Met_SANGER_5_FBgn0002723	0.0460609	3.0198	M8	Max,Arnt,Arntl,Arntl2	Tle6,Hnrnph3,Slc38a5,Hsph1,Zmym6
+111	flyfactorsurvey-Met_SANGER_5_FBgn0002723	0.0460609	3.0198	M8	Max,Arnt,Arntl,Arntl2	Tle6,Hnrnph3,Slc38a5,Hsph1,Zmym6
+111	flyfactorsurvey-Met_SANGER_5_FBgn0002723	0.0460609	3.0198	M8	Max,Arnt,Arntl,Arntl2	Tle6,Hnrnph3,Slc38a5,Hsph1,Zmym6

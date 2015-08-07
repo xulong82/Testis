@@ -1,0 +1,512 @@
+
+Predictions for sequence: chr12:76406436-76406934:+
+Calculation parameters:
+Genome: Mouse (mm10)
+Selected motifs: All Human/Mouse motifs
+Stringency level: High
+Conservation filter: On
+======================================================================================================================
+
+Protein: A1CF(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+384              	chr12:76406819    	wuaauur   	ugaauug   	2.378  	8.70e-03
+
+Protein: CPEB2(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+25               	chr12:76406460    	chuuuuu   	cucuuuu   	4.375  	6.07e-06
+42               	chr12:76406477    	chuuuuu   	cuuuuuu   	4.841  	6.46e-07
+49               	chr12:76406484    	chuuuuu   	cuuuuuu   	4.841  	6.46e-07
+50               	chr12:76406485    	chuuuuu   	uuuuuuu   	4.443  	4.44e-06
+51               	chr12:76406486    	chuuuuu   	uuuuuuu   	4.443  	4.44e-06
+52               	chr12:76406487    	chuuuuu   	uuuuuuu   	4.443  	4.44e-06
+53               	chr12:76406488    	chuuuuu   	uuuuuuu   	4.443  	4.44e-06
+54               	chr12:76406489    	chuuuuu   	uuuuuuu   	4.443  	4.44e-06
+55               	chr12:76406490    	chuuuuu   	uuuuuuu   	4.443  	4.44e-06
+56               	chr12:76406491    	chuuuuu   	uuuuuuu   	4.443  	4.44e-06
+57               	chr12:76406492    	chuuuuu   	uuuuuuu   	4.443  	4.44e-06
+58               	chr12:76406493    	chuuuuu   	uuuuuuu   	4.443  	4.44e-06
+74               	chr12:76406509    	chuuuuu   	ccuuuug   	4.205  	1.31e-05
+268              	chr12:76406703    	chuuuuu   	cucuuuu   	3.716  	1.01e-04
+270              	chr12:76406705    	chuuuuu   	cuuuuug   	3.693  	1.11e-04
+393              	chr12:76406828    	chuuuuu   	uauuuuu   	3.023  	1.25e-03
+
+Protein: CPEB4(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+42               	chr12:76406477    	uuuuuu    	cuuuuu    	4.385  	5.80e-06
+43               	chr12:76406478    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+49               	chr12:76406484    	uuuuuu    	cuuuuu    	4.385  	5.80e-06
+50               	chr12:76406485    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+51               	chr12:76406486    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+52               	chr12:76406487    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+53               	chr12:76406488    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+54               	chr12:76406489    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+55               	chr12:76406490    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+56               	chr12:76406491    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+57               	chr12:76406492    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+58               	chr12:76406493    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+59               	chr12:76406494    	uuuuuu    	uuuuuu    	4.240  	1.12e-05
+270              	chr12:76406705    	uuuuuu    	cuuuuu    	3.654  	1.29e-04
+394              	chr12:76406829    	uuuuuu    	auuuuu    	3.394  	3.44e-04
+
+Protein: CUG-BP(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+256              	chr12:76406691    	ugcug     	ugcug     	2.776  	2.75e-03
+275              	chr12:76406710    	ugcug     	uguug     	2.336  	9.75e-03
+278              	chr12:76406713    	ugcug     	uguug     	2.345  	9.51e-03
+310              	chr12:76406745    	ugcug     	ugcuu     	1.845  	3.25e-02
+328              	chr12:76406763    	ugcug     	ugaug     	1.879  	3.01e-02
+331              	chr12:76406766    	ugcug     	ugcuc     	1.905  	2.84e-02
+484              	chr12:76406919    	ugcug     	agcug     	1.974  	2.42e-02
+
+Protein: DAZAP1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+181              	chr12:76406616    	uagkwwr   	uaguuau   	3.212  	6.59e-04
+
+Protein: ENOX1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+439              	chr12:76406874    	hrkacag   	aagacag   	1.766  	3.87e-02
+
+Protein: ESRP2(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+214              	chr12:76406649    	ugggrad   	uggggga   	2.542  	5.51e-03
+
+Protein: FUS(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+4                	chr12:76406439    	cgcgc     	ugcgc     	2.152  	1.57e-02
+
+Protein: HNRNPA2B1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+191              	chr12:76406626    	aggwuhgr  	agguuagu  	2.685  	3.63e-03
+
+Protein: HNRNPC(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+42               	chr12:76406477    	huuuuuk   	cuuuuuu   	4.333  	7.35e-06
+43               	chr12:76406478    	huuuuuk   	uuuuuuc   	4.051  	2.55e-05
+49               	chr12:76406484    	huuuuuk   	cuuuuuu   	4.333  	7.35e-06
+50               	chr12:76406485    	huuuuuk   	uuuuuuu   	4.323  	7.70e-06
+51               	chr12:76406486    	huuuuuk   	uuuuuuu   	4.323  	7.70e-06
+52               	chr12:76406487    	huuuuuk   	uuuuuuu   	4.323  	7.70e-06
+53               	chr12:76406488    	huuuuuk   	uuuuuuu   	4.323  	7.70e-06
+54               	chr12:76406489    	huuuuuk   	uuuuuuu   	4.323  	7.70e-06
+55               	chr12:76406490    	huuuuuk   	uuuuuuu   	4.323  	7.70e-06
+56               	chr12:76406491    	huuuuuk   	uuuuuuu   	4.323  	7.70e-06
+57               	chr12:76406492    	huuuuuk   	uuuuuuu   	4.323  	7.70e-06
+58               	chr12:76406493    	huuuuuk   	uuuuuuu   	4.323  	7.70e-06
+59               	chr12:76406494    	huuuuuk   	uuuuuuc   	4.051  	2.55e-05
+270              	chr12:76406705    	huuuuuk   	cuuuuug   	3.384  	3.57e-04
+387              	chr12:76406822    	huuuuuk   	auuguuu   	3.505  	2.28e-04
+394              	chr12:76406829    	huuuuuk   	auuuuua   	3.687  	1.13e-04
+
+Protein: HNRNPCL1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+42               	chr12:76406477    	huuuuuk   	cuuuuuu   	4.327  	7.56e-06
+43               	chr12:76406478    	huuuuuk   	uuuuuuc   	4.040  	2.67e-05
+49               	chr12:76406484    	huuuuuk   	cuuuuuu   	4.327  	7.56e-06
+50               	chr12:76406485    	huuuuuk   	uuuuuuu   	4.347  	6.90e-06
+51               	chr12:76406486    	huuuuuk   	uuuuuuu   	4.347  	6.90e-06
+52               	chr12:76406487    	huuuuuk   	uuuuuuu   	4.347  	6.90e-06
+53               	chr12:76406488    	huuuuuk   	uuuuuuu   	4.347  	6.90e-06
+54               	chr12:76406489    	huuuuuk   	uuuuuuu   	4.347  	6.90e-06
+55               	chr12:76406490    	huuuuuk   	uuuuuuu   	4.347  	6.90e-06
+56               	chr12:76406491    	huuuuuk   	uuuuuuu   	4.347  	6.90e-06
+57               	chr12:76406492    	huuuuuk   	uuuuuuu   	4.347  	6.90e-06
+58               	chr12:76406493    	huuuuuk   	uuuuuuu   	4.347  	6.90e-06
+59               	chr12:76406494    	huuuuuk   	uuuuuuc   	4.040  	2.67e-05
+270              	chr12:76406705    	huuuuuk   	cuuuuug   	3.356  	3.95e-04
+387              	chr12:76406822    	huuuuuk   	auuguuu   	3.465  	2.65e-04
+394              	chr12:76406829    	huuuuuk   	auuuuua   	3.634  	1.40e-04
+
+Protein: HNRNPF(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+276              	chr12:76406711    	gukgykg   	guuguug   	3.533  	2.05e-04
+
+Protein: HNRNPL(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+363              	chr12:76406798    	acacrav   	acacuaa   	3.400  	3.37e-04
+369              	chr12:76406804    	amayama   	agacaca   	2.528  	5.74e-03
+371              	chr12:76406806    	acacrav   	acacagg   	2.743  	3.04e-03
+457              	chr12:76406892    	amayama   	aaacaca   	3.847  	5.98e-05
+459              	chr12:76406894    	amayama   	acacaua   	3.750  	8.84e-05
+461              	chr12:76406896    	amayama   	acauaaa   	3.611  	1.53e-04
+
+Protein: HNRNPM(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+81               	chr12:76406516    	gguugguu  	uuuugguu  	3.262  	5.53e-04
+178              	chr12:76406613    	gguugguu  	guuuaguu  	1.918  	2.76e-02
+192              	chr12:76406627    	gguugguu  	gguuaguu  	3.508  	2.26e-04
+206              	chr12:76406641    	gguugguu  	guuugauu  	3.033  	1.21e-03
+355              	chr12:76406790    	gguugguu  	gcuugguu  	1.984  	2.36e-02
+
+Protein: HNRPLL(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+457              	chr12:76406892    	rcahaca   	aaacaca   	3.532  	2.06e-04
+459              	chr12:76406894    	rcahaca   	acacaua   	3.532  	2.06e-04
+
+Protein: HuR(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+34               	chr12:76406469    	uukruuu   	uuucuuu   	3.831  	6.38e-05
+39               	chr12:76406474    	uukruuu   	uuucuuu   	3.831  	6.38e-05
+46               	chr12:76406481    	uukruuu   	uuucuuu   	3.831  	6.38e-05
+50               	chr12:76406485    	uukruuu   	uuuuuuu   	3.904  	4.73e-05
+51               	chr12:76406486    	uukruuu   	uuuuuuu   	3.904  	4.73e-05
+52               	chr12:76406487    	uukruuu   	uuuuuuu   	4.120  	1.89e-05
+53               	chr12:76406488    	uukruuu   	uuuuuuu   	4.193  	1.38e-05
+54               	chr12:76406489    	uukruuu   	uuuuuuu   	4.193  	1.38e-05
+55               	chr12:76406490    	uukruuu   	uuuuuuu   	4.193  	1.38e-05
+56               	chr12:76406491    	uukruuu   	uuuuuuu   	4.193  	1.38e-05
+57               	chr12:76406492    	uukruuu   	uuuuuuu   	4.193  	1.38e-05
+58               	chr12:76406493    	uukruuu   	uuuuuuu   	4.398  	5.46e-06
+77               	chr12:76406512    	uukruuu   	uuuguuu   	4.747  	1.03e-06
+78               	chr12:76406513    	uukruuu   	uuguuuu   	4.627  	1.86e-06
+83               	chr12:76406518    	uukruuu   	uugguuu   	4.843  	6.39e-07
+87               	chr12:76406522    	uukruuu   	uuucuuu   	4.253  	1.05e-05
+175              	chr12:76406610    	uukruuu   	uuaguuu   	3.301  	4.82e-04
+208              	chr12:76406643    	uukruuu   	uugauuu   	3.458  	2.72e-04
+258              	chr12:76406693    	uukruuu   	cugauuu   	3.072  	1.06e-03
+387              	chr12:76406822    	uukruuu   	auuguuu   	3.723  	9.84e-05
+391              	chr12:76406826    	uukruuu   	uuuauuu   	3.819  	6.70e-05
+392              	chr12:76406827    	uukruuu   	uuauuuu   	3.639  	1.37e-04
+
+Protein: IGF2BP2(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+457              	chr12:76406892    	vmahwca   	aaacaca   	3.429  	3.03e-04
+
+Protein: IGF2BP3(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+457              	chr12:76406892    	amahwca   	aaacaca   	3.609  	1.54e-04
+
+Protein: KHDRBS1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+186              	chr12:76406621    	auaaaav   	auaaaag   	3.088  	1.01e-03
+200              	chr12:76406635    	auaaaav   	cuaaaag   	3.187  	7.19e-04
+412              	chr12:76406847    	auaaaav   	augaaag   	2.418  	7.80e-03
+435              	chr12:76406870    	auaaaav   	auuaaag   	2.846  	2.21e-03
+463              	chr12:76406898    	auaaaav   	auaaaug   	2.538  	5.57e-03
+
+Protein: KHDRBS2(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+411              	chr12:76406846    	rauaaam   	gaugaaa   	2.238  	1.26e-02
+462              	chr12:76406897    	rauaaam   	cauaaau   	2.762  	2.87e-03
+
+Protein: KHDRBS3(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+185              	chr12:76406620    	auaaav    	uauaaa    	1.663  	4.82e-02
+462              	chr12:76406897    	auaaav    	cauaaa    	2.941  	1.64e-03
+
+Protein: MBNL1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+6                	chr12:76406441    	ygcuky    	cgcugg    	2.353  	9.31e-03
+25               	chr12:76406460    	ygcuky    	cucuuu    	2.539  	5.56e-03
+31               	chr12:76406466    	ygcuky    	uccuuu    	2.539  	5.56e-03
+35               	chr12:76406470    	ygcuky    	uucuuu    	2.510  	6.04e-03
+40               	chr12:76406475    	ygcuky    	uucuuu    	2.539  	5.56e-03
+47               	chr12:76406482    	ygcuky    	uucuuu    	2.539  	5.56e-03
+64               	chr12:76406499    	ygcuky    	uccuuu    	2.549  	5.40e-03
+73               	chr12:76406508    	ygcuky    	cccuuu    	2.510  	6.04e-03
+79               	chr12:76406514    	ygcuky    	uguuuu    	2.510  	6.04e-03
+84               	chr12:76406519    	ygcuky    	ugguuu    	2.510  	6.04e-03
+88               	chr12:76406523    	ygcuky    	uucuuu    	2.510  	6.04e-03
+209              	chr12:76406644    	ygcuky    	ugauuu    	2.098  	1.80e-02
+233              	chr12:76406668    	ygcuky    	cucuuu    	2.451  	7.12e-03
+241              	chr12:76406676    	ygcuky    	ugcauu    	2.461  	6.93e-03
+256              	chr12:76406691    	ygcuky    	ugcuga    	2.549  	5.40e-03
+259              	chr12:76406694    	ygcuky    	ugauuu    	2.539  	5.56e-03
+268              	chr12:76406703    	ygcuky    	cucuuu    	2.510  	6.04e-03
+275              	chr12:76406710    	ygcuky    	uguugu    	2.510  	6.04e-03
+278              	chr12:76406713    	ygcuky    	uguugu    	2.500  	6.21e-03
+310              	chr12:76406745    	gcuugc    	ugcuug    	3.289  	5.03e-04
+328              	chr12:76406763    	ygcuky    	ugaugc    	2.049  	2.02e-02
+354              	chr12:76406789    	gcuugc    	agcuug    	2.118  	1.71e-02
+423              	chr12:76406858    	ygcuky    	cacugc    	1.951  	2.55e-02
+426              	chr12:76406861    	ygcuky    	ugcagu    	2.157  	1.55e-02
+451              	chr12:76406886    	ygcuky    	uucugu    	1.745  	4.05e-02
+
+Protein: MSI1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+181              	chr12:76406616    	uaguwrg   	uaguuau   	3.246  	5.85e-04
+
+Protein: PCBP3(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+27               	chr12:76406462    	uuuycc    	cuuuuc    	3.942  	4.04e-05
+28               	chr12:76406463    	uuuycc    	uuuucc    	4.058  	2.47e-05
+37               	chr12:76406472    	uuuycc    	cuuuuc    	4.174  	1.50e-05
+61               	chr12:76406496    	uuuycc    	uuuucc    	4.087  	2.18e-05
+66               	chr12:76406501    	uuuycc    	cuuuuc    	3.768  	8.23e-05
+
+Protein: PTBP1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+1                	chr12:76406436    	ucuu      	gcuu      	1.676  	4.69e-02
+23               	chr12:76406458    	cucucu    	accucu    	2.245  	1.24e-02
+25               	chr12:76406460    	cucucu    	cucuuu    	2.818  	2.42e-03
+26               	chr12:76406461    	ucuu      	ucuu      	3.784  	7.72e-05
+28               	chr12:76406463    	ucuu      	uuuu      	2.730  	3.17e-03
+31               	chr12:76406466    	ucuu      	uccu      	2.730  	3.17e-03
+32               	chr12:76406467    	ucuu      	ccuu      	2.730  	3.17e-03
+33               	chr12:76406468    	cucucu    	cuuucu    	2.818  	2.42e-03
+35               	chr12:76406470    	cucucu    	uucuuu    	2.245  	1.24e-02
+36               	chr12:76406471    	ucuu      	ucuu      	3.784  	7.72e-05
+38               	chr12:76406473    	ucuu      	uuuu      	2.730  	3.17e-03
+40               	chr12:76406475    	cucucu    	uucuuu    	2.245  	1.24e-02
+41               	chr12:76406476    	ucuu      	ucuu      	3.784  	7.72e-05
+42               	chr12:76406477    	cucucu    	cuuuuu    	2.245  	1.24e-02
+43               	chr12:76406478    	ucuu      	uuuu      	2.730  	3.17e-03
+44               	chr12:76406479    	ucuu      	uuuu      	2.730  	3.17e-03
+45               	chr12:76406480    	ucuu      	uuuu      	2.730  	3.17e-03
+47               	chr12:76406482    	cucucu    	uucuuu    	2.345  	9.51e-03
+48               	chr12:76406483    	ucuu      	ucuu      	3.784  	7.72e-05
+49               	chr12:76406484    	cucucu    	cuuuuu    	2.345  	9.51e-03
+50               	chr12:76406485    	ucuu      	uuuu      	2.730  	3.17e-03
+51               	chr12:76406486    	ucuu      	uuuu      	2.730  	3.17e-03
+52               	chr12:76406487    	ucuu      	uuuu      	2.658  	3.93e-03
+53               	chr12:76406488    	ucuu      	uuuu      	2.658  	3.93e-03
+54               	chr12:76406489    	ucuu      	uuuu      	2.658  	3.93e-03
+55               	chr12:76406490    	ucuu      	uuuu      	2.658  	3.93e-03
+56               	chr12:76406491    	ucuu      	uuuu      	2.658  	3.93e-03
+57               	chr12:76406492    	ucuu      	uuuu      	2.658  	3.93e-03
+58               	chr12:76406493    	ucuu      	uuuu      	2.658  	3.93e-03
+59               	chr12:76406494    	ucuu      	uuuu      	2.658  	3.93e-03
+60               	chr12:76406495    	ucuu      	uuuu      	2.658  	3.93e-03
+61               	chr12:76406496    	ucuu      	uuuu      	2.658  	3.93e-03
+64               	chr12:76406499    	ucuu      	uccu      	2.658  	3.93e-03
+65               	chr12:76406500    	ucuu      	ccuu      	2.658  	3.93e-03
+67               	chr12:76406502    	ucuu      	uuuu      	2.523  	5.82e-03
+69               	chr12:76406504    	cucucu    	uucucc    	2.055  	1.99e-02
+70               	chr12:76406505    	ucuu      	ucuc      	2.523  	5.82e-03
+71               	chr12:76406506    	cucucu    	cucccu    	2.427  	7.61e-03
+73               	chr12:76406508    	cucucu    	cccuuu    	2.045  	2.04e-02
+74               	chr12:76406509    	ucuu      	ccuu      	2.234  	1.27e-02
+76               	chr12:76406511    	ucuu      	uuuu      	2.234  	1.27e-02
+79               	chr12:76406514    	ucuu      	uguu      	2.234  	1.27e-02
+81               	chr12:76406516    	ucuu      	uuuu      	2.234  	1.27e-02
+86               	chr12:76406521    	cucucu    	guuucu    	2.036  	2.09e-02
+88               	chr12:76406523    	cucucu    	uucuuu    	2.036  	2.09e-02
+89               	chr12:76406524    	ucuu      	ucuu      	2.802  	2.54e-03
+91               	chr12:76406526    	ucuu      	uuuu      	2.234  	1.27e-02
+100              	chr12:76406535    	ucuu      	uccu      	2.234  	1.27e-02
+101              	chr12:76406536    	ucuu      	ccuu      	2.234  	1.27e-02
+118              	chr12:76406553    	ucuu      	ucua      	2.207  	1.37e-02
+120              	chr12:76406555    	ucuu      	uauu      	2.207  	1.37e-02
+123              	chr12:76406558    	ucuu      	uauu      	2.207  	1.37e-02
+132              	chr12:76406567    	ucuu      	ucuu      	2.658  	3.93e-03
+229              	chr12:76406664    	cucucu    	guuucu    	1.918  	2.76e-02
+231              	chr12:76406666    	cucucu    	uucucu    	2.482  	6.53e-03
+232              	chr12:76406667    	ucuu      	ucuc      	1.676  	4.69e-02
+233              	chr12:76406668    	cucucu    	cucuuu    	2.555  	5.31e-03
+234              	chr12:76406669    	ucuu      	ucuu      	2.234  	1.27e-02
+266              	chr12:76406701    	cucucu    	agcucu    	1.836  	3.32e-02
+268              	chr12:76406703    	cucucu    	cucuuu    	2.227  	1.30e-02
+269              	chr12:76406704    	ucuu      	ucuu      	2.784  	2.68e-03
+270              	chr12:76406705    	cucucu    	cuuuuu    	1.855  	3.18e-02
+271              	chr12:76406706    	ucuu      	uuuu      	2.225  	1.30e-02
+272              	chr12:76406707    	ucuu      	uuuu      	2.225  	1.30e-02
+275              	chr12:76406710    	ucuu      	uguu      	2.225  	1.30e-02
+278              	chr12:76406713    	ucuu      	uguu      	2.225  	1.30e-02
+281              	chr12:76406716    	ucuu      	uguu      	2.225  	1.30e-02
+287              	chr12:76406722    	ucuu      	gcuu      	2.234  	1.27e-02
+
+Protein: PUM2(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+296              	chr12:76406731    	uguanaua  	uguacaug  	3.386  	3.55e-04
+389              	chr12:76406824    	uguanaua  	uguuuauu  	2.964  	1.52e-03
+445              	chr12:76406880    	uguanaua  	gguauauu  	2.892  	1.91e-03
+454              	chr12:76406889    	uguanaua  	uguaaaca  	3.470  	2.60e-04
+
+Protein: RALY(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+43               	chr12:76406478    	uuuuuub   	uuuuuuc   	4.490  	3.56e-06
+44               	chr12:76406479    	uuuuuub   	uuuuucu   	4.000  	3.17e-05
+50               	chr12:76406485    	uuuuuub   	uuuuuuu   	4.510  	3.24e-06
+51               	chr12:76406486    	uuuuuub   	uuuuuuu   	4.510  	3.24e-06
+52               	chr12:76406487    	uuuuuub   	uuuuuuu   	4.510  	3.24e-06
+53               	chr12:76406488    	uuuuuub   	uuuuuuu   	4.510  	3.24e-06
+54               	chr12:76406489    	uuuuuub   	uuuuuuu   	4.510  	3.24e-06
+55               	chr12:76406490    	uuuuuub   	uuuuuuu   	4.510  	3.24e-06
+56               	chr12:76406491    	uuuuuub   	uuuuuuu   	4.510  	3.24e-06
+57               	chr12:76406492    	uuuuuub   	uuuuuuu   	4.510  	3.24e-06
+58               	chr12:76406493    	uuuuuub   	uuuuuuu   	4.510  	3.24e-06
+59               	chr12:76406494    	uuuuuub   	uuuuuuc   	4.490  	3.56e-06
+60               	chr12:76406495    	uuuuuub   	uuuuucc   	3.990  	3.30e-05
+79               	chr12:76406514    	uuuuuub   	uguuuug   	4.060  	2.45e-05
+270              	chr12:76406705    	uuuuuub   	cuuuuug   	3.560  	1.85e-04
+271              	chr12:76406706    	uuuuuub   	uuuuugu   	3.450  	2.80e-04
+273              	chr12:76406708    	uuuuuub   	uuuguug   	3.500  	2.33e-04
+396              	chr12:76406831    	uuuuuub   	uuuuaug   	3.410  	3.25e-04
+
+Protein: RBM41(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+297              	chr12:76406732    	wuacwuk   	guacaug   	2.568  	5.11e-03
+
+Protein: RBM42(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+403              	chr12:76406838    	aacuamg   	uacuaug   	1.740  	4.09e-02
+416              	chr12:76406851    	aacuamg   	aaguaag   	1.795  	3.63e-02
+
+Protein: RBM5(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+156              	chr12:76406591    	garggwr   	aaaggaa   	2.197  	1.40e-02
+
+Protein: RBMS1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+447              	chr12:76406882    	kauauas   	uauauuc   	3.638  	1.37e-04
+
+Protein: RBMS3(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+185              	chr12:76406620    	hauaua    	uauaaa    	2.307  	1.05e-02
+447              	chr12:76406882    	hauaua    	uauauu    	3.420  	3.13e-04
+
+Protein: SNRPA(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+467              	chr12:76406902    	wugcacr   	augcaca   	1.986  	2.35e-02
+
+Protein: SRSF1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+141              	chr12:76406576    	ugrwgvh   	uggugca   	2.011  	2.22e-02
+302              	chr12:76406737    	ugrwgvh   	uggagau   	2.011  	2.22e-02
+328              	chr12:76406763    	ugrwgvh   	ugaugcu   	2.598  	4.69e-03
+
+Protein: SRSF2(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+256              	chr12:76406691    	ugcygyy   	ugcugau   	2.900  	1.87e-03
+275              	chr12:76406710    	ugcygyy   	uguuguu   	2.730  	3.17e-03
+278              	chr12:76406713    	ugcygyy   	uguuguu   	2.730  	3.17e-03
+
+Protein: SRSF3(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+25               	chr12:76406460    	cuckucy   	cucuuuu   	3.449  	2.81e-04
+27               	chr12:76406462    	cuckucy   	cuuuucc   	3.449  	2.81e-04
+32               	chr12:76406467    	cuckucy   	ccuuucu   	2.816  	2.43e-03
+35               	chr12:76406470    	cuckucy   	uucuuuu   	2.816  	2.43e-03
+37               	chr12:76406472    	cuckucy   	cuuuucu   	3.449  	2.81e-04
+40               	chr12:76406475    	cuckucy   	uucuuuu   	2.816  	2.43e-03
+42               	chr12:76406477    	cuckucy   	cuuuuuu   	2.857  	2.14e-03
+44               	chr12:76406479    	cuckucy   	uuuuucu   	2.857  	2.14e-03
+47               	chr12:76406482    	cuckucy   	uucuuuu   	2.857  	2.14e-03
+49               	chr12:76406484    	cuckucy   	cuuuuuu   	2.857  	2.14e-03
+60               	chr12:76406495    	cuckucy   	uuuuucc   	2.724  	3.22e-03
+66               	chr12:76406501    	cuckucy   	cuuuucu   	2.908  	1.82e-03
+69               	chr12:76406504    	cuckucy   	uucuccc   	2.541  	5.53e-03
+73               	chr12:76406508    	cuckucy   	cccuuuu   	2.531  	5.69e-03
+75               	chr12:76406510    	cuckucy   	cuuuugu   	2.520  	5.87e-03
+88               	chr12:76406523    	cuckucy   	uucuuuu   	2.520  	5.87e-03
+102              	chr12:76406537    	cuckucy   	cuugugc   	1.990  	2.33e-02
+119              	chr12:76406554    	cuckucy   	cuauuau   	1.990  	2.33e-02
+140              	chr12:76406575    	cuckucy   	cuggugc   	1.765  	3.88e-02
+170              	chr12:76406605    	wcwwc     	acaac     	2.446  	7.22e-03
+268              	chr12:76406703    	cuckucy   	cucuuuu   	2.163  	1.53e-02
+
+Protein: SRSF5(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+68               	chr12:76406503    	yywcwsg   	uuucucc   	1.968  	2.45e-02
+230              	chr12:76406665    	yywcwsg   	uuucucu   	1.914  	2.78e-02
+346              	chr12:76406781    	yywcwsg   	ccugugg   	2.516  	5.93e-03
+361              	chr12:76406796    	yywcwsg   	uuacacu   	2.312  	1.04e-02
+371              	chr12:76406806    	yywcwsg   	acacagg   	2.075  	1.90e-02
+
+Protein: TIA1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+43               	chr12:76406478    	uuuuubk   	uuuuuuc   	4.341  	7.09e-06
+44               	chr12:76406479    	uuuuubk   	uuuuucu   	4.187  	1.41e-05
+50               	chr12:76406485    	uuuuubk   	uuuuuuu   	4.473  	3.86e-06
+51               	chr12:76406486    	uuuuubk   	uuuuuuu   	4.473  	3.86e-06
+52               	chr12:76406487    	uuuuubk   	uuuuuuu   	4.473  	3.86e-06
+53               	chr12:76406488    	uuuuubk   	uuuuuuu   	4.473  	3.86e-06
+54               	chr12:76406489    	uuuuubk   	uuuuuuu   	4.473  	3.86e-06
+55               	chr12:76406490    	uuuuubk   	uuuuuuu   	4.473  	3.86e-06
+56               	chr12:76406491    	uuuuubk   	uuuuuuu   	4.473  	3.86e-06
+57               	chr12:76406492    	uuuuubk   	uuuuuuu   	4.473  	3.86e-06
+58               	chr12:76406493    	uuuuubk   	uuuuuuu   	4.473  	3.86e-06
+59               	chr12:76406494    	uuuuubk   	uuuuuuc   	4.341  	7.09e-06
+60               	chr12:76406495    	uuuuubk   	uuuuucc   	4.044  	2.63e-05
+270              	chr12:76406705    	uuuuubk   	cuuuuug   	3.692  	1.11e-04
+271              	chr12:76406706    	uuuuubk   	uuuuugu   	3.692  	1.11e-04
+395              	chr12:76406830    	uuuuubk   	uuuuuau   	3.429  	3.03e-04
+
+Protein: TRA2B(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+95               	chr12:76406530    	aaguguu   	aaauguc   	1.926  	2.71e-02
+110              	chr12:76406545    	aaguguu   	aaguaag   	2.085  	1.85e-02
+114              	chr12:76406549    	aaguguu   	aagaucu   	2.085  	1.85e-02
+117              	chr12:76406552    	aaguguu   	aucuauu   	2.085  	1.85e-02
+120              	chr12:76406555    	aaguguu   	uauuauu   	2.085  	1.85e-02
+129              	chr12:76406564    	aaguguu   	aagucuu   	2.511  	6.02e-03
+181              	chr12:76406616    	aaguguu   	uaguuau   	1.851  	3.21e-02
+188              	chr12:76406623    	aaguguu   	aaaaggu   	1.840  	3.29e-02
+189              	chr12:76406624    	aaguguu   	aaagguu   	2.500  	6.21e-03
+190              	chr12:76406625    	aaguguu   	aagguua   	1.840  	3.29e-02
+195              	chr12:76406630    	aaguguu   	uaguucu   	1.840  	3.29e-02
+202              	chr12:76406637    	aaguguu   	aaaaguu   	2.511  	6.02e-03
+203              	chr12:76406638    	aaguguu   	aaaguuu   	1.851  	3.21e-02
+204              	chr12:76406639    	aaguguu   	aaguuug   	2.511  	6.02e-03
+222              	chr12:76406657    	aaguguu   	aaaugag   	1.734  	4.15e-02
+224              	chr12:76406659    	aaguguu   	augaggu   	1.745  	4.05e-02
+226              	chr12:76406661    	aaguguu   	gagguuu   	1.745  	4.05e-02
+227              	chr12:76406662    	aaguguu   	agguuuc   	1.745  	4.05e-02
+378              	chr12:76406813    	aaguguu   	aaagcuu   	1.851  	3.21e-02
+379              	chr12:76406814    	aaguguu   	aagcuug   	1.755  	3.96e-02
+386              	chr12:76406821    	aaguguu   	aauuguu   	2.606  	4.58e-03
+393              	chr12:76406828    	aaguguu   	uauuuuu   	1.894  	2.91e-02
+400              	chr12:76406835    	aaguguu   	auguacu   	1.926  	2.71e-02
+407              	chr12:76406842    	aaguguu   	augagau   	2.085  	1.85e-02
+428              	chr12:76406863    	aaguguu   	cagugau   	1.755  	3.96e-02
+490              	chr12:76406925    	aaguguu   	aauugau   	2.234  	1.27e-02
+
+Protein: U2AF2(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+26               	chr12:76406461    	uuuuuyc   	ucuuuuc   	4.064  	2.41e-05
+27               	chr12:76406462    	uuuuuyc   	cuuuucc   	4.149  	1.67e-05
+36               	chr12:76406471    	uuuuuyc   	ucuuuuc   	4.223  	1.21e-05
+43               	chr12:76406478    	uuuuuyc   	uuuuuuc   	4.883  	5.22e-07
+44               	chr12:76406479    	uuuuuyc   	uuuuucu   	4.298  	8.62e-06
+50               	chr12:76406485    	uuuuuyc   	uuuuuuu   	4.553  	2.64e-06
+51               	chr12:76406486    	uuuuuyc   	uuuuuuu   	4.553  	2.64e-06
+52               	chr12:76406487    	uuuuuyc   	uuuuuuu   	4.553  	2.64e-06
+53               	chr12:76406488    	uuuuuyc   	uuuuuuu   	4.553  	2.64e-06
+54               	chr12:76406489    	uuuuuyc   	uuuuuuu   	4.553  	2.64e-06
+55               	chr12:76406490    	uuuuuyc   	uuuuuuu   	4.553  	2.64e-06
+56               	chr12:76406491    	uuuuuyc   	uuuuuuu   	4.553  	2.64e-06
+57               	chr12:76406492    	uuuuuyc   	uuuuuuu   	4.553  	2.64e-06
+58               	chr12:76406493    	uuuuuyc   	uuuuuuu   	4.553  	2.64e-06
+59               	chr12:76406494    	uuuuuyc   	uuuuuuc   	4.883  	5.22e-07
+60               	chr12:76406495    	uuuuuyc   	uuuuucc   	4.691  	1.36e-06
+67               	chr12:76406502    	uuuuuyc   	uuuucuc   	4.362  	6.44e-06
+
+Protein: ZC3H14(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+34               	chr12:76406469    	uuuduuu   	uuucuuu   	4.494  	3.49e-06
+39               	chr12:76406474    	uuuduuu   	uuucuuu   	4.494  	3.49e-06
+46               	chr12:76406481    	uuuduuu   	uuucuuu   	4.494  	3.49e-06
+50               	chr12:76406485    	uuuduuu   	uuuuuuu   	4.563  	2.52e-06
+51               	chr12:76406486    	uuuduuu   	uuuuuuu   	4.563  	2.52e-06
+52               	chr12:76406487    	uuuduuu   	uuuuuuu   	4.678  	1.45e-06
+53               	chr12:76406488    	uuuduuu   	uuuuuuu   	4.678  	1.45e-06
+54               	chr12:76406489    	uuuduuu   	uuuuuuu   	4.678  	1.45e-06
+55               	chr12:76406490    	uuuduuu   	uuuuuuu   	4.678  	1.45e-06
+56               	chr12:76406491    	uuuduuu   	uuuuuuu   	4.678  	1.45e-06
+57               	chr12:76406492    	uuuduuu   	uuuuuuu   	4.678  	1.45e-06
+58               	chr12:76406493    	uuuduuu   	uuuuuuu   	4.678  	1.45e-06
+76               	chr12:76406511    	uuuduuu   	uuuuguu   	4.195  	1.36e-05
+77               	chr12:76406512    	uuuduuu   	uuuguuu   	4.782  	8.68e-07
+78               	chr12:76406513    	uuuduuu   	uuguuuu   	4.149  	1.67e-05
+82               	chr12:76406517    	uuuduuu   	uuugguu   	4.391  	5.64e-06
+83               	chr12:76406518    	uuuduuu   	uugguuu   	4.310  	8.16e-06
+87               	chr12:76406522    	uuuduuu   	uuucuuu   	4.425  	4.82e-06
+175              	chr12:76406610    	uuuduuu   	uuaguuu   	3.299  	4.85e-04
+179              	chr12:76406614    	uuuduuu   	uuuaguu   	3.218  	6.45e-04
+207              	chr12:76406642    	uuuduuu   	uuugauu   	3.379  	3.64e-04
+208              	chr12:76406643    	uuuduuu   	uugauuu   	3.310  	4.66e-04
+272              	chr12:76406707    	uuuduuu   	uuuuguu   	3.437  	2.94e-04
+273              	chr12:76406708    	uuuduuu   	uuuguug   	3.448  	2.82e-04
+387              	chr12:76406822    	uuuduuu   	auuguuu   	3.736  	9.35e-05
+391              	chr12:76406826    	uuuduuu   	uuuauuu   	3.966  	3.65e-05
+392              	chr12:76406827    	uuuduuu   	uuauuuu   	3.690  	1.12e-04
+
+Protein: ZCRB1(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+260              	chr12:76406695    	grhuuaa   	gauuuaa   	3.364  	3.84e-04
+433              	chr12:76406868    	grhuuaa   	auauuaa   	2.208  	1.36e-02
+472              	chr12:76406907    	grhuuaa   	cauuuaa   	2.948  	1.60e-03
+
+Protein: ZNF638(Hs/Mm)
+Sequence Position	Genomic Coordinate	Motif     	K-mer     	Z-score	P-value 
+275              	chr12:76406710    	bguusku   	uguuguu   	3.922  	4.39e-05
+278              	chr12:76406713    	bguusku   	uguuguu   	3.922  	4.39e-05
