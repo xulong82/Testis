@@ -66,4 +66,8 @@ shinyServer(function(input, output) {
    filename = "report_20150807.pptx", content = function (file) file.copy("./report_20150807.pptx", file)
  )
   
+ output$downloadData4 <- downloadHandler(
+   filename = "report_20150904.pptx", content = function (file) file.copy("./report_20150904.pptx", file)
+ )
+  
 })

@@ -57,7 +57,9 @@ shinyUI(
 	h5("TableS1.", strong(a(href="TableS1(nonp_up).xlsx", "Up-regulated genes between non-polysomic samples (Hspa2)."))), 
 	h5("TableS2.", strong(a(href="TableS2(nonp_down).xlsx", "Down-regulated genes between non-polysomic samples."))), 
 	h5("TableS3.", strong(a(href="TableS3(IN).xlsx", "Differential genes between input samples."))), 
-	h5("TableS4.", strong(a(href="TableS4(poly).xlsx", "Differential genes between polysomic samples."))) 
+	h5("TableS4.", strong(a(href="TableS4(poly).xlsx", "Differential genes between polysomic samples."))), 
+	h4("Joint lab meeting on September 4, 2015"),
+	downloadButton('downloadData4', 'Download')
                       ))
             
 ))
