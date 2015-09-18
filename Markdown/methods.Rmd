@@ -1,0 +1,169 @@
+---
+title: "Analyze RNA-seq data from different testes fractions of $B6$ and $B6^{eif4g3}$ mice with generalized linear model"
+output: html_document
+---
+
+__This document describes how I implemented generalized linear model (GLM) to analyze 6 groups of RNA-seq data from mice testes. The 6 sample groups are $B6$ total (WIN), $B6^{eif4g3}$ total (MIN), $B6$ non-polysomic fraction (WNONP), $B6^{eif4g3}$ non-polysomic fraction (MNONP), $B6$ polysomic fraction (WPLM), and $B6^{eif4g3}$ polysomic fraction (MPLM). Each group has three replicates.__ 
+
+```{r, include = F}
+library(xlsx)
+library(dplyr)
+library(contrast)
+library(quantro)
+library(Biobase)
+library(biomaRt)
+library(RColorBrewer)
+```
+
+
+```{r}
+rm(list = ls())
+setwd("~/Dropbox/GitHub/Testis")
+load("data/dataList.rdt")
+for(obj in names(dataList)) assign(obj, dataList[[obj]])
+gene <- tpm[biomart$ensembl_transcript_id, ]
+gene <- apply(gene, 2, function(x) tapply(x, biomart$external_gene_name, sum))
+dim(gene)
+```
+
+Gene expression levels were estimated with RSEM and normalized to TPM (transcript per million). Boxplot below shows gene expression distribution. X-axis is the 18 samples, Y axis is gene expression values in log2(TPM).
+
+```{r}
+matboxplot(as.data.frame(log2(gene + 1)), groupFactor = gsub("[123]", "", colnames(gene)))
+abline(h = log2(1e4), col = "red")
+```
+
+There are several high values. I drew a red line at $y = log2(1e4)$. Any genes above the red line took more than 1% of the total transcriptome. These over-abundant genes likely reflect some unknown artifacts from library preparation or sequencing process. 
+
+```{r}
+gene[rowMax(gene) > 1e4, ] %>% rownames  # outlier
+```
+
+These genes do not look important. However, the high values could skew expression values of other genes. For this sake, I removed them and re-normalized the data to give each sample exactly 1 million transcripts in total. I also removed genes with low abundance (maximal TPM smaller than 20).
+
+```{r}
+gene <- gene[! rowMax(gene) > 1e4, ]  # outlier
+gene <- sweep(gene, 2, colSums(gene), "/") * 1e6 
+geneAll <- rownames(gene)
+gene <- gene[rowMax(gene) > 20, ] 
+dim(gene)
+```
+
+We have 9580 genes left. Data matrix is now 9580 by 18. Boxplot below shows distribution of the new data.
+
+```{r}
+grp1 <- c("WIN", "MIN", "WNONP", "MNONP", "WPLM", "MPLM")
+gene <- gene[, order(factor(gsub("[123]", "", colnames(gene)), levels = grp1))]
+grp2 <- factor(gsub("[123]", "", colnames(gene)), levels = grp1)
+matboxplot(as.data.frame(log2(gene + 1)), groupFactor = as.numeric(grp2))
+```
+
+The 18 samples come from 6 groups that are defined by two factors: genotype (wildtype, mutant) and fraction (total, non-polysomic, polysomic). We want to infer how the two factors affect each gene's expression. In another word, how the two factors explain each gene's expression variability across the 18 samples. To do this, we modeled each gene's expression with a generalized linear model (GLM) by including genotype and fraction as predictors, plus an interaction term between the two: $$ y \sim geno + frac + geno * frac $$
+
+```{r}
+(geno <- factor(gsub("[123].*", "", colnames(gene)), levels = c("W", "M")))
+(frac <- factor(gsub(".*[123]", "", colnames(gene)), levels = c("IN", "PLM", "NONP")))
+fit <- apply(log2(gene + 1), 1, function (x) lm(x ~ frac + geno + frac * geno))
+```
+
+This is what GLM return for Hspa2.
+
+```{r}
+summary(fit[["Hspa2"]])
+```
+
+GLM returned estimates for 6 terms: Intercept, fracPLM, fracNONP, genoM, fracPLM:genoM, and fracNONP:genoM. What do they stands for?
+
+* Intercept: mean value of the 3 WIN samples
+* fracPLM: change from WIN to WPLM
+* fracNONP: change from WIN to WNONP
+* genoM: change from WIN to MIN
+* fracPLM:genoM: change from WIN to MPLM, but conditional on changes from WIN to WPLM and WIN to MIN
+* fracNONP:genoM: change from WIN to MNONP, but conditional on changes from WIN to WNONP and WIN to MIN
+
+Graph below illustrates how each estimate relates to raw gene expression, take Hspa2 for example. Triangle points are Hspa2's mean expression in the 6 groups. Arrow lines are model estimates. Line length represents the actual estimate values.
+
+```{r}
+(hspa2 = log2(gene["Hspa2", ] + 1))
+(hspa2 = sapply(grp1, function(x) mean(hspa2[grp2 == x])))
+(coefs = summary(fit[["Hspa2"]])$coefficients[, "Estimate"])
+
+cols <- brewer.pal(6,"Dark2")
+plot(1:6, hspa2, xaxt="n", pch=17, cex=2, xlim=c(0, 7), ylim=c(-1, 12), xlab="")
+axis(1, at=1:6, labels=names(hspa2))
+abline(h=0)
+arrows(1, 0, 1, coefs[1], lwd=3, col=cols[1]) # WIN as baseline
+abline(h=coefs[1], col=cols[1])
+arrows(2, coefs[1], 2, coefs[1]+coefs[4], lwd=3, col=cols[4]) # MIN - WIN
+arrows(3, coefs[1], 3, coefs[1]+coefs[3], lwd=3, col=cols[3]) # WNONP - WIN
+segments(3, coefs[1]+coefs[3], 4,coefs[1]+coefs[3], col=cols[3]) # 
+arrows(4, coefs[1]+coefs[3], 4, coefs[1]+coefs[3]+coefs[4], lwd=3, col=cols[4])
+arrows(4, coefs[1]+coefs[3]+coefs[4], 4, coefs[1]+coefs[3]+coefs[4]+coefs[6], lwd=3, col=cols[6])
+arrows(5, coefs[1], 5, coefs[1]+coefs[2], lwd=3, col=cols[2]) # WNONP - WIN
+segments(5, coefs[1]+coefs[2], 6,coefs[1]+coefs[2], col=cols[2]) # 
+arrows(6, coefs[1]+coefs[2], 6, coefs[1]+coefs[2]+coefs[4], lwd=3, col=cols[4])
+arrows(6, coefs[1]+coefs[2]+coefs[4], 6, coefs[1]+coefs[2]+coefs[4]+coefs[5], lwd=3, col=cols[5])
+legend("bottomright", names(coefs), fill=cols, cex = 0.75 ,bg="white")
+```
+
+With GLM estimates, we can extract genes of interests in certain criteria. Hspa2 was up from non-polysomic wildtype to non-polysomic mutant. This was reflected by its model estimate in that the fracNONP:genoM term was 1.31 and significant. fracNONP term was also significant, with effect size -1.77148. This reflected we were comparing Hspa2 mRNA between two different sample origins, in this case total testes and non-polysomic fraction of testes. Given the samples were normalized to have the same total transcripts amount (1 million), significant estimate in fracNONP tells Hspa2 was less enriched in the non-polysomic fraction than the total teste.
+
+Now we exact all genes whose fracNONP:genoM estimate were significant. We have 72. 
+
+```{r}
+fit.e = t(sapply(fit, function(x) summary(x)$coefficients[-1, "Estimate"]))
+fit.p = t(sapply(fit, function(x) summary(x)$coefficients[-1, "Pr(>|t|)"]))
+
+(nonp = names(fit)[fit.p[, "fracNONP:genoM"] < 0.05])
+```
+
+These are genes that are significantly affected by Eif4g3 mutation in its non-polysomic aggregation. Noteworthy, we are looking at additional effect based on any effects between WIN and MIN. For example, suppose gene A was up by 50% from WIN to MIN, and also up by 50% from WNONP to MNONP, non-polysomic-specific effect of the mutation on this gene will be zero, because all of the 50% increase from WNONP to MNONP was attributed to the same amount of increase from WIN to MIN in the transcription level, instead of any non-polysomic-specific post-transcriptional effect. On the other hand, if gene A was up by 50% from WIN to MIN, but did not change between WNONP and MNONP, non-polysomic-specific effect of the mutation on this gene will again be significant. Because we expected to see the same 50% change in non-polysomic samples, but that effect was compensated by some post-transcriptional process in non-polysome granules.
+
+In Todd Evans's paper (Choudhuri et al., 2013), they quantified "change in translation state ($\triangle TS$)" for each gene as follow: 
+$$\triangle TS = (X_{mu}/X_{wt})_{poly}/(X_{mu}/X_{wt})_{total})$$ 
+
+The idea was to normalize polysomic effect by total effect, so that only post-transcriptional effect will be captured. This concord with the meaning of fracPLM:genoM from the GLM model conceptually. So we expect the estimate of fracPLM:genoM should relate to $\triangle TS$. Indeed, $\triangle TS$ in log2 scale equals the estimate for fracPLM:genoM. Take Hspa2 for example, $$log2(\triangle TS) = log2(X^{mu}_{poly}) + log2(X^{wt}_{total}) - log2(X^{wt}_{poly}) - log2(X^{mu}_{total})$$
+
+```{r}
+hspa2["MPLM"] + hspa2["WIN"] - hspa2["WPLM"] - hspa2["MIN"]
+coefs["fracPLM:genoM"]
+```
+
+Log2 transformation was required because we used log2(tpm) for GLM, which stablized the estimates when TPM values were especially large or small, with no loss of information. However, our GLM model also gave p-value for each estiamte as opposed to computing $\triangle TS$ directly.
+
+We can extract all the genes that showed polysomic-specific effect given Eif4g3 mutation.
+
+```{r}
+(poly = names(fit)[fit.p[, "fracPLM:genoM"] < 0.05])
+```
+
+With a $\triangle TS$ value for each gene, Todd et al. identified a group of "translationally regulated genes" following 3 criterias: (1) $\triangle TS$ < 0.25, which represents a four fold decrease after normalization and correlates with a fracPLM:genoM estimate smaller than -2 in our model; (2) expression abundance > 1 RPKM in wiltype polysomic sample; (3) explicit decrease between polysomic wildtype and mutant ($(X_{mo}/X_{wt})_{poly} < 0.5$). 
+
+It is worthy looking into the 3rd criteria more closely. Suppose gene A in TPM is 100 and 10 in total wildtype and mutant, but both 10 in polysomic wildtype and mutant, how to interpret? Mathematically, there is a signficant polysomic-specific effect, which could be true in real biology describing the fact that the mutation triggered some compensating processes, that helped recruiting all of the 10 mRNA  available onto polysomes. As comparison, only 1/10 of total mRNA were recruited onto polysomes (wildtype total vs wildtype polysomic). It is also likely that the system only need 10 mRNA to be translated, so that everything was fine as long as 10 mRNA were availabe. The 90 extra mRNA in WT total were wasted, and there was no such thing as recruitment rate. An argument for Todd's method (exclude this gene) would be this gene is not likely contributing to phenotypes in the system level.
+
+Todd's third criteria is reflected in the GLM model by adding estimates for "genoM" and "fracPLM:genoM". Practically, we build a contrast between fracPLM and fracPLM:genoM from GLM fit. The contrast value will be the sum of "genoM" and "fracPLM:genoM" estimates. P-value reflects how confident we are about the contrast value being not equal to 0. These are genes that show explicit change between polysomic wildtype and mutant.  
+
+```{r}
+contrast = t(sapply(fit, function(x) contrast(x, list(frac = "PLM", geno = "M"), list(frac = "PLM", geno = "W"))[c("Contrast", "Pvalue")]))
+(poly_explicit <- rownames(contrast)[contrast[, "Pvalue"] < 0.05])
+```
+
+In Todd's rule, all translationally regulated genes will be:
+
+```{r}
+intersect(poly, poly_explicit)
+```
+
+We can implement Todd's rule to identify all "non-polysomic regulated genes", as opposed to "translationally regulated genes" in Todd's word.
+
+```{r}
+contrast = t(sapply(fit, function(x) contrast(x, list(frac = "NONP", geno = "M"), list(frac = "NONP", geno = "W"))[c("Contrast", "Pvalue")]))
+(non_poly_explicit <- rownames(contrast)[contrast[, "Pvalue"] < 0.05])
+intersect(nonp, non_poly_explicit)
+```
+
+And futher focusing onto the ones that were higher in non-polysomic mutation as opposed to the wildtype. These are reminescent of the Hspa2 pattern.
+
+```{r}
+intersect(intersect(nonp, non_poly_explicit), names(fit)[fit.e[, "fracNONP:genoM"] > 0])
+```
