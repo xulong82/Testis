@@ -59,7 +59,12 @@ shinyUI(
 	h5("TableS3.", strong(a(href="TableS3(IN).xlsx", "Differential genes between input samples."))), 
 	h5("TableS4.", strong(a(href="TableS4(poly).xlsx", "Differential genes between polysomic samples."))), 
 	h4("Joint lab meeting on September 4, 2015"),
-	downloadButton('downloadData4', 'Download')
+	downloadButton('downloadData4', 'Download'),
+                        h4("Linear regression method in html."),
+                        p(strong(a(href="methods.html", "Uploaded: Oct 23, 2015."))),
+	h5("Table(20151023).", strong(a(href="Table(20151023).xlsx", "Gene lists by empirical bayes and linear regression methods."))),
+	h4("Joint lab meeting on Oct 23, 2015"),
+	downloadButton('downloadData5', 'Download')
                       ))
             
 ))

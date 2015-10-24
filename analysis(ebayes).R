@@ -7,6 +7,7 @@ library(genefilter)
 library(Biobase)
 library(matrixStats)
 library(limma)
+library(qvalue)
 
 rm(list = ls())
 setwd("~/Dropbox/GitHub/Testis/")
@@ -18,6 +19,16 @@ for(obj in names(dataList)) assign(obj, dataList[[obj]])
 mart <- useMart("ensembl", dataset = "mmusculus_gene_ensembl")
 spermatogenesis_go <- read.delim("data/spermatogenesis.txt", header = F, stringsAsFactors = F)
 spermatogenesis_genes <- getBM(attributes= "external_gene_name", "go_id", spermatogenesis_go$V1, mart)
+
+biomart = getBM(c("external_gene_name", "chromosome_name"), filter = "external_gene_name", value = y, mart)
+table(biomart$chromosome_name)
+biomart[biomart$chromosome_name == "X", ]
+biomart = biomart[biomart$chromosome_name %in% c(1:19, "X"), ]
+
+pdf(file = "Pdf/chr(bayes).pdf", width = 7, height = 5)
+plot(table(biomart$chromosome_name), ylab = "Gene Number")
+venn(list(bayes = id_bayes, glm = id_glm))
+dev.off()
 
 # ---
 load("data/ge.rdt")
@@ -104,6 +115,19 @@ ebayes_id_count <- names(gene_ebayes)
 ebayes_id_qvalue <- names(gene_ebayes)
 ebayes_id_qnorm <- names(gene_ebayes)
 lapply(ebayes_id_qvalue, function(y) boxplot(as.matrix(gene_nonp)[y, 1:6] ~ group, col = 3:2, main = y))
+
+# IN
+gene_IN <- as.data.frame(gene) %>% dplyr::select(contains("IN"))  # IN-only
+gene_IN <- gene_IN[rowMax(as.matrix(gene_IN)) > 20, ] # tpm
+group <- factor(gsub("(M|W).*", "\\1", colnames(gene_IN)), levels = c("W", "M"))
+(design <- model.matrix(~ group))
+v <- voom(gene_IN[1:6], design, plot = T)
+lmFit <- lmFit(v, design)
+ebayesFit <- eBayes(lmFit)
+gene_ebayes <- which(ebayesFit$p.value[, "groupM"] < 0.05 & lmFit$coefficients[, "groupM"] > 0.2)
+gene_ebayes <- which(ebayesFit$p.value[, "groupM"] < 0.05  & lmFit$coefficients[, "groupM"] > 0)
+gene_ebayes <- which(ebayesFit$p.value[, "groupM"] < 0.05)
+ebayes_id <- names(gene_ebayes)
 
 # use tpm or count?
 (x1 <- setdiff(ebayes_id, ebayes_id_count))
