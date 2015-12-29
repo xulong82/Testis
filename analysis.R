@@ -73,9 +73,13 @@ tpm_poly <- tpm %>% select(contains("PLM"))  # Poly
 grp3 <- factor(gsub("(M|W).*", "\\1", colnames(tpm_poly)), levels = c("W", "M"))
 fit <- apply(log2(tpm_poly + 1), 1, function(x) lm(x ~ grp3))
 
-tpm_nonpoly <- tpm %>% select(contains("NONP"))  # Non-poly
+tpm_nonpoly <- tpm %>% dplyr::select(contains("NONP"))  # Non-poly
 grp4 <- factor(gsub("(M|W).*", "\\1", colnames(tpm_nonpoly)), levels = c("W", "M"))
 fit <- apply(log2(tpm_nonpoly + 1), 1, function(x) lm(x ~ grp4))
+
+tpm_nonpoly.2 = tpm_nonpoly[c(1, 2, 4, 5)]
+grp5 <- factor(gsub("(M|W).*", "\\1", colnames(tpm_nonpoly.2)), levels = c("W", "M"))
+fit <- apply(log2(tpm_nonpoly.2 + 1), 1, function(x) lm(x ~ grp5))
 
 norm1 <- within(tpm + 1, {  # Poly vs Non-poly
   RW1 = W1PLM/W1NONP; RW2 = W2PLM/W2NONP; RW3 = W3PLM/W3NONP; RM1 = M1PLM/M1NONP; RM2 = M2PLM/M2NONP; RM3 = M3PLM/M3NONP
